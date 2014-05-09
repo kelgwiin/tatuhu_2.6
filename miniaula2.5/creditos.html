@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprende con Tatu H&uacute;</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/jquery.jqDock.min.js"></script>
+</head>
+<body>
+<div id="header">
+<div id="nav" >
+<div class="act"><a href="index.html">Inicio</a> > <a href="index.html" class="current">Cr&eacute;ditos</a></div>
+</div>
+<a href="creditos.html"><img src="images/logoResp.png"></a><div class="nombre">Mini Aula Tatu H&uacute;</div>
+</div>
+<div id="container">
+
+	<div id="contenidos1">
+		<div id="contenidos" style="padding-top:80px;">	
+			<h1 id="tituloAct">Conoce a Tatu H&uacute;</h1>
+			<div style="text-align:center; width:500px; margin: 0 auto;">
+			
+				<div style="padding-top:30px; float:left;"><img src="images/cachicamo.png"></div>
+				<div style="padding-top:30px; max-width: 500px;"> 
+				El nombre <strong>Tatu H&uacute;</strong> proviene del idioma Guaran&iacute;, 
+				que traducido al espa&ntilde;ol significa "armadillo negro". 
+				Los armadillos son animales que se
+	           caracterizan por poseer una coraza o armadura que le permite <strong>protegerse del peligro</strong>. 
+			   Por esta raz&oacute;n, se escogi&oacute; como mascota que identifica al proyecto,
+		       el armadillo Tatu H&uacute;, queriendo significar 
+			   que una cultura preventiva permite protegernos de los riesgos.<br><br></div>				
+				
+				<div style="clear:both; padding-top:50px;">
+				Tatu H&uacute; fue creado por:<br>
+				<img src="images/FACYT.png">
+				<img src="images/FONACIT.png">
+				<img src="images/UC.png">
+				<img src="images/PC.png">
+				</div>
+				<br>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div id="dockContainer">
+		<ul id="jqDock">
+			<li><a class="dockItem" href="index.html"><img src="images/inicio.png" alt="Inicio" title="Inicio" /></a></li>
+			<li><a class="dockItem" href="creditos.html"><img src="images/creditos.png" alt="Creditos" title="Cr&eacute;ditos" /></a></li>
+		</ul>
+	</div><!-- end div #dockContainer -->
+</div>
+<script>
+		$(function(){
+			var jqDockOpts = {align: 'left', labels: 'tc', size:50};
+			$('#jqDock').jqDock(jqDockOpts);
+		});
+</script>
+</div>
+</body>
+</html>

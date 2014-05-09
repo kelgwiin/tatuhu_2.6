@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    <script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="tiny_mce/tiny_mce.js"></script>	
+	<script type="text/javascript" src="escribe.js"></script>
+	<script type="text/javascript" src="../../js/iframe.js"></script>
+	<script>
+		var act = getUrlVars()["act"];
+	</script>
+</head>
+<body style="font-family: 'NotoSans', sans-serif; font-size: 0.9em;"><br><br>
+<div class="error" style="color:red; text-align:center; display:none;">Escribe el t&iacute;tulo y tu relato</div>
+	    <div style="margin:0 auto; width:500px; text-align:center;">
+			<div class="centrado" style=" clear:both;  padding-top:20px;">
+				<div>Escribe el t&iacute;tulo de tu relato: <input type="text" id="tituloCuento" value="" style=""></div>
+				<br><br><div class="text"><textarea id="elm1" name="elm1" rows="10" cols="60" > </textarea></div>
+				<br />
+			<div><input type="submit" style="width:80px; height:30px;" id="imprimir" value="Guardar" onClick="javascript:imprimir('tituloCuento')"/>
+				</div>
+			</div>				
+		</div>
+		<script> 
+			act = act.replace(/_/g," ");
+			$("#act").html(act);
+		</script>
+</body>
+</html>

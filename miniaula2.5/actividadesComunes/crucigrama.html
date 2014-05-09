@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprende con Tatu H&uacute;</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">		
+	<link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.css" type="text/css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="../js/modal.js"></script>
+	<script type="text/javascript" src="../js/iframe.js"></script>
+	<script>
+		var script = getUrlVars()["numero"];
+		var actual = "../scriptsActividades/Actcrucigrama/crucigrama.html?crucigrama="+script;
+		var nombre = getUrlVars()["nombre"];
+		nombre = nombre.replace(/_/g," ");
+		
+	</script>
+</head>
+<body id="modal">
+<div id="container" style="padding-bottom:80px;">
+<div id="contenidos1">
+	<div class="cerrar">
+		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
+	</div>	
+	<h2 id="nombre"></h2>
+	<div style="padding-left:50px; color:#fff;">
+ <iframe src="" id="CargaLim" width="900" src="" 
+	   style="margin:0 auto; border: none; width:800px; height:1000px; margin-top:-20px;"></iframe>
+	</div>
+	</div>
+</div>
+<script>
+	$("#CargaLim").attr("src",actual);
+	$("#nombre").html(nombre);
+</script>
+</body>
+</html>

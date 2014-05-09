@@ -1,0 +1,17 @@
+#formulario{ width:90%; margin: 0 auto; }
+.campo{text-align:center;}
+fieldset table {width:100%}
+table tr td{ text-align:center;}
+form table tr {height:80px; max-width:550px;}
+form table tr td.campoCompleto{margin: auto;}
+
+textarea{ resize: none; }
+
+
+
+label.error{color:red; float:none;}
+fieldset{max-width:600px; margin:0 auto;}
+.obligatorio{ color:#164f69; font-weight:bold;}
+.infoOblig{text-align:right; color:#164f69;}
+div.msjError{width: 200px; text-align: center; margin: 0 auto;}
+fielset legend{text-align:left !important;}

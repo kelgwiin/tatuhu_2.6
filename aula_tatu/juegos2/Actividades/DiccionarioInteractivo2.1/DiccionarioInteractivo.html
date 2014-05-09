@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../css/base/jquery.ui.all.css">
+<link rel="stylesheet" href="../css/base/jquery.ui.dialog.css"> <!--modificar este cuando se quieran agregar los estilos-->
+<script src="../js/jquery/jquery-1.8.3.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.core.min.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.widget.min.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.mouse.min.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.draggable.min.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.position.min.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.resizable.min.js"></script>
+<script src="../js/jquery/ui/minified/jquery.ui.dialog.min.js"></script>
+<script src="../js/jquery/hoverIntent.js"></script>
+   <style type="text/css" media="screen">
+        ul.palabras {display:block; width:100%; padding:0; margin:0; list-style-type:none;}
+        ul.palabras li {display:block; width:140px; padding:5px; margin:0; float: left; position:relative; overflow:hidden; cursor:default;  font-size:0.9em; line-height:1.1em;}
+		img {border:0px;}
+    </style>
+<script>
+	// increase the default animation speed to exaggerate the effect
+	$.fx.speeds._default = 1000;	
+	function rep(){
+		audios = document.getElementById('clic');
+		audios.play();
+	}
+	$(document).ready(function() {
+		$( ".dialogo" ).dialog({
+			autoOpen: false,			
+			modal: true,
+			resizable:false,
+			show: "blind"
+		});
+
+		$( ".palabra" ).click(function(event) {
+			 event.preventDefault();
+			rep();
+			var d = $(this).attr("title");
+			$( "#"+d+"_dialog" ).dialog( "open" );
+			return false;
+		});
+		var switchingOff = true;
+		
+        function makeTall(){$(this).animate({"margin-top": -15},200);}
+        function makeShort(){$(this).animate({"margin-top": 0},200);}
+		$(".palabras li").hoverIntent(makeTall, makeShort)
+	});
+</script>
+
+<title>Diccionario Interactivo</title>
+</head>
+
+<body>
+<audio id="clic">
+  <source src="sound/clic.ogg" type="audio/ogg">
+</audio> 
+
+<p>Amiguitos y Amiguitas! aprendamos nuevas palabras con nuestro diccionario interactivo de Gesti&oacute;n de Riesgos</p>
+Haz clic en las im&aacute;genes para aprender nuevas palabras<br><br>
+
+<div style="text-align:center">
+<ul  class="palabras" >
+<li><a class="palabra" href="" title="amenaza" style="margin-top:0;text-decoration:none"><img src="images/amenaza2.png"></a></li>
+<li><a class="palabra" href="" title="desastre" style="margin-top:0;ttext-decoration:none"><img src="images/desastre.png"></a></li>
+<li><a class="palabra" href="" title="emergencia" style="margin-top: 0;text-decoration:none"><img src="images/emergencia.png"></a></li>
+<li><a class="palabra" href="" title="inundacion" style="margin-top: 0;text-decoration:none"><img src="images/inundacion.png"></a></li>
+<li><a class="palabra" href="" title="naturaleza" style="margin-top: 0;text-decoration:none"><img src="images/naturaleza.png"></a></li>
+</ul>
+<ul  class="palabras" style="clear: left; padding-top:5px;">
+<li><a class="palabra" href="" title="peligro" style="margin-top: 0;text-decoration:none"><img src="images/peligro.png"></a></li>
+<li><a class="palabra" href="" title="prevencion" style="margin-top: 0;text-decoration:none"><img src="images/prevencion.png"></a></li>
+<li><a class="palabra" href="" title="riesgo" style="margin-top: 0;text-decoration:none"><img src="images/riesgo.png"></a></li>
+<li style="width:180px !important;"><a class="palabra" href="" title="vulnerabilidad" style="margin-top: 0;text-decoration:none"><img src="images/vulnerabilidad.png"></a></li>
+</ul>
+</div>
+
+<!-- Cuadros de Dialogos -->
+<!-- AMENAZA -->
+<div class="dialogo" id="amenaza_dialog" title="Amenaza">
+<img src="images/amenaza1.png" style="float:left; padding:10px;">
+Una <strong>amenaza</strong> es un fen&oacute;meno o proceso natural o causado por el ser
+humano que puede poner en peligro a un grupo de personas, sus
+cosas y su ambiente, cuando no son precavidos.<br>
+Existen diferentes tipos de amenazas. Algunas son <strong>naturales</strong>,
+otras son <strong>provocadas por el ser humano</strong>, como las llamadas
+industriales o tecnológicas (explosiones, incendios y derrames de
+sustancias t&oacute;xicas). Las guerras y el terrorismo también son
+amenazas creadas por el ser humano.
+<br>
+<p class="fuente"><strong>Tomado de:</strong> Aprendamos a Prevenir los desastres. EIRD-UNICEF.</p>
+</div>
+
+<!-- DESASTRE -->
+<div class="dialogo" id="desastre_dialog">
+<img src="images/desastre2.png" style="float:left; padding:10px;">Un <strong>desastre</strong> es cualquier hecho producido por la naturaleza
+o la acci&oacute;n del hombre que a su paso puede provocar p&eacute;rdidas humanas; destruir edificios, casas, hospitales
+y escuelas; arruinar cultivos; da&ntilde;ar v&iacute;as de comunicaci&oacute;n
+y originar cambios en el ambiente, excediendo la capacidad de respuesta de la comunidad afectada.
+<br><br>Entre los <strong>desastres naturales</strong> se encuentran las inundaciones, huracanes, 
+derrumbes, deslizamientos, terremotos
+y maremotos; mientras que los <strong>antr&oacute;picos o generados
+por la actividad humana</strong> abarcan incendios, accidentes
+a&eacute;reos, derrames petroleros y da&ntilde;os por sustancias qu&iacute;micas o materiales peligrosos.<br>
+<p class="fuente"><strong>Tomado de:</strong> Pevenci&oacute;n y Mitigaci&oacute;n de Desastres. UNICEF Venezuela, 2005.</p>
+</div>
+
+<!--EMERGENCIA-->
+<div class="dialogo" id="emergencia_dialog" title="Emergencia">
+<img src="images/emergencia2.png" style="float:left; padding:10px;">
+La <strong>emergencia</strong> es un evento repentino que hace tomar las medidas inmediatas para
+reducir sus efectos. La diferencia con el <strong>desastre</strong>
+est&aacute; en las consecuencias y en la capacidad de respuesta de la comunidad para enfrentarlas y
+manejar sus efectos, haciendo uso de las propias aptitudes.
+<p class="fuente"><strong>Tomado de:</strong> Pevenci&oacute;n y Mitigaci&oacute;n de Desastres. UNICEF Venezuela, 2005.</p>
+</div>
+
+<!--INUNDACION-->
+<div class="dialogo" id="inundacion_dialog" title="Inundaci&oacute;n">
+Las <strong>inundaciones</strong> son la presencia de grandes cantidades de agua en general 
+provocadas por fuertes lluvias y que el suelo no puede absorber.<br>
+Hay dos (2) tipos de inundaciones:
+<ul>
+<li><strong>Inundaciones s&uacute;bitas o repentinas: </strong>Se producen generalmente en
+cuencas hidrogr&aacute;ficas de fuertes pendientes. Son causadas por intensas lluvias, tormentas o
+huracanes. Pueden desarrollarse en minutos u horas, seg&uacute;n la intensidad y la duraci&oacute;n de la lluvia,
+la topograf&iacute;a, las condiciones del suelo y la cobertura vegetal.</li>
+<li><strong>Inundaciones lentas o progresivas: </strong>Se producen sobre terrenos planos que
+desaguan muy lentamente y cercanos a las riberas de los r&iacute;os o donde las lluvias
+son frecuentes o torrenciales. Muchas de ellas son parte del comportamiento
+normal de los r&iacute;os, es decir, de su r&eacute;gimen de aguas, ya que es habitual
+que en invierno aumente la cantidad de agua e inunde los terrenos cercanos a la orilla.</li>
+</ul>
+<p class="fuente"><strong>Tomado de:</strong> Aprendamos a Prevenir los desastres. EIRD-UNICEF.</p>
+<p class="fuente" style="padding-left:60px;">Inundaciones. Preparados para actuar. Divisi&oacute;n de Educaci&oacute;n. Banco Interamericano de Desarrollo (BID), 2012</p>
+</div>
+
+<!--NATURALEZA-->
+<div class="dialogo" id="naturaleza_dialog" title="Naturaleza">
+Un desastre
+</div>
+
+<!--PELIGRO-->
+<div class="dialogo" id="peligro_dialog" title="Peligro">
+Un desastre
+</div>
+</body>
+</html>

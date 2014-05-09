@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprende con Tatu H&uacute;</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">		
+	<link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.css" type="text/css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="../js/modal.js"></script>
+	<script type="text/javascript" src="../js/iframe.js"></script>
+	<script>
+	
+		var tipo = getUrlVars()["tipo"];
+		var enunciado = getUrlVars()["enunciado"];
+		
+		var actual = "../scriptsActividades/ActMapas/index.html?tipo="+tipo;
+		
+		if (enunciado === "1"){
+			enunciadotexto = "Marca la ruta de escape y se&ntilde;ala las salidas de emergencia de tu escuela, <strong>utilizando la paleta de dibujo y el mouse</strong>.<br>Al finalizar, presiona Cerrar.";
+			titulo="Ubica la Ruta de Evacuaci&oacute;n de tu Escuela";
+		}
+		else if (enunciado === "2"){
+			enunciadotexto = "Dibuja  tu comunidad en el lienzo resaltando las zonas de peligro como por ejemplo, zonas cercanas a un r&iacute;o o quebrada, laderas de una monta&ntilde;a o cerro, etc. Marca tambi&eacute;n las zonas de resguardo como tu escuela, la iglesia, el centro de salud, el mercado o bodega. <strong>Utiliza la paleta de dibujo y el mouse</strong>.<br>Al finalizar, presiona Cerrar.";
+			titulo="Dibuja el Mapa de Riesgo de tu Comunidad";
+		}
+		
+	</script>
+</head>
+<body id="modal">
+<div id="container" style="padding-bottom:80px;">
+<div id="contenidos1" >
+	<div class="cerrar">
+		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
+	</div>	
+	<h2 id="nombre"></h2><br><br>
+		 <div style="margin: 0 auto; text-align: center; "> 
+		<div id="enunciado" style="margin-left:55px; margin-top:20px; margin-bottom:10px;"></div>
+		<iframe id="CargaLim" scrolling="no" width="700" height="500" style="padding-left:80px;border: none; width:700px; heigth:500px;"></iframe>
+	</div>
+	</div>
+</div>
+<script>
+	if (enunciado != undefined){
+		enunciado = enunciado.replace(/_/g," ");
+		$("#enunciado").html(enunciadotexto);
+		$("#nombre").html(titulo);
+	}
+	$("#CargaLim").attr("src",actual);
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+#centro{padding:20px;}
+#areaProfesor{ width: 100%; margin: 0 auto; text-align:center; }
+        .imgarea{width:100px; height:100px; margin:10px; opacity: 0.7;}
+	.imgarea:hover{opacity: 1;}
+	.info{font-weight:bold;}
+#componentes{text-align:center;}
+#areaOp{margin: 0 auto; text-align:center; width: 70%; min-width: 420px;}
+    #opciones{margin: 0 auto; text-align:center; width:100%; height:200px;}
+    .opcion{width:100px; float:left; padding:20px;}
+.tip{color:#00a859; font-weight:bold; }
+ul.tabs li.active a{background-color: #eee !important;}
+.fact-value{font-size: 40px !important;}
+.facts > .fact {color:green;}
+.fact.menos{margin: 0 auto !important; width: 70% !important; max-width:600px !important; float:none !important;}
+.facts.secc {margin: 0 auto; width: 250px;}
+.demo-progress{max-width: 700px; margin:0 auto;}
+.responsive-table, .table-header{max-width: 900px; margin: 0 auto;}
+.table-header{padding:0 !important; padding-bottom: 10px !important; padding-top: 10px !important;}
+.info-usuario{width:100%; max-width:800px; margin:0 auto;}
+.tabs-content .tab-interno {margin: 20px; text-align: center;}
+
+.grafico {margin: 0 auto; text-align: center; width: 100%;}

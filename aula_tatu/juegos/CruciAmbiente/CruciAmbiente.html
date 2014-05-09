@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>CruciAmbiente</title>
+<meta name="generator" content="EclipseCrossword" />
+<link rel="stylesheet" type="text/css" href="styles/CruciAmbiente.css">
+
+</head><body>
+
+<h1>CruciAmbiente</h1>
+
+<p>
+En este crucigrama deber&aacute;s descubrir las palabras que van en los recuadros a partir de su significado.
+</p>
+<div id="waitmessage" class="ecw-answerbox">
+
+</div>
+
+<table cellpadding="0" cellspacing="0" border="0"><tr>
+
+<td class="ecw-crosswordarea">
+
+<script type="text/javascript" src="js/CruciAmbiente.js"></script>
+
+</td>
+
+<td valign="top" style="padding-left: 1em;">
+
+
+<div id="welcomemessage" class="ecw-answerbox" style="display:none;">
+<h3>Bienvenido!</h3>
+<p>En este crucigrama deber&aacute;s descubrir las palabras que van en los recuadros a partir del significado que te damos.</p>
+<p>Haz clic en un cuadro del crucigrama para comenzar</p>
+</div>
+
+<div id="answerbox" class="ecw-answerbox" style="display:none;">
+<h3 id="wordlabel" class="ecw-wordlabel">&nbsp; </h3>
+<div id="wordinfo" class="ecw-wordinfo"> </div>
+<div id="wordclue" class="ecw-cluebox"> </div>
+<div style="margin-top: 1em;">
+	<input class="ecw-input" id="wordentry" type="text" size="24" style="font-weight: bold; text-transform:uppercase;" onkeypress="WordEntryKeyPress(event)" onchange="WordEntryKeyPress(event)" />
+</div>
+<div id="worderror" class="ecw-worderror"></div>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin-top:1em;"><tbody><tr><td>
+<button id="cheatbutton" type="button" class="ecw-input ecw-button" onclick="CheatClick();">Dime la palabra, por favor</button>
+</td><td align="right">
+<button id="okbutton" type="button" class="ecw-input ecw-button" onclick="OKClick();" style="font-weight: bold;">OK</button> &nbsp;
+<button id="cancelbutton" type="button" class="ecw-input ecw-button" onclick="DeselectCurrentWord();">Cancelar</button>
+</td></tr></tbody></table>
+
+</div>
+
+<div id="congratulations" class="ecw-answerbox" style="display:none;">
+<h3>Felicitaciones</h3>
+<p>Has completado el crucigrama!.
+</p>
+</div>
+
+</td></tr></table>
+
+<div style="margin-top: 1em;">
+	<button id="checkbutton" type="button" onclick="CheckClick();" style="display: none;">Termin&eacute; mi Crucigrama</button>
+</div>
+
+<script type="text/javascript"><!--
+BeginCrossword();
+//-->
+</script>
+<p>Consulta con tu maestro si tienes dificultad!</p>
+<!-- Created with EclipseCrossword, (C) Copyright 2000-2012 Green Eclipse.  eclipsecrossword.com -->
+
+</body></html>
+

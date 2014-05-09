@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puntos version="1.0">
+    <fondo texto="" imaxe="DiccionarioInteractivo_imx/Sin título-1.jpg" son="" color="8FBC8F">1</fondo>
+    <punto  posx="182" posy="139" modo="0">
+         <color trans="100" cfondo="0" >FFFFFF</color>
+         <forma tamx="129" tamy="40" >0</forma>
+    </punto>
+    <punto  posx="318" posy="169" modo="0">
+         <color trans="100" cfondo="0" >FFFFFF</color>
+         <forma tamx="133" tamy="41" >0</forma>
+         <sobre texto="" imaxe="DiccionarioInteractivo_imx/desastre.jpg" son="">1</sobre>
+         <click texto="" obxecto="DiccionarioInteractivo_imx/desastre.jpg" son="DiccionarioInteractivo_imx/clic.mp3" liga="" >1</click>
+    </punto>
+</puntos>

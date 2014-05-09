@@ -1,0 +1,9 @@
+#libro{
+	width:800px !important;
+	margin: 0 auto;
+}
+#libro .turn-page{
+			
+}
+
+#libro div img{ width: 500px !important; height:auto;}

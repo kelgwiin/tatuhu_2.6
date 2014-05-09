@@ -1,0 +1,60 @@
+/* mindmap */
+
+.node { 
+  /*background-color: white;
+  background-image:url("../img/evolucion-de-la-nube.png");
+  background-repeat:no-repeat;
+  border: 0.1em dotted #000000;
+  color: black;
+  font-family: helvetica,sans;
+  font-size: 0.9em;
+  height: 100px;
+  opacity: 0.8;
+  padding: 0.5em;
+  position: absolute;
+  width: 150px;
+  z-index: 20;
+  cursor:move;*/
+  border: 2px solid #346789;
+width: 14em;
+height: 12em;
+z-index: 20;
+position: absolute;
+font-size: 0.8em;
+opacity: 0.8;
+filter: alpha(opacity=80);
+background-color: white;
+color: black;
+font-family: helvetica;
+padding: 0.5em;
+cursor: pointer;
+box-shadow: 2px 2px 19px #aaa;
+-o-box-shadow: 2px 2px 19px #aaa;
+-webkit-box-shadow: 2px 2px 19px #aaa;
+-moz-box-shadow: 2px 2px 19px #aaa;
+}
+
+.node span{
+ text-align: center;
+ padding-left: 50px;
+ padding-top:20px;	
+}
+
+.ep, .update_node, .remove_node {
+  cursor:pointer;
+}
+
+
+#create_node{
+  margin: 1em;
+}
+
+/* FIXME: esto es un hack muy feo, deberíamos darle una clase a las conexiones */
+
+._jsPlumb_overlay{
+  background: white;
+}
+
+.hl{
+  background-color: red;
+}

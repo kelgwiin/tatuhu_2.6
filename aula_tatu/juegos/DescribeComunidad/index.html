@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Word processor example</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- TinyMCE -->
+<style type="text/css" media="print">
+.visible{display:inline;}
+.oculto{display:none;}
+</style>
+<script type="text/javascript" src="js/tiny_mce/tiny_mce.js"></script>	
+<script type="text/javascript">
+	tinyMCE.init({
+		// General options
+		mode : "textareas",
+		language : "es",
+		theme : "advanced",
+		skin : "o2k7",
+		theme_advanced_buttons1 : "bold,italic,underline,|,justifyleft,justifycenter,justifyright,justifyfull,|,fontselect,fontsizeselect,|,bullist,numlist,|,forecolor",
+		theme_advanced_toolbar_location : "top",
+		theme_advanced_toolbar_align : "center",
+		theme_advanced_statusbar_location : false,
+		theme_advanced_resizing : false,
+
+		// Example word content CSS (should be your site CSS) this one removes paragraph margins
+		content_css : "css/word.css",
+
+		// Replace values for the template plugin
+		template_replace_values : {
+			username : "Some User",
+			staffid : "991234"
+		}
+	});
+
+function imprimir() { 
+	var contenido = tinyMCE.get("elm1").getContent();
+	var ventimp = window.open(' ', 'popimpr'); 
+	ventimp.document.write( "<br>" + contenido);
+	ventimp.document.close(); 
+	ventimp.print( ); 
+	ventimp.close(); 
+} 
+</script>
+<!-- /TinyMCE -->
+
+</head>
+<body>
+<p>
+Escribe dentro del cuadro una descripci&oacute;n de tu <strong>Comunidad</strong> y de lo que hay en ella. Ejemplo: "En mi comunidad hay una escuela grande..."
+</p>
+	<div style="padding-left:50px;"><textarea id="elm1" name="elm1" rows="3" cols="15" style="width: 20%; background-image: url(images/Familia/1.jpg );">En mi comunidad hay...</textarea></div>
+	<br />
+	<div style="text-align:center;"><input type="submit" id="imprimir" value="Guardar" onClick="javascript:imprimir()"/></div>
+</body>
+</html>

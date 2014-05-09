@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>$</recursos>
+        <idioma>0</idioma>
+          <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+          <cortexto>000000</cortexto>
+          <titulo>Sopa Ambiental</titulo>
+          <autor>Proyecto PEII - Facyt UC</autor>
+          <informe>0</informe>
+          <botonson>0</botonson>
+          <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>4</tipo>
+            <nonpasar atras="1" >1</nonpasar>
+              <cabeceira>En esta sopa de letra deberás encontrar ocho (8) palabras ocultas acerca del ambiente</cabeceira>
+              <modo>1</modo>
+              <sopa enun="LAGOS">LAGOS</sopa>
+              <sopa enun="PLANTA">PLANTA</sopa>
+              <sopa enun="AGUA">AGUA</sopa>
+              <sopa enun="RIOS">RIOS</sopa>
+              <sopa enun="PERSONAS">PERSONAS</sopa>
+              <sopa enun="AMBIENTE">AMBIENTE</sopa>
+              <sopa enun="PLAYAS">PLAYAS</sopa>
+              <sopa enun="CASAS">CASAS</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>0</cadro>
+              <fondo>QWERTYUIOPASDFGHJKLÑZXCVBNM</fondo>
+        </paxina>
+    </libro>
+</lim>

@@ -1,0 +1,4 @@
+        ul.palabras {display:block;padding:0; margin:0; list-style-type:none; padding-left:30px;}
+        ul.palabras li {display:block; width:140px; height:197px; padding:5px; margin:0; float: left; position:relative; overflow:hidden; cursor:default;  font-size:0.9em; line-height:1.1em;}
+		ul.palabras li a{position:relative !important; padding-left:0px !important;}
+		img {border:0px;}

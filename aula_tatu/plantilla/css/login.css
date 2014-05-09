@@ -1,0 +1,254 @@
+#headerNormal{
+	height:134px;
+	width: 100%;
+	z-index: 1000;
+	background:url(../img/login/fondo_menuNor.png) 0 0 repeat-x;
+	position: absolute;
+}
+#headerNormal h1 {
+	font-size:34px;
+	line-height:1.2em;
+	color:#fff;
+	font-weight:normal;
+	/*background:url(../images/logo-encabezado.png) no-repeat 0 0;*/
+	float: left;
+	margin-left:64px;
+	margin-top:22px;
+	width: 112px;
+	height: 112px;
+}
+
+#headerNormal h1.thin {
+	font-size:34px;
+	line-height:1.2em;
+	color: rgb(6, 103, 133) !important;
+	font-weight:normal;
+	float: right;
+	margin-right:64px;
+	padding-top:25px !important;
+	width:auto !important;
+}
+
+#gallery {
+	height:450px;
+	overflow:hidden;
+	margin: 0 auto;
+	background: url(../img/login/lineaCarrusel.png) repeat-x 150px;
+	z-index:0;
+}
+
+#loginCuadro{
+z-index:999; margin-top: -300px;
+}
+
+#containerForm{ width: 353px; height: 321px; background: url(../img/login/fondoLogin.png) no-repeat; position:relative;}
+.campos{padding-left: 60px; width: 229px; margin: 0 auto; padding-top:150px; list-style:none; position:absolute;}
+		ul.campos li{
+			background-image: url(../img/login/campos.png);
+			background-repeat:no-repeat;
+			height:43px;
+			width:229px;
+			color:#fff;
+			margin-bottom:5px;
+		}
+		.usuario{
+			background-position: -2px -2px;
+		}
+	        .contra{
+			background-position: -2px -47px;	
+		}
+		.boton{ background-image: inherit;}
+		
+		ul.campos li input{
+			border:none;
+			background-color:transparent;
+			width:170px;
+			height:30px;
+			color: #fff !important;
+			padding-left:50px;
+			padding-top:10px;
+		}
+		
+			ul.campos li input::-webkit-input-placeholder {
+			    color:    #fff;
+			}
+			ul.campos li input:-moz-placeholder {
+			    color:    #fff;
+			}
+		.boton{left:120px; width: 100px; text-align: center; margin-top:235px;}
+		.boton button{width: 100px; height: 30px;}
+		
+#loginCuadro #container {
+	font-size: 13px;
+	line-height: 16px;
+	width: 353px;
+	height: 321px;
+	padding: 0 20px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/********************************************************/
+/*                     19. Messages                     */
+/********************************************************/
+
+.message, .message2{
+	width: 300px;
+	display: block;
+	position: absolute;
+	top: 20px;
+	left:20px;
+	border-width: 1px;
+	border-style: solid;
+	line-height: 16px;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 1px 0 white, 0 1px 5px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	margin-bottom:0px !important;
+		padding: 6px 8px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+		
+.block-arrow {
+	display: block;
+	width: 0;
+	height: 0;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin: 1px 0 0 -6px;
+	border: 6px solid transparent;
+	border-top-color: inherit;
+	//border-top-color:expression(this.parentNode.currentStyle['border-top-color']);
+	}
+	.block-arrow > span {
+		display: block;
+		width: 0;
+		height: 0;
+		position: absolute;
+		margin: -7px -6px -5px -6px;
+		border: 6px solid transparent;
+		border-top-color: #e4e7eb;
+		}
+		.red-gradient > .block-arrow > span				{ border-top-color: #d52607; }
+
+/*******************
+FOOTER
+*******************/
+
+#loginCuadro .footer {
+	padding: 10px 30px 5px 30px;
+	overflow: auto;
+	text-align: center;
+}
+
+/* Register button */
+#loginCuadro .footer .register {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	color:#f27f02;
+	font-weight: bold;
+	text-shadow: 0px 1px 0 rgba(256,256,256,0.5);
+}
+
+#loginCuadro .footer .register:hover {
+	color: #3f9db8;
+}
+
+input:focus, .input:focus {
+	outline: 0;
+}
+
+/* IE7 */
+label {
+	zoom: 1;
+}
+
+/* Standard text input */
+
+ul.inputs{
+	margin-top:50px;
+}
+
+
+/********************************************************/
+/*              7. Generic gradients - main             */
+/********************************************************/
+	  label.error{display: none !important;}
+	  p.message{display: none;}
+
+
+/*******************
+FOOTER
+*******************/
+
+.login-form .footer {
+	padding: 15px 30px 10px 30px;
+	overflow: auto;
+	text-align: center;
+}
+
+/* Login button */
+.login-form .footer .button {
+	padding: 11px 25px;
+
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: 0px 1px 0 rgba(0,0,0,0.25);
+	
+	background: #f27f02;
+	border: 1px solid #46b3d3;
+	border-radius: 5px;
+	cursor: pointer;
+	
+	box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 0 2px rgba(256,256,256,0.75);
+	margin-top:0px;
+}
+
+.login-form .footer .button:hover {
+	background: #21bfed;
+}
+
+.login-form .footer .button:focus {
+	position: relative;
+	bottom: -1px;
+	
+	background: #56c2e1;
+	
+	box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-moz-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+	-webkit-box-shadow: inset 0 1px 6px rgba(256,256,256,0.75);
+}
+
+/* Register button */
+.login-form .footer .register {
+	display: block;	
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	color: #414848;
+	text-shadow: 0px 1px 0 rgba(256,256,256,0.5);
+}
+
+.login-form .footer .register:hover {
+	color: #3f9db8;
+}
+
+.login-form .footer .register:focus {
+	position: relative;
+	bottom: -1px;
+}

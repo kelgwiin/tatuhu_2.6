@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>1</desordenar>
+        <correcto son="" modo="1" >Muy bien! tu respuesta es correcta</correcto>
+        <incorrecto son="" modo="1" >La respuesta es incorrecta, vuelve a intentarlo</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>47</tipo>
+              <caixa1>Mantener libre de desechos sólidos los...,Evitar construcciones cerca de...,Debemos tener mapas de evacuación en la...,Todos debemos participar en la elaboración de los...</caixa1>
+              <nome caixa="1">Canales de agua</nome>
+              <nome caixa="2">Afluentes hidrológicos</nome>
+              <nome caixa="3">Escuela</nome>
+              <nome caixa="4">Mapas de riesgo</nome>
+        </paxina>
+    </libro>
+</lim>

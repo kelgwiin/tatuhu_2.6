@@ -1,0 +1,32 @@
+body{font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+#contenedorPistas{float:left; padding:5px; margin-left: -50px; max-width: 400px;}
+#correcto{margin:0 auto; width:300px; height: 150px; text-align:center; display: none;}
+#crossword {text-align:center; float:right; margin-right: 0px;}
+#botonPista{margin:0 auto; width:300px; text-align:center; display: none;}
+#input{margin:0 auto; width:300px; height: 150px; text-align:center; display: none}
+.crossword {
+    border-collapse:collapse;
+    margin-left:-10px;
+    margin-right:auto;
+    clear:both;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.crossword td {
+    border:1px solid black;
+    padding:0;
+    margin:0;
+    vertical-align:middle;
+    padding:0;
+    text-align:center;
+    width:20px;
+    height:20px;
+}
+.crossword .no-border { border:none;}
+#clues {margin:auto;max-width: 450px;}
+#clues td {vertical-align:top;}
+#clues td ul{list-style:none;}
+li.pista{cursor:pointer;}
+li.pista:hover{text-decoration:underline;}
+#correcto{ color: green; }
+#clues td{max-width: 300px; min-width: 200px;}

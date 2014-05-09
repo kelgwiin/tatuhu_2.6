@@ -1,0 +1,6 @@
+/*
+ * --------------- By Display:inline -------------
+ *      Modificado para el Proyecto PEI 2012000190 
+ *                      Tatu Hu
+ */
+function hoverAnim(elem,offset,duration){var domEl=elem.get(0);if(elem.css("position")!="relative"&&elem.css("position")!="absolute"&&elem.css("position")!="fixed"){elem.css("position","relative")}else{domEl.originalTop=domEl.style.top}eval("domEl._hoverAnimUp=function() {"+"$(this).animate({"+" top:'-="+offset+"'"+"},"+duration/2+",function() {"+"if(typeof(this._hoverAnimDown) != 'undefined') {"+"this._hoverAnimDown();"+"}"+"})}");eval("domEl._hoverAnimDown=function() {"+"$(this).animate({"+" top:'+="+offset+"'"+"},"+duration/2+",function() {"+"if(typeof(this._hoverAnimUp) != 'undefined') {"+"this._hoverAnimUp();"+"}"+"})}");domEl._hoverAnimDown()}function hoverAnimStop(e){var t=e.get(0);e.stop();e.clearQueue();delete t._hoverAnimUp;delete t._hoverAnimDown;if(typeof t.originalTop!="undefined"){$(t).css("top",t.originalTop)}else{$(t).css("top",0)}}function dev_moveable(e){e.each(function(e,t){$(t).mousedown(function(){var e=this;$(document).mousemove(function(t){var n={x:t.pageX-e.naturalWidth/1.5,y:t.pageY-e.naturalHeight/1.5};$(e).css("position","absolute");$(e).css("left",n.x);$(e).css("top",n.y)});$(document).mouseup(function(){$(document).off("mousemove")});return false})})}

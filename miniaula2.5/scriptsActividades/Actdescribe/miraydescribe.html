@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="impresoraMiraDescribe.css">			
+    <script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="../../js/iframe.js"></script>
+	<script>
+		//seleccion aleatoria de imagenes
+		var img = getUrlVars()["componente"];
+		
+		//BD de imagenes de GR
+		var imgGR = new Array("GR1.gif", "GR2.jpg", "GR3.jpg", "GR4.jpg", "GR5.jpg","GR6.jpg", "GR7.jpg",
+							"GR8.jpg");
+		//BD de imagenes de I
+		var imgI = new Array("I1.gif", "I2.jpg", "I3.jpg", "I4.jpg","I5.jpg", "I6.jpg","I7.jpg",
+							"I8.jpg", "I9.jpg");
+		
+		if (img == "GR")
+			var bd = imgGR;
+		else
+			var bd = imgI;
+		
+		var indexImg = new Array();
+		
+		for (var i = 0; i< 4; i++){
+			var enc = false;
+			while (!enc){
+				indexAl = Math.floor(Math.random() * (bd.length));
+				if (indexImg.indexOf(bd[indexAl]) == -1){
+					indexImg[i] = bd[indexAl];
+					enc=true;
+				}
+				
+			}
+		}
+	</script>
+	<style>
+		textarea{font-family: 'NotoSans', sans-serif;}
+	</style>
+</head>
+<body style="font-family: 'NotoSans', sans-serif; font-size: 0.9em; color:#fff;"><br><br>
+		<div style="text-align:left; color:#000;">
+		<div style="width:650px;padding-left:50px; color:#fff; margin: 0 auto;">
+		<div style="margin-left:20px; color:black;">
+			Hola amigo(a) observa cada im&aacute;gen y descr&iacute;bela en su recuadro. <br>
+			<br>Presiona <strong>Guardar</strong> para que puedas compartirlo.
+			<br>Al finalizar, presiona Cerrar.
+		</div><br><br>
+		<div class="error" style="color:red; text-align:center; display:none;">Escribe todas las descripciones</div>
+		<div id="miraydescribe" style="margin-top:-15px; text-align:center;">
+			<table>
+				<tr>
+					<td>
+					<ul>
+					<li><div id="img1"></div><div><textarea id="1"></textarea></div></li>
+					<li><div id="img2"></div><div><textarea id="2"></textarea></div></li>
+					</ul>
+					</td>
+					<td>
+					<ul>
+					<li><div id="img3"></div><div><textarea id="3"></textarea></div></li>
+					<li><div id="img4"></div><div><textarea id="4"></textarea></div></li>
+					</ul>
+					</td>
+				</tr>
+			</table>
+				<div style=""><button id="guardar" onClick="imprimirMiraDescribe()">Guardar</button></div>
+		   </div>
+</div>
+<script>
+		for (var i =1; i<=4; i++){
+			$("#img"+i).append("<img src='imgBD/" +indexImg[i-1] + "' >");
+		}
+</script>
+<script type="text/javascript" src="impresoraMiraDescribe.js"></script>
+</body>
+</html>

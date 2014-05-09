@@ -1,0 +1,20 @@
+.tip{color:#00a859; font-weight:bold; }
+ul.tabs li.active a{background-color: #eee !important;}
+.fact-value{font-size: 40px !important;}
+.facts{max-width:500px; margin: 0 auto; text-align: center;}
+
+.tab-inter{margin: 0 auto; max-width: 250px;}
+
+.facts > .fact, .facts .tab-inter > .fact {color:green;}
+.fact.menos{margin: 0 auto !important; width: 70% !important; max-width:600px 
+          !important; float:none !important;}
+.facts.secc {margin: 0 auto; max-width: 250px;}
+.demo-progress{max-width: 700px; margin:0 auto;}
+
+.tabs-content .tab-interno {margin: 20px; text-align: center;}
+
+.grafico {margin: 0 auto; text-align: center; width: 100%;}
+
+/*.tabs-content div div{margin:20px;}*/
+
+.block-title {margin:0 !important;}

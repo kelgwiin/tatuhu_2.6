@@ -1,0 +1,5 @@
+.imgarea{width:100px; height:100px; margin:10px; float:left; padding-left:50px;}
+.info{font-weight:bold;}
+.tabs-content{text-align:left;}
+table, .table-header{text-align:center !important;}
+ul.tabs li.active a{background-color: #eee !important;}

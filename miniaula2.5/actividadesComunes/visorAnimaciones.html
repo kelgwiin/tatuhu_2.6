@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprende con Tatu H&uacute;</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">		
+	<link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.css" type="text/css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="../js/modal.js"></script>
+	<script type="text/javascript" src="../js/iframe.js"></script>
+	<script>
+		var script = getUrlVars()["animacion"];
+		var tipo = getUrlVars()["tipo"];
+		var enunciado = getUrlVars()["enunciado"];
+		var actual = "../scriptsActividades/animaciones/"+script+"."+tipo;
+		
+		var nombre = script;
+		
+		if (nombre=== "Ciclo_del_Agua"){
+			inst = "Observa el video acerca del Ciclo del Agua y luego resuelve las actividades";
+		}
+		
+		nombre = nombre.replace(/_/g," ");
+		
+	</script>
+</head>
+<body id="modal">
+<div id="container" style="padding-bottom:80px;">
+<div id="contenidos1">
+	<div class="cerrar">
+		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
+	</div>	
+	<h2 id="nombre"></h2><br><br>
+	<div style="margin: 0 auto; text-align: center;" id="inst"> 
+
+	</div><br>
+	<div style="color:#fff;">
+		<h3 id="enunciado" style="margin-left:55px; margin-top:20px; margin-bottom:20px;"></h3>
+		<iframe id="CargaLim" width="600" height="400" src="" style="padding-left:100px; border: none; width:600px; heigth:500px; -webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;"></iframe>
+	</div>
+	</div>
+</div>
+<script>
+	if (enunciado != undefined){
+		enunciado = enunciado.replace(/_/g," ");
+		$("#enunciado").html(enunciado);
+	}
+	$("#CargaLim").attr("src",actual);
+	$("#nombre").html(nombre);
+	$("#inst").html(inst);
+</script>
+</body>
+</html>

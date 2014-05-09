@@ -1,0 +1,142 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="../resources/css/jquery-ui-1.9.2.custom.css" />
+  <script src="../resources/js/jquery.js"></script>
+  <script src="../resources/js/jquery-ui.js"></script>
+  <style>
+        .trash, .origen{max-width: 160px; min-width: 160px; }
+        #pistas {margin-bottom:20px;}
+       #pistas tr {height: 50px;}
+       #gallery{
+           background-color: #ffffa3;
+           border: 1px solid #ff8c40; max-width: 500px; min-width: 650px; min-height: 100px;
+            -webkit-border-radius: 15px;
+             -moz-border-radius: 15px;
+       }
+        .gallery div{border: 1px #000 solid; float:left; margin: 2px; min-width: 150px; max-width: 150px; text-align: center;}
+        .gallery div:hover{cursor: move;}
+        #contenedorActividad{max-width: 700px; margin: 0 auto; }
+  </style>
+  <script>
+  // increase the default animation speed to exaggerate the effect
+	$.fx.speeds._default = 1000;	
+	function rep(){
+		audios = document.getElementById('check');
+		audios.play();
+	}
+  
+$(function() {
+// there's the gallery and the trash
+var $gallery = $( "#gallery" ),
+ $trash1  = $( ".trash" );
+
+// let the gallery items be draggable
+$("#gallery div").draggable({
+  cancel: "a.ui-icon", // clicking an icon won't initiate dragging
+  revert: "invalid", // when not dropped, the item will revert back to its initial position
+  containment: "document",
+  helper: "clone",
+  cursor: "move",
+});
+
+    // let the trash be droppable, accepting the gallery items
+$( ".trash" ).droppable({
+  accept: "#gallery div, .trash .gallery div",
+  drop: function( event, ui ) {
+        id = $(this).attr("id");
+            if ($(this).children().length === 0 || $(this).children("span").children().length === 0){
+                    if($(this).children("span").length > 0){
+                        $(this).children("span").remove();
+                    }
+                    deleteImage( ui.draggable, id);
+                    rep();
+            }
+  }
+});
+ 
+    // let the gallery be droppable as well, accepting items from the trash
+    $("#gallery").droppable({
+      accept: ".gallery div",
+      activeClass: "custom-state-active",
+      drop: function( event, ui ) {
+        recycleImage( ui.draggable);
+      }
+    });
+ 
+    // image deletion function
+    function deleteImage( $item, id ) {
+      $item.fadeOut(10,function() {
+          console.log($item)
+        var $list = 
+          $( "<span class='gallery ui-helper-reset'/>" ).appendTo($("#"+id));
+        $item.appendTo( $list ).fadeIn(function() {
+          $item
+            .animate({ width: "150px" })
+        });
+      });
+    }
+ 
+    // image recycle function
+    function recycleImage( $item ) {
+      $item.fadeOut(10, function() {
+        $item
+          .find( "a.ui-icon-refresh" )
+            .remove()
+          .end()
+          .appendTo("#gallery")
+          .fadeIn(5);
+      });
+    }
+  });
+  function verificarRespuestas(){
+	correctas = 0;
+	$(".trash").each(function(){
+		if ($(this).find("span div").length>0){
+                        alert($(this).find("span div").attr("class").indexOf($(this).attr("id")) !== -1)
+			if ($(this).find("span div").attr("class").indexOf($(this).attr("id")) !== -1 )
+				correctas = correctas + 1;
+		}
+	});
+	if (correctas == 4)
+		alert("correcto")
+	else
+		alert("incorrectas")
+	
+  }
+  </script>
+</head>
+<body>
+
+<audio id="check">
+  <source src="sound/check.ogg" type="audio/ogg">
+</audio> 
+<div id="fin" title="Muy bien!">
+    <div style="text-align: center;padding-right:20px;"> <img src="images/bien.png" ></div><br>
+    <div id="retroalimentacion"><?php echo $exe["retroalimentacion"]; ?></div>
+</div>
+
+<div id="error" title="Vuelve a intentarlo!">
+    <img src="images/error.png" style="margin:5px;" > Ups! tu respuesta es incorrecta... vuelve a intentarlo!
+</div>
+ Arrastra las pistas dentro de las imagenes que correspondan <br><br>
+<div id="contenedorActividad">
+    <table id="pistas">
+        <tr><td>Bomberos, proteccion civil y policias.</td><td class="trash ui-widget-content ui-state-default" id="1"></td></tr>
+        <tr><td>Grupo de personas que viven en un mismo espacio territorial</td><td class="trash ui-widget-content ui-state-default" id="2"></td></tr>
+        <tr><td>Grupo de personas con parentesco consaguineo</td><td class="trash ui-widget-content ui-state-default" id="3"></td></tr>
+        <tr><td>Lugar en donde se imparten conocimientos educativos a traves de docentes.</td><td class="trash ui-widget-content ui-state-default" id="4"></td></tr>
+    </table>
+    <div style="text-align:center">Pistas:</div><br>
+    <div id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+        <div class="ui-widget-content ui-corner-tr 1">Familia</div>
+        <div class="origen ui-widget-content ui-corner-tr 2">Escuela</div>
+        <div class="origen ui-widget-content ui-corner-tr 3">Comunidad</div>
+        <div class="origen ui-widget-content ui-corner-tr 4">Entes que nos protegen ante emergencias</div>
+    </div>
+    <div class="boton"><button onClick="verificarRespuestas();">Aceptar</button></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>1</desordenar>
+        <correcto son="" modo="1" >Muy bien! tu respuesta es correcta</correcto>
+        <incorrecto son="" modo="1" >La respuesta es incorrecta, vuelve a intentarlo</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>47</tipo>
+              <caixa1>Eventos de origen natural que dejan pérdidas,Es todo lo que puede poner en riesgo la vida,Probabilidad de que ocurra un desastre,Grado de exposición frente a las amenazas</caixa1>
+              <nome caixa="1">Desastre natural</nome>
+              <nome caixa="2">Amenaza</nome>
+              <nome caixa="3">Riesgo</nome>
+              <nome caixa="4">Vulnerabilidad</nome>
+        </paxina>
+		 <paxina id="2" >
+              <tipo>47</tipo>
+              <caixa1>Amenaza en la que interviene el hombre,Amenaza en la que interviene el hombre y la naturaleza,Amenaza producto de la naturaleza</caixa1>
+              <nome caixa="1">Amenaza antrópica</nome>
+              <nome caixa="2">Amenaza socio-natural</nome>
+              <nome caixa="3">Amenaza natural</nome>
+        </paxina>
+    </libro>
+</lim>

@@ -1,0 +1,13 @@
+.info-usuario{width:100%; max-width:800px; margin:0 auto;}
+.datos-personales{width:70%; padding: 10px;}
+.datos-personales p.big-message {text-align:left;}
+.img-avatar{width:70%;}
+.button-group{margin:0 auto; text-align: center;}
+
+.fieldset.perfil{max-width: 600px; margin:0 auto;}
+.fieldset.perfil table.datos-perfil{margin: 0 auto; max-width:600px;}
+.fieldset.perfil table.datos-perfil tr{text-align:center; margin:10px;}
+.fieldset.perfil table.datos-perfil tr td{padding:10px;}
+/*tabs*/
+.tabs-content{min-height: 500px !important;}
+/*.tabs-content div div{margin:20px;}*/

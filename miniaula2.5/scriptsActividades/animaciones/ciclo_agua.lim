@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>recursos</recursos>
+        <idioma>0</idioma>
+        <corfondo>FFFFFF</corfondo>
+        <cornavega>3f9db8</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo></titulo>
+        <autor>Proyecto PEI Nº 20120000000 - FACyT</autor>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >Excelente</correcto>
+        <incorrecto son="" modo="1" >Vuelve a Intentarlo, casi lo logras</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>20</tipo>
+            <nonpasar atras="1" >0</nonpasar>
+              <imaxe>ciclo-del-agua-plantilla.jpg</imaxe>
+              <modo>1</modo>
+              <etiqueta posx="258" posy="42">Precipitación</etiqueta>
+              <etiqueta posx="90" posy="210">Evaporación</etiqueta>
+              <etiqueta posx="327" posy="131">Transpiración</etiqueta>
+              <etiqueta posx="154" posy="322">Condensación</etiqueta>
+              <etiqueta posx="88" posy="73">Filtración</etiqueta>
+              <etiqueta posx="346" posy="295">Inicio</etiqueta>
+        </paxina>
+        <paxina id="2" >
+              <tipo>20</tipo>
+            <nonpasar atras="1" >0</nonpasar>
+              <imaxe>ciclo-del-agua-plantilla.jpg</imaxe>
+              <modo>3</modo>
+              <etiqueta posx="258" posy="42">Precipitación</etiqueta>
+              <etiqueta posx="90" posy="210">Evaporación</etiqueta>
+              <etiqueta posx="327" posy="131">Transpiración</etiqueta>
+              <etiqueta posx="154" posy="322">Condensación</etiqueta>
+              <etiqueta posx="88" posy="73">Filtración</etiqueta>
+              <etiqueta posx="348" posy="294">Inicio</etiqueta>
+        </paxina>
+    </libro>
+</lim>

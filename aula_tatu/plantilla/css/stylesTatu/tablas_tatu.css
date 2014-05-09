@@ -1,0 +1,7 @@
+table {text-align: center;}
+.responsive-table, .table-header{margin: 0 auto;}
+.table-header{padding:0 !important; padding-bottom: 10px !important; padding-top: 10px !important;}
+.responsive-table tbody td a{cursor:pointer}
+
+.listado tr{ cursor:pointer;}
+.listado tr:hover{color:#0099ff}

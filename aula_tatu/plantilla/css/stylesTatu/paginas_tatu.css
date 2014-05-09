@@ -1,0 +1,13 @@
+body{font-family: 'Noto Sans', sans-serif;}
+
+#centro{padding:20px; text-align:center;}
+
+.info{font-weight:bold;}
+
+.user-icon{width:64px; height:auto;}
+
+ul#access li a span.salir{
+background-image: url('../../img/standard/perfil.png'); 
+background-repeat:no-repeat; width:35px; height:30px;
+}
+

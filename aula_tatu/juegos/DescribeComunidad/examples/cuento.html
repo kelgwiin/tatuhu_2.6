@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Word processor example</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- TinyMCE -->	
+     <script type="text/javascript" src="pdf/jquery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="pdf/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="pdf/jspdf.js"></script>
+	<script type="text/javascript" src="pdf/libs/jspdf.plugin.from_html.js"></script>
+
+<script type="text/javascript">
+var Tools = {
+  createCookie: function(name, value,days) {
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime()+(days*24*60*60*1000));
+      var expires = "; expires="+date.toGMTString();
+    }else var expires = "";
+      document.cookie = name+"="+value+expires+"; path=/";
+  },
+
+  readCookie: function(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+  },
+
+  eraseCookie: function(name) {
+    Tools.createCookie(name,"",-1);
+  }
+};
+
+function salvar(){
+//var doc = new jsPDF();
+var text = tinyMCE.get("elm1").getContent();
+	Tools.createCookie("cuento","asdasd",7);
+	alert(Tools.readCookie("cuento"));
+	/*	
+doc.text(20, 20, text);
+doc.addPage();
+doc.text(20, 20, 'Do you like that?');
+setTimeout ("redireccionar()", 20000);
+// Output as Data URI
+doc.output('datauri');*/
+            //window.location='data:application/octet-stream;base64,'+btoa(text); 
+/*var specialElementHandlers = {
+	'#editor': function(element, renderer){
+		return true;
+	}
+};
+doc.fromHTML($('body').get(0), 0, 0, {
+	'width': "mm", 
+	'elementHandlers': specialElementHandlers
+});*/
+}
+
+
+</script>
+<!-- /TinyMCE -->
+
+</head>
+<body>
+<div id ="cuento"></div>
+<script type="text/javascript">document.getElementById("cuento").innerHTML = Tools.readCookie("cuento");</script>
+</body>
+</html>

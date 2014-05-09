@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>1</desordenar>
+        <correcto son="" modo="1" >Muy bien! tu respuesta es correcta</correcto>
+        <incorrecto son="" modo="1" >La respuesta es incorrecta, vuelve a intentarlo</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>47</tipo>
+              <caixa1>Es el líquido vital para el consumo humano,Son las gotas de agua que caen del cielo,Es todo lo que nos rodea,Es cualquier hecho producido por la naturaleza</caixa1>
+              <nome caixa="1">Agua</nome>
+			  <nome caixa="2">Lluvia</nome>
+              <nome caixa="3">Ambiente</nome>
+              <nome caixa="4">Desastre Natural</nome>
+        </paxina>
+		<paxina id="2" >
+              <tipo>47</tipo>
+			  <cabeceira>Arrastra las palabras relacionadas al ciclo del agua:</cabeceira>
+              <caixa1>Es el ciclo donde se dan la evaporación y precipitación,Es cuando llueve,Es cuando el agua se transforma en vapor,Es cuando el vapor de agua sube a las nubes</caixa1>
+              <nome caixa="1">Ciclo del agua</nome>
+			  <nome caixa="2">Precipitación</nome>
+              <nome caixa="3">Evaporación</nome>
+              <nome caixa="4">Condensación</nome>
+        </paxina>
+		<paxina id="3" >
+              <tipo>47</tipo>
+              <caixa1>Son gotas de agua que caen del cielo,Son grandes masas de agua salada, Es el líquido vital para el consumo humano,Son grandes cantidades de agua debido a fuertes lluvias</caixa1>
+              <nome caixa="1">Lluvia</nome>
+			  <nome caixa="2">Mar</nome>
+              <nome caixa="3">Agua</nome>
+              <nome caixa="4">Inundación</nome>
+        </paxina>
+    </libro>
+</lim>

@@ -1,0 +1,114 @@
+/* mindmap */
+body{font-family: helvetica,sans;}
+#demo{
+	height:250px;  background-color:transparent; position:relative;
+		margin: 0 auto;
+	-moz-border-radius:15px;
+	-webkit-border-radius: 15px;
+	}
+        #fin{
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            height: 200px;
+            color:#000;
+            font-weight: bold;
+        }
+.oculto{ visibility:hidden;}
+
+.nodePrincipal { 
+  background:rgb(195, 229, 255);
+  font-family: helvetica,sans;
+  position: absolute;
+  z-index: 20;
+  width:250px;
+  left: 50%;
+	top: 50%;
+	margin-top:50px;
+	margin-left: -125px;
+	overflow: auto;
+	font-size:12px;
+	padding:10px;
+	-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+.node { 
+  background:rgb(195, 229, 255);
+  color: black;
+  font-family: helvetica,sans;
+  font-size: 0.9em;
+  position: absolute;
+  width: 150px;
+  
+  z-index: 20;	padding:10px;
+  	-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+.node span{
+ text-align: center;
+ font-weight:bold;
+ font-size:14px;
+}
+
+.node .texto{
+padding-top: 25px;
+padding-left: 50px;
+}
+
+.nodePrincipal span{
+ text-align: center;
+ padding-left: 75px;
+ font-weight:bold;
+ font-size:14px;
+}
+
+.nodePrincipal div{
+ text-align: center;
+}
+
+
+.ep, .update_node, .remove_node {
+  cursor:pointer;
+}
+
+
+#create_node, #save_node{
+  margin: 1em;
+}
+
+/* FIXME: esto es un hack muy feo, deberíamos darle una clase a las conexiones */
+
+._jsPlumb_overlay{
+  background: white;
+}
+
+.btn {
+ display: block;
+    width: 100px;
+    height: 20px;
+    padding: 5px 0 0 0;
+    margin: 0 auto;
+    background: #4682B4;
+    background: -moz-linear-gradient(top, #87CEEB 0%, #4682B4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87CEEB), color-stop(100%,#4682B4));
+ 
+    box-shadow: inset 0px 0px 6px #fff;
+    -webkit-box-shadow: inset 0px 0px 6px #fff;
+    border: 1px solid #62C2F9;
+    border-radius: 10px;
+ 
+    font: bold 12px Helvetica, Sans-Serif;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 1px 2px #62C2F9;
+}
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+}

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>1</desordenar>
+        <correcto son="" modo="1" >Muy bien! tu respuesta es correcta</correcto>
+        <incorrecto son="" modo="1" >La respuesta es incorrecta, vuelve a intentarlo</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>47</tipo>
+              <caixa1>Entes que nos protegen en emergencias,Personas que viven en un mismo espacio territorial,Personas con parentesco consanguíneo,Lugar en donde se imparten conocimientos educativos</caixa1>
+              <nome caixa="1">Bomberos</nome>
+              <nome caixa="1">Protección Civil</nome>
+              <nome caixa="1">Policía</nome>
+              <nome caixa="2">Comunidad</nome>
+              <nome caixa="3">Familia</nome>
+              <nome caixa="4">Escuela</nome>
+        </paxina>
+    </libro>
+</lim>

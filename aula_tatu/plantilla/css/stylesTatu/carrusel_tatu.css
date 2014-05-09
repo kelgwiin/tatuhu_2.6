@@ -1,0 +1,36 @@
+#mensajesArea{max-width:400px; margin: 0 auto; margin-top:50px; text-align:center; color: #06313e; font-weight:bold; height:40px; padding-top:100px; font-size:16px;}
+#mensajesArea span{ margin-top:5px;}
+.izq, .der{margin-top:-13px;}
+.izq{float:left;}
+.der{float:right;}
+.izq:hover, .der:hover{opacity:0.8;}
+.roundaboutContainer{ width:550px; margin: 0 auto; margin-top:-100px; text-align:center; }
+.roundaboutContainer ul {
+    list-style: none;
+    width: 250px;
+    height: 250px;
+}
+.roundaboutContainer li {
+    height: 0px;
+    width: 0px;
+    text-align: center;
+    cursor: pointer;
+}
+.roundabout-holder  { 
+width:250px;
+height:250px;
+
+}
+.roundaboutContainer li.roundabout-in-focus {
+    cursor: default;
+}
+
+.roundaboutContainer li span {
+    display: block;
+    padding-top: 6em;
+}
+
+.roundaboutContainer img {
+    max-width:250px;
+    border: 0;
+}

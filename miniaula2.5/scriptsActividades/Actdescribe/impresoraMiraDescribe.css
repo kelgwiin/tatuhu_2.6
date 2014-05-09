@@ -1,0 +1,7 @@
+	#miraydescribe{margin: 0 auto; width:600px;}
+	#miraydescribe ul {list-style:none; float:left; text-align:center}
+	#miraydescribe ul li {}
+	#miraydescribe ul div {margin:10px; text-align:center;}
+	#miraydescribe ul div img {width:auto; margin: 0 auto; height:100px; float:rigth;}
+	textarea{resize: none; width:200px;}
+	button{width:75px; height:30px; clear:both; }

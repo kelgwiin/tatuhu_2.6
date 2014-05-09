@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aprende con Tatu H&uacute;</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">		
+	<link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.css" type="text/css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="../js/modal.js"></script>
+	<script>
+		//seleccion actividad aleatoria
+		separar = 10;
+		var al = Math.floor(Math.random() * (separar - 1 + 1)) + 1;
+		var actual = "../scriptsActividades/actSilaba/separasilaba.html?numero="+al;
+	</script>
+</head>
+<body id="modal">
+<div id="container" style="padding-bottom:80px;">
+	<div id="contenidos1">	
+	<div class="cerrar">
+		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
+	</div>	
+	<h2>Ordena palabras</h2>
+		<div style="padding-top:20px; padding-left:50px; font-size:14px; text-align:center;">
+		<strong>Arrastra</strong> las palabras a las casillas en el orden correcto para formar una <strong>oraci&oacute;n</strong>.<br>
+		Luego presiona <img src="../images/check.png">. <br>Al finalizar, presiona Cerrar.
+		</div><br>
+		<div style="margin: 0 auto; text-align:center;"><iframe id="CargaLim" width="600" height="380" src="" style="padding-left:20px; border: none; width:600px; heigth:500px; -webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;"></iframe></div>
+</div>
+<script>
+	$("#CargaLim").attr("src",actual);
+</script>
+</body>
+</html>

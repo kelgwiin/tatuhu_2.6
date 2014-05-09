@@ -1,0 +1,24 @@
+		#sopa tr td{ width: 20px; text-align:center; cursor: pointer;
+		-moz-border-radius:15px;
+			-webkit-border-radius: 15px;border:hidden;
+		}
+		#sopa tr td:hover{
+			-moz-border-radius:15px;
+			-webkit-border-radius: 15px;
+			background-color: rgb(77, 175, 0);
+		}
+        #mensajessopa{ padding-top: 10px;}
+		table#sopa {
+			border: 1px solid #CE7C15;
+			-moz-border-radius:15px;
+			-webkit-border-radius: 15px;
+			color:#000;
+		}
+                #columna1{float:left; padding: 20px 10px;}
+                #columna2{ padding: 15px 10px;}
+                #contenedorSopa{
+				/*width:400px;*/
+					padding-left:0px;
+                    padding-bottom: 5px;
+					overflow: hidden;
+                }
