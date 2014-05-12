@@ -16,18 +16,28 @@
 	<script type="text/javascript" src="../js/modal.js"></script>
 	<script type="text/javascript" src="../js/iframe.js"></script>
 	
-		<script>
+	<script>
 		var act = getUrlVars()["contenido"];
 		var palabras = "";
-		if (act== "1"){
-			palabras="cultura, prevención, reciclaje y escuela";
+		switch(act){
+			case "1":
+				palabras="cultura, prevención, reciclaje y escuela";
+				break;
+			
+			case "2":
+				palabras="prevenci&oacute;n, desastre, comunidad y solidaridad";
+				break;
+			
+			case "3":
+				palabras="inundaci&oacute;n, Protecci&oacute;n Civil, escuela, respeto y plan de evacuaci&oacute;n";
+				break;
+			case "4":
+				palabras = "conservación, amenaza, basura y biodegradable";
+				
+				break;
+							
 		}
-		if (act == "2"){
-			palabras="prevenci&oacute;n, desastre, comunidad y solidaridad";
-		}
-		if (act == "3"){
-			palabras="inundaci&oacute;n, Protecci&oacute;n Civil, escuela, respeto y plan de evacuaci&oacute;n";
-		}
+	
 	</script>
 </head>
 <body id="modal" style="color:black !important;">

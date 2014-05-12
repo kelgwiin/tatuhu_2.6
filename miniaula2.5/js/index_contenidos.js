@@ -39,9 +39,9 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
                         <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y describe</a></li>\
                 </ul>\
                 <ul class="2 acts">\
-                <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
-                        <li><a href="actividadesComunes/ordenaPalabras.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=2"><img src="images/empty.gif" />Ordena palabras</a></li>\
-                        <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                	<li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                	<li><a href="actividadesComunes/ordenaPalabras.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=2"><img src="images/empty.gif" />Ordena palabras</a></li>\
+               		<li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=4"><img src="images/empty.gif" />Escribe un relato</a></li>\
                 </ul>')
 }
 //Inundaciones
