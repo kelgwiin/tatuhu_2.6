@@ -13,7 +13,7 @@
 		$db['dbname']='TatuHu_aulaON';
 		$db['host']='localhost';
 		$db['port']='3306';
-        $raiz_proyecto='/aula_tatu/';
+        $raiz_proyecto='/tatuhu_2.6/aula_tatu/';
     
     
 /** ------------------------------ */
