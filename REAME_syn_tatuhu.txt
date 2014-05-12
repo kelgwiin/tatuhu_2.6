@@ -1,5 +1,8 @@
 LEEME
 
+Esto se sólo para las configuraciones del servidor. Aquí no es neesario.
+
+
 Copiar syn_tatuhu.sh a /etc/init.d/syn_tatuhu.sh y luego
 
 sudo ln -s  /etc/init.d/syn_tatuhu.sh /etc/rc3.d/S98syntatuhu
