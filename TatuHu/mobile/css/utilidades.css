@@ -1,0 +1,41 @@
+.b1, .b2, .b3{height:131px;}
+
+.ui-btn.b1:hover, .ui-btn.b2:hover, .ui-btn.b3:hover
+{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#00a859),to(rgb(87, 223, 152)));
+background-image: -webkit-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: -moz-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: -ms-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: -o-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: linear-gradient(#00a859,rgb(87, 223, 152));
+}
+
+.ui-btn.b1{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#00a859),to(rgb(87, 223, 152)));
+background-image: -webkit-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: -moz-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: -ms-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: -o-linear-gradient(#00a859,rgb(87, 223, 152));
+background-image: linear-gradient(#00a859,rgb(87, 223, 152));
+
+}
+
+.ui-btn.b2{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#3e4095),to(rgb(87, 131, 223)));
+background-image: -webkit-linear-gradient(#3e4095,rgb(87, 131, 223));
+background-image: -moz-linear-gradient(#3e4095,rgb(87, 131, 223));
+background-image: -ms-linear-gradient(#3e4095,rgb(87, 131, 223));
+background-image: -o-linear-gradient(#3e4095,rgb(87, 131, 223));
+background-image: linear-gradient(#3e4095,rgb(87, 131, 223));
+color: #fff;
+}
+
+.ui-btn.b3{
+background-image: -webkit-gradient(linear,left top,left bottom,from(#f9971b),to(#fcbe74));
+background-image: -webkit-linear-gradient(#f9971b,#fcbe74);
+background-image: -moz-linear-gradient(#f9971b,#fcbe74);
+background-image: -ms-linear-gradient(#f9971b,#fcbe74);
+background-image: -o-linear-gradient(#f9971b,#fcbe74);
+background-image: linear-gradient(#f9971b,#fcbe74);
+color: #fff;
+}
