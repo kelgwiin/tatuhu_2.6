@@ -36,7 +36,7 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
  $("#Lact").append('<ul class="1 acts">\
                         <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                         <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Escribe un relato</a></li>\
-                        <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y describe</a></li>\
+                        <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y escribe</a></li>\
                 </ul>\
                 <ul class="2 acts">\
                 	<li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
@@ -50,7 +50,7 @@ if (componente=="I" || componente=="I#"){
  $("#Lact").append('<ul class="1 acts">\
                             <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                         <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=3"><img src="images/empty.gif" />Escribe un relato</a></li>\
-                        <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y describe</a></li>\
+                        <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y escribe</a></li>\
                 </ul>');
 
 }
@@ -71,12 +71,12 @@ if (componente=="GR" || componente=="GR#"){
                         <li><a href="actividadesComunes/miradescribe.html?numero=2&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                 </ul>\n\
                 <ul class="2 acts">\
-                    <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                    <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                     <li><a href="actividadesComunes/sopadeletras.html?numero=2&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\n\
                     <li><a href="actividadesComunes/crucigrama.html?numero=1&nombre=CruciAmbiente"><img src="images/empty.gif" />CruciAmbiente</a></li>\n\
                 </ul>\n\
                 <ul class="3 acts">\
-                    <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                    <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                     <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Animaci&oacute;n</a></li>\n\
                     <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\n\
                     <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
