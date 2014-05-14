@@ -34,12 +34,12 @@ if (componente=="GR" || componente=="GR#"){
 $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Qu&eacute; desastres han ocurrido en esta zona? &iquest;Qu&eacute; sucedi&oacute;? &iquest;Cu&aacute;ndo? &iquest;Qu&eacute; hizo la gente?</span></a></div>\
                        <div><a href="#" class="item" id="2"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Podemos evitar los desastres?</span></a></div>');
  $("#Lact").append('<ul class="1 acts">\
-                        <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                         <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Escribe un relato</a></li>\
                         <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y describe</a></li>\
                 </ul>\
                 <ul class="2 acts">\
-                	<li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                	<li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                 	<li><a href="actividadesComunes/ordenaPalabras.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=2"><img src="images/empty.gif" />Ordena palabras</a></li>\
                		<li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=4"><img src="images/empty.gif" />Escribe un relato</a></li>\
                 </ul>')
@@ -48,7 +48,7 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
 if (componente=="I" || componente=="I#"){
  $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Qu&eacute; habr&iacute;a que hacer para evitar que se produzca un desastre hidrol&oacute;gico en el futuro?</span></a></div>');
  $("#Lact").append('<ul class="1 acts">\
-                            <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                            <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                         <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=3"><img src="images/empty.gif" />Escribe un relato</a></li>\
                         <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y describe</a></li>\
                 </ul>');
