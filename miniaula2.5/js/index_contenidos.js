@@ -33,7 +33,10 @@ if (area == "Lenguaje"){
     if (componente=="GR" || componente=="GR#"){
         //Índice: Seleccione un Tema
         $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
-        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>');
+        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
+        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/empty.gif" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
+        <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/empty.gif" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
+        ');
     
         //Índice: Seleccione una actividad 
         $("#Lact").append('<ul class="1 acts">\
@@ -47,7 +50,20 @@ if (area == "Lenguaje"){
             <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
             <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
             <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-            </ul>')
+            </ul>\
+            <ul class = "3 acts">\
+                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                <li><a href=""><img src="images/empty.gif" />Mira y describe - falta</a></li>\
+                <li><a href=""><img src="images/empty.gif" />Mira y aprende - falta</a></li>\
+                <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
+            </ul>\
+            <ul class = "4 acts">\
+                <li><a href=""><img src="images/empty.gif" />Mira y aprende - falta</a></li>\
+                <li><a href=""><img src="images/empty.gif" />Mira y describe - falta</a></li>\
+                <li><a href=""><img src="images/empty.gif" />Juega con las señales - falta </a></li>\
+                <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
+            </ul>\
+            ')
     }//end of - Gestión de Riesgos
 
     //Inundaciones
