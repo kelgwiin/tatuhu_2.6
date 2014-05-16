@@ -29,61 +29,43 @@ if (area != undefined){
 * Listando contenidos de lenguaje 5to - 6to   *
 ***********************************************/
 if (area == "Lenguaje"){ 
-    //Gestion de Riesgos
-    if (componente=="GR" || componente=="GR#"){
-        //Índice: Seleccione un Tema
-        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Qu&eacute; desastres han ocurrido en esta zona? &iquest;Qu&eacute; sucedi&oacute;? &iquest;Cu&aacute;ndo? &iquest;Qu&eacute; hizo la gente?</span></a></div>\
-        <div><a href="#" class="item" id="2"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Podemos evitar los desastres?</span></a></div>');
-    
-        //Índice: Seleccione una actividad 
-        $("#Lact").append('<ul class="1 acts">\
-            <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
-            <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Escribe un relato</a></li>\
-            <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y escribe</a></li>\
-            </ul>\
-            <ul class="2 acts">\
-            <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
-            <li><a href="actividadesComunes/ordenaPalabras.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=2"><img src="images/empty.gif" />Ordena palabras</a></li>\
-            <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=4"><img src="images/empty.gif" />Escribe un relato</a></li>\
-            </ul>')
-    }//end of - Gestión de Riesgos
+//Gestion de Riesgos
+if (componente=="GR" || componente=="GR#"){
+$("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Qu&eacute; desastres han ocurrido en esta zona? &iquest;Qu&eacute; sucedi&oacute;? &iquest;Cu&aacute;ndo? &iquest;Qu&eacute; hizo la gente?</span></a></div>\
+                       <div><a href="#" class="item" id="2"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Podemos evitar los desastres?</span></a></div>');
+ $("#Lact").append('<ul class="1 acts">\
+                        <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
+                        <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                        <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                </ul>\
+                <ul class="2 acts">\
+                	<li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
+                	<li><a href="actividadesComunes/ordenaPalabras.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=2"><img src="images/empty.gif" />Ordena palabras</a></li>\
+               		<li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=4"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                </ul>')
+}
+//Inundaciones
+if (componente=="I" || componente=="I#"){
+ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Qu&eacute; habr&iacute;a que hacer para evitar que se produzca un desastre hidrol&oacute;gico en el futuro?</span></a></div>');
+ $("#Lact").append('<ul class="1 acts">\
+                            <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
+                        <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=3"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                        <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                </ul>');
 
-    //Inundaciones
-    if (componente=="I" || componente=="I#"){
-            //Índice: Seleccione un Tema
-            $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\n\
-                                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>');
-            //Índice: Seleccione una actividad 
-            $("#Lact").append('<ul class="1 acts">\
-                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
-                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira el video</a></li>\n\
-                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\n\
-                                <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\n\
-                                <li><a href="actividadesComunes/crucigrama.html?numero=3&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
-                                <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
-                <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-                        </ul>\n\
-                        <ul class="2 acts">\n\
-                            <li><a href="#"><img src="images/empty.gif" />Libro interactivo</a></li>\
-                            <li><a href="actividadesComunes/visorLibros.html?libro=AddI01&paginas=4&ancho=300&largo=600"><img src="images/empty.gif" />Libro interactivo: Tipos de inundaciones</a></li>\
-                            <li><a href="actividadesComunes/sopadeletras.html?numero=6&nombre=Sopa_de_inundaciones"><img src="images/empty.gif" />Sopa de inundaciones</a></li>\
-                            <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
-                            <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                            <li><a href="actividadesComunes/pareo.html?numero=5"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-                        </ul>');
-    }//end of - Inundaciones
-}// end of - Lenguaje
+}
+}
 	
 /**********************************************
 * Listando contenidos de ciencias 5to - 6to   *
 ***********************************************/
 else if (area == "Ciencias"){
-    if (componente=="GR" || componente=="GR#"){
-        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente</span></a></div>\n\
+if (componente=="GR" || componente=="GR#"){
+ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente</span></a></div>\n\
                         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ambiente.png" /></div><span>Principales componentes del ambiente</span></a></div>\n\
                         <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\n\
                         <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/proteccion.png" /></div><span>&iquest;C&oacute;mo estar seguros ante un riesgo&#63;</span></a></div>');
-        $("#Lact").append('<ul class="1 acts">\
+ $("#Lact").append('<ul class="1 acts">\
                         <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=600"><img src="images/empty.gif" />Libro interactivo</a></li>\
                         <li><a href="actividadesComunes/sopadeletras.html?numero=1&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=2&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -107,15 +89,12 @@ else if (area == "Ciencias"){
                     <li><a href="actividadesComunes/crucigrama.html?numero=2&nombre=CruciAmbiente"><img src="images/empty.gif" />CruciRiesgos</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=3"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                 </ul>');
-    }//end of - Gestión de Riesgos
-
-//-------------
+}
 //Inundaciones
-//-------------
 if (componente=="I" || componente=="I#"){
-    $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\n\
+$("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\n\
                         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>');
-    $("#Lact").append('<ul class="1 acts">\
+ $("#Lact").append('<ul class="1 acts">\
                         <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Libro interactivo</a></li>\
                         <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />El ciclo del agua</a></li>\n\
 						<li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\n\
@@ -132,9 +111,8 @@ if (componente=="I" || componente=="I#"){
                     <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=5"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                 </ul>');
-    }// end of - Inundaciones
-}//end of - Ciencias 
-
+}
+}
 /**********************************************
 * Listando contenidos de sociales 5to - 6to   *
 ***********************************************/
