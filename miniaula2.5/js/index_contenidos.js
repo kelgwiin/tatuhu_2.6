@@ -32,44 +32,34 @@ if (area == "Lenguaje"){
     //Gestion de Riesgos
     if (componente=="GR" || componente=="GR#"){
         //Índice: Seleccione un Tema
-        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Qu&eacute; desastres han ocurrido en esta zona? &iquest;Qu&eacute; sucedi&oacute;? &iquest;Cu&aacute;ndo? &iquest;Qu&eacute; hizo la gente?</span></a></div>\
-        <div><a href="#" class="item" id="2"><div class="icon"><img src="images/desastre.png" /></div><span>&iquest;Podemos evitar los desastres?</span></a></div>');
+        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
+        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>');
     
         //Índice: Seleccione una actividad 
         $("#Lact").append('<ul class="1 acts">\
             <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
-            <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Escribe un relato</a></li>\
-            <li><a href="actividadesComunes/miraydescribe.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y escribe</a></li>\
+            <li><a href="actividadesComunes/crucigrama.html?numero=3&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
+            <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
+            <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
             </ul>\
             <ul class="2 acts">\
-            <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
-            <li><a href="actividadesComunes/ordenaPalabras.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=2"><img src="images/empty.gif" />Ordena palabras</a></li>\
-            <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=4"><img src="images/empty.gif" />Escribe un relato</a></li>\
+            <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira el video</a></li>\
+            <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
+            <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
+            <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
             </ul>')
     }//end of - Gestión de Riesgos
 
     //Inundaciones
     if (componente=="I" || componente=="I#"){
             //Índice: Seleccione un Tema
-            $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\n\
-                                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>');
+            $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>');
             //Índice: Seleccione una actividad 
             $("#Lact").append('<ul class="1 acts">\
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
                                 <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira el video</a></li>\n\
                                 <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\n\
                                 <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\n\
-                                <li><a href="actividadesComunes/crucigrama.html?numero=3&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
-                                <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
-                <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-                        </ul>\n\
-                        <ul class="2 acts">\n\
-                            <li><a href="#"><img src="images/empty.gif" />Libro interactivo</a></li>\
-                            <li><a href="actividadesComunes/visorLibros.html?libro=AddI01&paginas=4&ancho=300&largo=600"><img src="images/empty.gif" />Libro interactivo: Tipos de inundaciones</a></li>\
-                            <li><a href="actividadesComunes/sopadeletras.html?numero=6&nombre=Sopa_de_inundaciones"><img src="images/empty.gif" />Sopa de inundaciones</a></li>\
-                            <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
-                            <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                            <li><a href="actividadesComunes/pareo.html?numero=5"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                         </ul>');
     }//end of - Inundaciones
 }// end of - Lenguaje
