@@ -29,7 +29,7 @@ if (area != undefined){
 * Listando contenidos de lenguaje 5to - 6to   *
 ***********************************************/
 if (area == "Lenguaje"){ 
-    //Gestion de Riesgos
+    //Gestion de RIESGOS
     if (componente=="GR" || componente=="GR#"){
         //Índice: Seleccione un Tema
         $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
@@ -40,13 +40,13 @@ if (area == "Lenguaje"){
     
         //Índice: Seleccione una actividad 
         $("#Lact").append('<ul class="1 acts">\
-            <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
-            <li><a href="actividadesComunes/crucigrama.html?numero=3&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
+            <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=600"><img src="images/empty.gif" />Lee y aprende</a></li>\
             <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
             <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+            \
             </ul>\
             <ul class="2 acts">\
-            <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira el video</a></li>\
+            <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
             <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
             <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
             <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -66,17 +66,24 @@ if (area == "Lenguaje"){
             ')
     }//end of - Gestión de Riesgos
 
-    //Inundaciones
+    //INUNDACIONES
     if (componente=="I" || componente=="I#"){
             //Índice: Seleccione un Tema
-            $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>');
+            $("#acordeon").append(
+                '<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>El agua, su uso y conservación</span></a></div>\
+                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\
+                ');
             //Índice: Seleccione una actividad 
             $("#Lact").append('<ul class="1 acts">\
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
-                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira el video</a></li>\n\
-                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\n\
-                                <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\n\
-                        </ul>');
+                                <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
+                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
+                                <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
+                </ul>\
+                <ul class="2 acts">\
+                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\
+                </u>\
+                ');
     }//end of - Inundaciones
 }// end of - Lenguaje
 	
