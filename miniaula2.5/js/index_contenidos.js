@@ -53,7 +53,7 @@ if (area == "Lenguaje"){
             </ul>\
             <ul class = "3 acts">\
                 <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
-                <li><a href=""><img src="images/empty.gif" />Mira y describe - falta</a></li>\
+                <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
                 <li><a href=""><img src="images/empty.gif" />Mira y aprende - falta</a></li>\
                 <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
             </ul>\
@@ -78,14 +78,14 @@ if (area == "Lenguaje"){
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
                                 <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
                                 <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
-                                <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucAgua;n</a></li>\
+                                <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
                 </ul>\
                 <ul class="2 acts">\
                                 <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\
                 </u>\
                 ');
     }//end of - Inundaciones
-}// end of - Lenguaje
+}// end of - LENGUAJE
 	
 /**********************************************
 * Listando contenidos de ciencias 5to - 6to   *

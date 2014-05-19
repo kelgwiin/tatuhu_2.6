@@ -20,7 +20,8 @@
               <cousa nome="Ser solidario" son="">solidario.jpg</cousa>
               <cousa nome="Colaboración y trabajo en equipo" son="">equipo.jpg</cousa>
         </paxina>
-		<paxina id="2" >
+		    
+        <paxina id="2" >
               <tipo>44</tipo>
               <cousa nome="Brigada de emergencia" son="">brigada.jpg</cousa>
               <cousa nome="Evacuación peligrosa de sitios" son="">incorrecta.jpg</cousa>

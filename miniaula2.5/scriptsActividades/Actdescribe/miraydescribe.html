@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang = "es">
 <head>
+	<!-- Cargando la Meta Información-->
+    <meta charset="UTF-8">
+
 	<link rel="stylesheet" type="text/css" href="impresoraMiraDescribe.css">			
     <script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
 	<script type="text/javascript" src="../../js/iframe.js"></script>
@@ -8,17 +11,33 @@
 		//seleccion aleatoria de imagenes
 		var img = getUrlVars()["componente"];
 		
-		//BD de imagenes de GR
+		//BD de imagenes de GR - Gestion de Riesgos
 		var imgGR = new Array("GR1.gif", "GR2.jpg", "GR3.jpg", "GR4.jpg", "GR5.jpg","GR6.jpg", "GR7.jpg",
 							"GR8.jpg");
-		//BD de imagenes de I
+		//BD de imagenes de I - Inundaciones
 		var imgI = new Array("I1.gif", "I2.jpg", "I3.jpg", "I4.jpg","I5.jpg", "I6.jpg","I7.jpg",
 							"I8.jpg", "I9.jpg");
 		
-		if (img == "GR")
-			var bd = imgGR;
-		else
-			var bd = imgI;
+		//BD de imagenes de SegVial - Seguridad Vial
+		var imgSegVial = new Array("SegVial1.jpg", "SegVial2.jpg", "SegVial3.jpg", "SegVial4.jpg", "SegVial5.jpg", "SegVial6.jpg", "SegVial7.jpg", "SegVial8.jpg", "SegVial9.jpg","SegVial10.jpg","SegVial11.jpg","SegVial12.jpg", "SegVial13.jpg");
+
+		//Aquí se selecciona qué conjunto de imágenes se desea
+		switch(img){
+			//Imagenes de Gestion de Riesgo
+			case 'GR':
+				var bd = imgGR;
+				break;
+			//Imagenes de Inundaciones
+			case 'I':
+				var bd = imgI;
+				break;
+
+			case 'SegVial':
+				var bd = imgSegVial;
+				break
+
+		}
+			
 		
 		var indexImg = new Array();
 		
