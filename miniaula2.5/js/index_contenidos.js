@@ -34,7 +34,7 @@ if (area == "Lenguaje"){
         //Índice: Seleccione un Tema
         $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
-        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/empty.gif" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
+        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
         <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
         ');
     
