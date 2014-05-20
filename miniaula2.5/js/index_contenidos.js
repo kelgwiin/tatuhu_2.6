@@ -26,7 +26,7 @@ if (area != undefined){
 	}
 
 /**********************************************
-* Listando contenidos de lenguaje 5to - 6to   *
+* Listando contenidos de LENGUAJE 5to - 6to   *
 ***********************************************/
 if (area == "Lenguaje"){ 
     //Gestion de RIESGOS
@@ -35,7 +35,7 @@ if (area == "Lenguaje"){
         $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
         <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/empty.gif" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
-        <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/empty.gif" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
+        <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
         ');
     
         //Índice: Seleccione una actividad 
@@ -88,7 +88,7 @@ if (area == "Lenguaje"){
 }// end of - LENGUAJE
 	
 /**********************************************
-* Listando contenidos de ciencias 5to - 6to   *
+* Listando contenidos de CIENCIAS 5to - 6to   *
 ***********************************************/
 else if (area == "Ciencias"){
     if (componente=="GR" || componente=="GR#"){
@@ -149,7 +149,7 @@ if (componente=="I" || componente=="I#"){
 }//end of - Ciencias 
 
 /**********************************************
-* Listando contenidos de sociales 5to - 6to   *
+* Listando contenidos de SOCIALES 5to - 6to   *
 ***********************************************/
 else if (area == "Sociales"){
 if (componente=="GR" || componente=="GR#"){

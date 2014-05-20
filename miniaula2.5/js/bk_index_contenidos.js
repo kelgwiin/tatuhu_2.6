@@ -114,7 +114,7 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
 }
 }
 /**********************************************
-* Listando contenidos de sociales 5to - 6to   *
+* Listando contenidos de SOCIALES 5to - 6to   *
 ***********************************************/
 else if (area == "Sociales"){
 if (componente=="GR" || componente=="GR#"){
