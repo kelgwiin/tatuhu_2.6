@@ -54,6 +54,7 @@ if (area == "Lenguaje"){
             <ul class = "3 acts">\
                 <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
                 <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                 <li><a href=""><img src="images/empty.gif" />Mira y aprende - falta</a></li>\
                 <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
             </ul>\

@@ -1,0 +1,23 @@
+Guía para agregar Componentes y/o Modificarlos (Mini Aula)
+
+-----------------------------------
+	Mira y Escribe
+-----------------------------------
+Archivos
+
+- actividadesComunes/mirayescribe.html
+- scriptsActividades/Actdescribe/mirayescribe.js
+
+Agregar una nueva entrar en el array donde se contendrán todos los nombres de las imágenes asociadas al ejercicio
+
+
+-------------------------------------------
+	Mira y Describe (Arrastra significado)
+-------------------------------------------
+
+Archivos
+
+- actividadesComunes/miradescribe.html
+
+Agregar .lim en scriptsActividades/ActMiradescribe/miraydescribe.html y colocar ese número en index_contenido cuando
+se está haciendo el link.
