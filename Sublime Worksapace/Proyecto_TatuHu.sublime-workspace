@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ima",
+				"images"
+			],
+			[
 				"se",
 				"seguridad"
 			],
@@ -16,10 +20,19 @@
 	"buffers":
 	[
 		{
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/Guia-agregar-modificar-Componentes.txt",
+			"settings":
+			{
+				"buffer_size": 837,
+				"line_ending": "Windows",
+				"name": "Guía para agregar Componentes y/o Modificarlos (Mi"
+			}
+		},
+		{
 			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
 			"settings":
 			{
-				"buffer_size": 16923,
+				"buffer_size": 17224,
 				"line_ending": "Windows"
 			}
 		},
@@ -48,18 +61,10 @@
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorAnimaciones.html",
 			"settings":
 			{
-				"buffer_size": 1287,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
-			"settings":
-			{
-				"buffer_size": 3073,
+				"buffer_size": 1986,
 				"line_ending": "Windows"
 			}
 		}
@@ -92,13 +97,19 @@
 	},
 	"file_history":
 	[
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/miraydescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/6.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/7.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/4.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/5.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
+		"/C/wamp/alias/httpd.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/impresoraMiraDescribe.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/iframe.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorAnimaciones.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/animaciones/Ciclo_del_Agua.html",
@@ -127,6 +138,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"relat",
 			"ver",
 			"video",
 			"mira",
@@ -150,23 +162,287 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/Guia-agregar-modificar-Componentes.txt",
 					"settings":
 					{
-						"buffer_size": 16923,
+						"buffer_size": 837,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								344,
-								344
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Guía para agregar Componentes y/o Modificarlos (Mi",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
+					"settings":
+					{
+						"buffer_size": 17224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3782,
+								3782
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 111.0,
+						"translation.y": 792.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/bk_index_contenidos.js",
+					"settings":
+					{
+						"buffer_size": 14463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2337,
+								2166
 							]
 						],
 						"settings":
@@ -279,42 +555,14 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 200.0,
+						"translation.y": 380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/bk_index_contenidos.js",
-					"settings":
-					{
-						"buffer_size": 14463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								324,
-								324
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
 					"settings":
 					{
@@ -335,13 +583,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2460.0,
+						"translation.y": 2706.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
 					"settings":
 					{
@@ -352,8 +600,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1140,
+								1140
 							]
 						],
 						"settings":
@@ -369,46 +617,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
-					"settings":
-					{
-						"buffer_size": 1287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorAnimaciones.html",
 					"settings":
 					{
-						"buffer_size": 3073,
+						"buffer_size": 1986,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1318,
-								1318
+								954,
+								954
 							]
 						],
 						"settings":
@@ -521,7 +742,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 132.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
