@@ -155,7 +155,7 @@ if (componente=="I" || componente=="I#"){
 else if (area == "Sociales"){
 if (componente=="GR" || componente=="GR#"){
 $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/normas.png" /></div><span>Pongamos en pr&aacute;ctica las normas de seguridad en nuestra escuela, hogar y comunidad</span></a></div>\
-                        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/mapas.png" /></div><span>&iquest;Conozcamos para qu&eacute; son las im&aacute;genes de precauci&oacute;n o de peligro? &iquest;Qu&eacute; advierten y a qui&eacute;n?</span></a></div>');
+                        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/mapas.png" /></div><span>&iquest;Conozcamos para qu&eacute; son las señales de precauci&oacute;n o de peligro? &iquest;Qu&eacute; advierten y a qui&eacute;n?</span></a></div>');
  $("#Lact").append('<ul class="1 acts">\
                     <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Mira y clasifica</a></li>\

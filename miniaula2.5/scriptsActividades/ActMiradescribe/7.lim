@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>images</recursos>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >¡Muy bien! Has finalizado la actividad.</correcto>
+        <incorrecto son="" modo="1" >¡Ups! vuelve a intentar</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>44</tipo>
+              <cousa nome="Cruce de peatones" son="">cruce_peatones.jpg</cousa>
+              <cousa nome="Indica que se aproxima un semáforo" son="">p_semaforo.jpg</cousa>
+              <cousa nome="Indica que se debe detener" son="">pare.png</cousa>
+              <cousa nome="Prohibido circular en bicicletas" son="">no_ciclistas.jpg</cousa>
+        </paxina>
+
+        <paxina id = "2">
+            <tipo>44</tipo>
+            <cousa nome="Hay niños jugando en el área" son="">ninos_jugando.png</cousa>
+            <cousa nome="Zona escolar" son="">zona_escolar.jpg</cousa>
+            <cousa nome="No estacionar" son="">no_estacionar.jpg</cousa>
+        </paxina>
+    </libro>
+</lim>
