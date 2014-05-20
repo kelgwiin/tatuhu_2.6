@@ -60,7 +60,7 @@ if (area == "Lenguaje"){
             </ul>\
             <ul class = "4 acts">\
                 <li><a href=""><img src="images/empty.gif" />Mira y aprende - falta</a></li>\
-                <li><a href=""><img src="images/empty.gif" />Mira y describe - falta</a></li>\
+                <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                 <li><a href=""><img src="images/empty.gif" />Juega con las señales - falta </a></li>\
                 <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
             </ul>\

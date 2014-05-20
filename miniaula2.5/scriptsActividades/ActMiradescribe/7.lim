@@ -19,14 +19,20 @@
               <cousa nome="Cruce de peatones" son="">cruce_peatones.jpg</cousa>
               <cousa nome="Indica que se aproxima un semáforo" son="">p_semaforo.jpg</cousa>
               <cousa nome="Indica que se debe detener" son="">pare.png</cousa>
-              <cousa nome="Prohibido circular en bicicletas" son="">no_ciclistas.jpg</cousa>
         </paxina>
 
         <paxina id = "2">
             <tipo>44</tipo>
-            <cousa nome="Hay niños jugando en el área" son="">ninos_jugando.png</cousa>
+            <cousa nome="Precausión hay niños jugando en el área" son="">ninos_jugando.png</cousa>
+            <cousa nome="Prohibido paso peatonal" son="">no_paso_peaton.png</cousa>
             <cousa nome="Zona escolar" son="">zona_escolar.jpg</cousa>
+        </paxina>
+
+        <paxina id = "3">
+            <tipo>44</tipo>
             <cousa nome="No estacionar" son="">no_estacionar.jpg</cousa>
+            <cousa nome="Prohibido circular en bicicletas" son="">no_ciclistas.jpg</cousa>
+            <cousa nome="Prohibido tocar la corneta" son="">no_corneta.png</cousa>
         </paxina>
     </libro>
 </lim>
