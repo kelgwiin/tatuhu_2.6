@@ -21,3 +21,11 @@ Archivos
 
 Agregar .lim en scriptsActividades/ActMiradescribe/miraydescribe.html y colocar ese número en index_contenido cuando
 se está haciendo el link.
+
+-------------------------------------------
+	Escribe un relato
+-------------------------------------------
+
+Archivos
+
+- actividadesComunes/escribe.html
