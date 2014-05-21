@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <!-- Cargando la Meta Información-->
+    <meta charset="UTF-8">
+    
+    <title>Aprende con Tatu H&uacute;</title>
+    
+    
+    
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">		
+	<link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.css" type="text/css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="../js/modal.js"></script>
+	<script type="text/javascript" src="../js/iframe.js"></script>
+	
+
+</head>
+<body id="modal" style="color:black !important;">
+<div id="container" style="padding-bottom:80px;">
+	<div id="contenidos1">	
+	<div class="cerrar">
+		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
+	</div>	
+	<h2>Mira el Video</h2>
+	<div style="width:650px;padding-left:50px; color:#fff; margin: 0 auto;">
+			
+		
+		<img id="image" style="float:right; margin-right: 45px; margin-top:20px;" src="../images/Cachicamo1.png">
+		<br>
+		<br>
+
+		<video controls autoplay src="">Tu navegador no soporta HTML5 </video>
+
+		<!-- Colocando el nombre del video-->
+		<script>
+			var nombre_video = getUrlVars()["nombre_video"];				
+			$('video').attr('src','../videos/'+nombre_video);
+		
+		</script>
+
+
+	</div>
+</div>
+
+</body>
+</html>

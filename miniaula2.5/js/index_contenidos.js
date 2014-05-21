@@ -55,7 +55,8 @@ if (area == "Lenguaje"){
                 <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
                 <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
                 <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                <li><a href=""><img src="images/empty.gif" />Mira y aprende - falta</a></li>\
+                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Semáforo de peatones</a></li>\
                 <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=5"><img src="images/empty.gif" />Escribe un relato</a></li>\
             </ul>\
             <ul class = "4 acts">\
