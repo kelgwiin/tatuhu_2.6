@@ -96,12 +96,15 @@ if (area == "Lenguaje"){
 ***********************************************/
 else if (area == "Ciencias"){
     if (componente=="GR" || componente=="GR#"){
-        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente</span></a></div>\n\
+        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todos sobre las amenazas</span></a></div>\n\
                         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ambiente.png" /></div><span>Principales componentes del ambiente</span></a></div>\n\
                         <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\n\
                         <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/proteccion.png" /></div><span>&iquest;C&oacute;mo estar seguros ante un riesgo&#63;</span></a></div>');
         $("#Lact").append('<ul class="1 acts">\
-                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=600"><img src="images/empty.gif" />Libro interactivo</a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta</a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Verdadero y falso - falta</a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Responde con sí o no a las preguntas - falta</a></li>\
+                        <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         <li><a href="actividadesComunes/sopadeletras.html?numero=1&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=2&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                 </ul>\n\
