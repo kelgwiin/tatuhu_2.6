@@ -128,10 +128,10 @@ if (componente=="I" || componente=="I#"){
                         \
                 </ul>\n\
                 <ul class="2 acts">\n\
-                    <li><a href="#"><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                    <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
-                    <li><a href="#"><img src="images/empty.gif" />Une líneas - falta </a></li>\
-                    <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher)</a></li>\
+                    <li><a href=""><img src="images/empty.gif" />Une líneas - falta </a></li>\
+                    <li><a href=""><img src="images/empty.gif" />Arrastra escala de Ritcher - falta </a></li>\
                     <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
                     <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
                 </ul>');
@@ -166,17 +166,18 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
 }
 }
 /**********************************************
-* Listando contenidos de deportes 5to - 6to   *
+* Listando contenidos de DEPORTES 5to - 6to   *
 ***********************************************/
 else if (area == "Deportes"){
 if (componente=="GR" || componente=="GR#"){
- $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>Repasemos acerca de los desastres</span></a></div>\n\
+ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
                         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>&iquest;Para qu&eacute; sirve un mapa de riesgo? Manos a la obra y crea un mapa de riesgo de tu comunidad</span></a></div>');
  $("#Lact").append('<ul class="1 acts">\
-                        <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gesti&oacute;n de riesgos</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=4"><img src="images/empty.gif" />Mapa mental: &iquest;Qu&eacute; hacer ante desastres naturales?</a></li>\
+                        <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher)</a></li>\
                 </ul>\n\
                 <ul class="2 acts">\
                      <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
