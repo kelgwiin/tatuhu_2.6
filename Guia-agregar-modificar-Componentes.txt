@@ -23,6 +23,9 @@ Archivos
 Agregar .lim en scriptsActividades/ActMiradescribe/miraydescribe.html y colocar ese número en index_contenido cuando
 se está haciendo el link.
 
+..Si tiene más de tres imágenes el ejercicios se debe cambiar el condicional en "miradescribe.html" agregando el número
+del componente donde corresponda para que aparezca el mensaje de las partes que tiene.
+
 -------------------------------------------
 	Escribe un relato
 -------------------------------------------

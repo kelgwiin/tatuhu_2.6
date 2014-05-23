@@ -129,12 +129,11 @@ if (componente=="I" || componente=="I#"){
                 </ul>\n\
                 <ul class="2 acts">\n\
                     <li><a href="#"><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
-                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre terremotos</a></li>\
+                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
                     <li><a href="#"><img src="images/empty.gif" />Une líneas - falta </a></li>\
-                    <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                    <li><a href="actividadesComunes/visorLibros.html?libro=AddI01&paginas=4&ancho=300&largo=600"><img src="images/empty.gif" />Libro interactivo</a></li>\
-                    <li><a href="actividadesComunes/sopadeletras.html?numero=6&nombre=Sopa_de_inundaciones"><img src="images/empty.gif" />Sopa de inundaciones</a></li>\
-                    <li><a href="actividadesComunes/pareo.html?numero=5"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+                    <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher)</a></li>\
+                    <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
+                    <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
                 </ul>');
     }// end of - Inundaciones
 }//end of - Ciencias 

@@ -41,6 +41,9 @@
 			case "5":
 				palabras = "uso del cinturón de seguridad";
 				break;
+			//Aprendamos sobre sismos y terremotos
+			case "6":
+				palabras = "Pídeles a tus padres o a una persona mayor, que te cuente un relato sobre algún sismo que haya sentido alguna vez. A partir de esa historia reescríbela con tus palabras";
 							
 		}
 	
@@ -55,9 +58,9 @@
 	<h2>Escribe un relato</h2>
 	<div style="width:650px;padding-left:50px; color:#fff; margin: 0 auto;">
 				<div style="width:430px; float:left; margin-left:20px; color:black; margin-top:50px; position:absolute;">
-				Hola amigo(a) prueba tu creatividad.<br> Escribe un relato 
-				en el que aparezcan las siguientes palabras: <span id="palabras" style="font-weight:bold"></span>. <br><br>Presiona <strong>Guardar</strong> para que puedas compartirlo.
-				<br>Al finalizar, presiona Cerrar.
+					<div id = "cuerpo-decripcion">
+					</div>
+				
 
 			</div>
 			<img id="image" style="float:right; margin-right: 45px; margin-top:20px;" src="../images/Cachicamo1.png">
@@ -66,7 +69,21 @@
 	</div>
 </div>
 <script>
-	$("#palabras").html(palabras);
+	
+	if(act != "6"){
+		$("div#cuerpo-decripcion").html('Hola amigo(a) prueba tu creatividad.<br> Escribe un relato\
+									en el que aparezcan las siguientes palabras: <span id="palabras" style="font-weight:bold"></span>. <br><br>\
+									Presiona <strong> Guardar</strong> para que puedas compartirlo.\
+									<br>Al finalizar, presiona Cerrar.');
+		
+		$("#palabras").html(palabras);
+	}else{
+		//Es la descripción de relato especial
+		$("div#cuerpo-decripcion").html('Hola amigo(a) prueba tu creatividad.<br> <span id="palabras" style="font-weight:bold"></span>. <br><br>\
+									Presiona <strong> Guardar</strong> para que puedas compartirlo.\
+									<br>Al finalizar, presiona Cerrar.');
+		$("#palabras").html(palabras);
+	}
 </script>
 </body>
 </html>
