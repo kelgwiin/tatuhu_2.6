@@ -8,7 +8,8 @@ Archivos
 - actividadesComunes/mirayescribe.html
 - scriptsActividades/Actdescribe/mirayescribe.js
 
-Agregar una nueva entrar en el array donde se contendrán todos los nombres de las imágenes asociadas al ejercicio
+Agregar una nueva entrar en el array dentro de "mirayescribe.html" donde se contendrán todos los nombres de las imágenes asociadas al ejercicio
+..Ubicar las nuevas imágenes en "scriptsActividades/Actdescribe/imgBD"
 
 
 -------------------------------------------

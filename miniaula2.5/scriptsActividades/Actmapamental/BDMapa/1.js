@@ -41,7 +41,7 @@ Las inundaciones pueden ser <strong>s&uacute;bitas o repentinas</strong> y <stro
 <div class="node" id ="node3" style="display:none; margin-left:550px;">Las inundaciones producen p&eacute;rdidas humanas y de recursos naturales, da&ntilde;os en los edificios y enfermedades \n\
 </div>\n\
 <div class="node" id ="node4" style="display:none; margin-left:300px;">\n\
-Las inundaciones son causadas por roturas de las presas de agua, luvias fuertes, y \n\
+Las inundaciones son  causadas por roturas de las presas de agua, lluvias fuertes, y \n\
 por el asfalto de las calles que impide que el suelo absorba el agua\n\
 </div>');
 

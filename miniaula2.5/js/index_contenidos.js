@@ -115,7 +115,7 @@ else if (area == "Ciencias"){
 //-------------
 if (componente=="I" || componente=="I#"){
     $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>\
-        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>Aprendamos todo sobre los sismos y terremotos - falta</span></a></div>\
+        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\
     ');
 
     $("#Lact").append('<ul class="1 acts">\
@@ -128,7 +128,10 @@ if (componente=="I" || componente=="I#"){
                         \
                 </ul>\n\
                 <ul class="2 acts">\n\
-                    <li><a href="#"><img src="images/empty.gif" />Libro interactivo</a></li>\
+                    <li><a href="#"><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre terremotos</a></li>\
+                    <li><a href="#"><img src="images/empty.gif" />Une líneas - falta </a></li>\
+                    <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                     <li><a href="actividadesComunes/visorLibros.html?libro=AddI01&paginas=4&ancho=300&largo=600"><img src="images/empty.gif" />Libro interactivo</a></li>\
                     <li><a href="actividadesComunes/sopadeletras.html?numero=6&nombre=Sopa_de_inundaciones"><img src="images/empty.gif" />Sopa de inundaciones</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=5"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
