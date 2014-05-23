@@ -177,7 +177,7 @@ if (componente=="GR" || componente=="GR#"){
                         <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gesti&oacute;n de riesgos</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=4"><img src="images/empty.gif" />Mapa mental: &iquest;Qu&eacute; hacer ante desastres naturales?</a></li>\
-                        <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher)</a></li>\
+                        <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher - falta)</a></li>\
                 </ul>\n\
                 <ul class="2 acts">\
                      <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\

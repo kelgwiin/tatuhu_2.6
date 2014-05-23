@@ -38,8 +38,8 @@ $("#demo").html('\
 Los <strong>Bomberos</strong> y <strong>Protecci&oacute;n Civil</strong>\n\
 </div>\n\
 <div class="node" id ="node3" style="display:none; margin-left:300px;">\n\
-Las Brigadas de nuestra comunidad.\n\
+Las <strong>Brigadas</strong> de nuestra comunidad.\n\
 </div>\n\
 <div class="node" id ="node4" style="display:none; margin-left:550px;">\n\
-Los M&eacute;dicos y enfermeros\n\
+Los <strong>M&eacute;dicos y enfermeros</strong>\n\
 </div>');
