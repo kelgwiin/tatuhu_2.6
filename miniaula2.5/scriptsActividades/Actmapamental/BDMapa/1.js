@@ -36,13 +36,13 @@ $("#demo").html('\
 <br />\n\
 </div>\n\
 <div class="node" id ="node2" style="display:none;">\n\
-Las inundacionespueden ser <strong>s&uacute;bitas o repentinas</strong> y <strong>lentas</strong><strong> o progresivas</strong>\n\
+Las inundaciones pueden ser <strong>s&uacute;bitas o repentinas</strong> y <strong>lentas</strong><strong> o progresivas</strong>\n\
 </div>\n\
 <div class="node" id ="node3" style="display:none; margin-left:550px;">Las inundaciones producen p&eacute;rdidas humanas y de recursos naturales, da&ntilde;os en los edificios y enfermedades \n\
 </div>\n\
 <div class="node" id ="node4" style="display:none; margin-left:300px;">\n\
-Las inundaciones soncausadas por roturas de las presas de agua, luvias fuertes, y \n\
-por el asfalto de las calles que impide que el suelo absorbael agua\n\
+Las inundaciones son causadas por roturas de las presas de agua, luvias fuertes, y \n\
+por el asfalto de las calles que impide que el suelo absorba el agua\n\
 </div>');
 
 $("body").append('  ')
