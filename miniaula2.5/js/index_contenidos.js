@@ -217,7 +217,7 @@ if (componente=="GR" || componente=="GR#"){
 //Inundaciones
 if (componente=="I" || componente=="I#"){
     $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>¿Qué debemos hacer antes, durante y después de un sismo?</span></a></div>\
-                           <div><a href="#" class="item" id ="2|"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
+                           <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
         ');
     $("#Lact").append('<ul class="1 acts">\
                             <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
