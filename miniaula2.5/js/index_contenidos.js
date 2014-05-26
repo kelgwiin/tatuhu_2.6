@@ -203,28 +203,34 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
 else if (area == "Deportes"){
 if (componente=="GR" || componente=="GR#"){
  $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
-                        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>&iquest;Para qu&eacute; sirve un mapa de riesgo? Manos a la obra y crea un mapa de riesgo de tu comunidad</span></a></div>');
+                        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
  $("#Lact").append('<ul class="1 acts">\
-                        <li><a href=""><img src="images/empty.gif" />Lee y aprende</a></li>\
-                        <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
-                        <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gesti&oacute;n de riesgos</a></li>\
-                        <li><a href="actividadesComunes/mapaMental.html?numero=4"><img src="images/empty.gif" />Mapa mental: &iquest;Qu&eacute; hacer ante desastres naturales?</a></li>\
-                        <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher - falta)</a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Lee y aprende (falta)</a></li>\
+                        <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
+                        <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
                 </ul>\n\
                 <ul class="2 acts">\
-                     <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
-                    <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
+                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende sobre simulacro de desalojo (falta)</a></li>\
                     <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
                 </ul>');
 }
 //Inundaciones
 if (componente=="I" || componente=="I#"){
-     $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>&iquest;Qu&eacute; personas de tu escuela y comunidad podr&iacute;an ayudar en caso de un evento adverso de origen hidrol&oacute;gico?</span></a></div>');
- $("#Lact").append('<ul class="1 acts">\
+    $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>¿Qué debemos hacer antes, durante y después de un sismo?</span></a></div>\
+                           <div><a href="#" class="item" id ="2|"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
+        ');
+    $("#Lact").append('<ul class="1 acts">\
                             <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                            <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher - falta)</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
-                </ul>');
-}
-}
+                        </ul>\
+                        \
+                        <ul class = "2 acts">\
+                            <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                        </ul>'
+            );
+    }//end of - inundaciones
+}// end of - DEPORTES
+
 }

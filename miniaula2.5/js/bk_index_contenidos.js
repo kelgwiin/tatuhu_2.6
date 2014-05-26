@@ -145,10 +145,10 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
 * Listando contenidos de deportes 5to - 6to   *
 ***********************************************/
 else if (area == "Deportes"){
-if (componente=="GR" || componente=="GR#"){
- $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>Repasemos acerca de los desastres</span></a></div>\n\
+    if (componente=="GR" || componente=="GR#"){
+    $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/desastre.png" /></div><span>Repasemos acerca de los desastres</span></a></div>\n\
                         <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>&iquest;Para qu&eacute; sirve un mapa de riesgo? Manos a la obra y crea un mapa de riesgo de tu comunidad</span></a></div>');
- $("#Lact").append('<ul class="1 acts">\
+     $("#Lact").append('<ul class="1 acts">\
                         <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gesti&oacute;n de riesgos</a></li>\
@@ -159,15 +159,17 @@ if (componente=="GR" || componente=="GR#"){
                     <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
                     <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
                 </ul>');
-}
-//Inundaciones
-if (componente=="I" || componente=="I#"){
+    }
+    //Inundaciones
+    if (componente=="I" || componente=="I#"){
      $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>&iquest;Qu&eacute; personas de tu escuela y comunidad podr&iacute;an ayudar en caso de un evento adverso de origen hidrol&oacute;gico?</span></a></div>');
- $("#Lact").append('<ul class="1 acts">\
+    $("#Lact").append('<ul class="1 acts">\
                             <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
                 </ul>');
-}
-}
+    }
+
+
+    }
 }
