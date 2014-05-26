@@ -24,6 +24,10 @@ if (area != undefined){
 		componente = "I";
 		$("#titulo").html("Actividades de Inundaciones en "+area);
 	}
+/**---------------------------------------------------------------------
+ *  -----                    L E N G U A J E     -----------------------
+ * ---------------------------------------------------------------------
+ */
 
 /**********************************************
 * Listando contenidos de LENGUAJE 5to - 6to   *
@@ -90,6 +94,16 @@ if (area == "Lenguaje"){
                 ');
     }//end of - Inundaciones
 }// end of - LENGUAJE
+
+
+
+
+/**---------------------------------------------------------------------
+ *  ---------                C I E N C I A S      ----------------------
+ * ---------------------------------------------------------------------
+ */
+
+
 	
 /**********************************************
 * Listando contenidos de CIENCIAS 5to - 6to   *
@@ -115,7 +129,7 @@ else if (area == "Ciencias"){
 //-------------
 if (componente=="I" || componente=="I#"){
     $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>\
-        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\
+        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\
     ');
 
     $("#Lact").append('<ul class="1 acts">\
@@ -137,6 +151,15 @@ if (componente=="I" || componente=="I#"){
                 </ul>');
     }// end of - Inundaciones
 }//end of - Ciencias 
+
+
+
+/**---------------------------------------------------------------------
+ *  ---------                 S O C I A L E S     ----------------------
+ * ---------------------------------------------------------------------
+ */
+
+
 
 /**********************************************
 * Listando contenidos de SOCIALES 5to - 6to   *
@@ -164,7 +187,16 @@ $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><
                     <li><a href="actividadesComunes/pareo.html?numero=2"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                 </ul>');
 }
-}
+}// end of - SOCIALES
+
+
+
+
+/**---------------------------------------------------------------------
+ *  ---------                D E P O R T E S      ----------------------
+ * ---------------------------------------------------------------------
+ */
+
 /**********************************************
 * Listando contenidos de DEPORTES 5to - 6to   *
 ***********************************************/
