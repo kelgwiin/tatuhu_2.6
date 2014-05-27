@@ -21,6 +21,9 @@
 		//BD de imagenes de SegVial - Seguridad Vial
 		var imgSegVial = new Array("SegVial1.jpg", "SegVial2.jpg", "SegVial3.jpg", "SegVial4.jpg", "SegVial5.jpg", "SegVial6.jpg", "SegVial7.jpg", "SegVial8.jpg", "SegVial9.jpg","SegVial10.jpg","SegVial11.jpg","SegVial12.jpg", "SegVial13.jpg");
 
+		//BD de imagenes de sismos
+		var imgSismos = new Array("sismos1.jpg", "sismos2.jpg","sismos3.jpg","sismos4.jpg" );
+
 		//Aquí se selecciona qué conjunto de imágenes se desea
 		switch(img){
 			//Imagenes de Gestion de Riesgo
@@ -34,6 +37,10 @@
 
 			case 'SegVial':
 				var bd = imgSegVial;
+				break;
+			//Imagenes de sismos de deportes
+			case 'Sismos':
+				var bd = imgSismos;
 				break;
 
 		}
