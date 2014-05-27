@@ -145,7 +145,7 @@ if (componente=="I" || componente=="I#"){
                     <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
                     <li><a href=""><img src="images/empty.gif" />Une líneas - falta </a></li>\
-                    <li><a href=""><img src="images/empty.gif" />Arrastra escala de Ritcher - falta </a></li>\
+                    <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                     <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
                     <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
                 </ul>');

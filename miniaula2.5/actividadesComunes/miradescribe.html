@@ -20,8 +20,12 @@
 			info = "Esta actividad tiene 3 partes.<br>";
 		}
 
-		if(comp == "6"){
+		if(comp == "6" || comp == "9"){
 			info = "Esta actividad tiene 2 partes.<br>";	
+		}
+
+		if(comp == "9"){
+			msj = " - Escala de Richter";
 		}
 	</script>
 </head>
@@ -31,7 +35,7 @@
 	<div class="cerrar">
 		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
 	</div>	
-	<h2>Mira y describe</h2>
+	<h2>Mira y describe <span id="msjAdicional"></span></h2>
        
 	 <div style="margin: 0 auto; padding:50px; padding-top:50px; text-align: center;"> 
              Arrastra el texto hasta la casilla que describe a la imagen y luego presiona <img src="../images/check.png">. <span id="info"></span><br> Al finalizar, presiona Cerrar.<br><br>
@@ -41,6 +45,7 @@
 </div>
 <script>
 	$("#CargaLim").attr("src",url);
+	$('#msjAdicional').append(msj);
 	$("#info").html(info);
 </script>
 </body>
