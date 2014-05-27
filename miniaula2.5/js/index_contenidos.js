@@ -210,7 +210,7 @@ if (componente=="GR" || componente=="GR#"){
                         <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
                 </ul>\n\
                 <ul class="2 acts">\
-                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende sobre simulacro de desalojo (falta)</a></li>\
+                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende sobre simulacro de desalojo</a></li>\
                     <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
                 </ul>');
 }
@@ -220,7 +220,7 @@ if (componente=="I" || componente=="I#"){
                            <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
         ');
     $("#Lact").append('<ul class="1 acts">\
-                            <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
                             <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher - falta)</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
