@@ -35,7 +35,8 @@
 </div>
 	<canvas id="canvas"></canvas>
   <div id="fin">
-    Muy bien! Has completado el Mapa Mental<br><br>
+    <span id = "msj-finalizar"></span><br><br>
+
     <img src="../../images/cachicamo.png">
 </div>
 
@@ -53,6 +54,13 @@
   
   <script>
       document.write('<script src="BDMapa/'+ script+'.js" type="text/javascript"><\/script>');
+
+      if(script == "2"){
+        $('span#msj-finalizar').append('Muy bien! Has completado el Mapa Mental<br> Como dicen las abuelas más vale prevenir que lamentar!!!');  
+      }else{
+        $('span#msj-finalizar').append('Muy bien! Has completado el Mapa Mental');  
+      }
+      
   </script>    	
   <style> .error{color:red;}</style>
 </body>

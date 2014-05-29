@@ -137,7 +137,7 @@ else if (area == "Ciencias"){
                 ');
 
                 $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones (falta)</a></li>\
                                     <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
                                     <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
                                     <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -161,17 +161,27 @@ else if (area == "Ciencias"){
         case "6":
             //Gestión de Riesgos
             if (componente=="GR" || componente=="GR#"){
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\
+                                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
+                $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=ciclo_desastre"><img src="images/empty.gif" />Reflexiona y escribe: ciclo del desastre</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
+                                  </ul>\
+                                  \
+                                  <ul class = "2 acts">\
+                                  </ul>');
 
             }//end of - Gestión de Riesgos
 
 
-            
+
             //Inundaciones
             if (componente=="I" || componente=="I#"){
 
             }//end of - Inundaciones
 
-            break,
+            break;
     }
 
    
