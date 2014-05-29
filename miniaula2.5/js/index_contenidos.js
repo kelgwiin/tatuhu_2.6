@@ -170,6 +170,9 @@ else if (area == "Ciencias"){
                                   </ul>\
                                   \
                                   <ul class = "2 acts">\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende: gestión de riesgos</a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=reducir_riesgos"><img src="images/empty.gif" />Reflexiona y escribe: ciclo del desastre</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
                                   </ul>');
 
             }//end of - Gestión de Riesgos
@@ -229,9 +232,6 @@ else if (area == "Sociales"){
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: señales del patrullero escolar</a></li>\
                                     <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende: patrulla escolar <small>(Requiere Internet)</small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: importancia del patrullero</a></li>\
-                                    \
-                                    <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
-                                    <li><a href="actividadesComunes/pareo.html?numero=2"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                                 </ul>');
             }
             break;
