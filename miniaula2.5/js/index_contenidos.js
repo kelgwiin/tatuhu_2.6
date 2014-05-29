@@ -328,41 +328,81 @@ else if (area == "Sociales"){
 * Listando contenidos de DEPORTES 5to - 6to   *
 ***********************************************/
 else if (area == "Deportes"){
-if (componente=="GR" || componente=="GR#"){
- $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
-                        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
- $("#Lact").append('<ul class="1 acts">\
-                        <li><a href=""><img src="images/empty.gif" />Lee y aprende (falta)</a></li>\
-                        <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
-                        <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
-                </ul>\n\
-                <ul class="2 acts">\
-                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende sobre simulacro de desalojo</a></li>\
-                    <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
-                </ul>');
-}
-//Inundaciones
-if (componente=="I" || componente=="I#"){
-    $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>¿Qué debemos hacer antes, durante y después de un sismo?</span></a></div>\
-                           <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
-        ');
-    $("#Lact").append('<ul class="1 acts">\
-                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
-                            <li><a href="actividadesComunes/miraydescribe.html?&componente=Sismos"><img src="images/empty.gif" />Mira y escribe</a></li>\
-                            <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                            \
-                            <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
-                            <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
-                        </ul>\
-                        \
-                        <ul class = "2 acts">\
-                            <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
-                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
-                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
-                        </ul>'
-            );
-    }//end of - inundaciones
+    switch(grado){
+        case "5":
+            //Gestión de Riesgos
+            if (componente=="GR" || componente=="GR#"){
+             $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
+                                    <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
+             $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende (falta)</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
+                                    <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
+                            </ul>\n\
+                            <ul class="2 acts">\
+                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende sobre simulacro de desalojo</a></li>\
+                                <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
+                            </ul>');
+            }
+            //Inundaciones
+            if (componente=="I" || componente=="I#"){
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>¿Qué debemos hacer antes, durante y después de un sismo?</span></a></div>\
+                                       <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
+                    ');
+                $("#Lact").append('<ul class="1 acts">\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                                        <li><a href="actividadesComunes/miraydescribe.html?&componente=Sismos"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                                        <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                    </ul>\
+                                    \
+                                    <ul class = "2 acts">\
+                                        <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
+                                    </ul>'
+                        );
+                }//end of - inundaciones
+            break;
+        
+        case "6":
+            //Gestión de Riesgos
+            if (componente=="GR" || componente=="GR#"){
+             $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
+                                    <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
+             $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende (falta)</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
+                            </ul>\n\
+                            <ul class="2 acts">\
+                                <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
+                                <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
+                            </ul>');
+            }
+            //Inundaciones
+            if (componente=="I" || componente=="I#"){
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>¿Qué debemos hacer antes, durante y después de un sismo?</span></a></div>\
+                                       <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/inundaciones.png" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\
+                    ');
+                $("#Lact").append('<ul class="1 acts">\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                                        <li><a href="actividadesComunes/miraydescribe.html?&componente=Sismos"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                                        <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                    </ul>\
+                                    \
+                                    <ul class = "2 acts">\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                        <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=que_hacer_inun"><img src="images/empty.gif" />Reflexiona y escribe: Inundaciones en tu escuela</a></li>\
+                                    </ul>'
+                        );
+                }//end of - inundaciones
+            break;
+
+    }
+
 }// end of - DEPORTES
 
 }
