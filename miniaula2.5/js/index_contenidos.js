@@ -168,7 +168,7 @@ else if (area == "Ciencias"){
                 $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\n\
                                 <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
                 $("#Lact").append('<ul class="1 acts">\
-                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Sismos</a></li>\
+                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Gestión de riesgos</a></li>\
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
@@ -212,7 +212,7 @@ else if (area == "Ciencias"){
                 $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\
                                 <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
                 $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Gestión de riesgos</a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=ciclo_desastre"><img src="images/empty.gif" />Reflexiona y escribe: ciclo del desastre</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                                   </ul>\
@@ -245,10 +245,8 @@ else if (area == "Ciencias"){
                             <ul class="2 acts">\n\
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroInund&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Inundaciones</a></li>\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
-                                <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                                 <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
-                                <li><a href=""><img src="images/empty.gif" />Asocia la definición</a></li>\
                             </ul>');
              
                 
