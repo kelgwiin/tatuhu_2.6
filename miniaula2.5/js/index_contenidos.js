@@ -33,68 +33,119 @@ if (area != undefined){
 * Listando contenidos de LENGUAJE 5to - 6to   *
 ***********************************************/
 if (area == "Lenguaje"){ 
-    //Gestion de RIESGOS
-    if (componente=="GR" || componente=="GR#"){
-        //Índice: Seleccione un Tema
-        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
-        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
-        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
-        <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
-        ');
-    
-        //Índice: Seleccione una actividad 
-        $("#Lact").append('<ul class="1 acts">\
-            <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende</a></li>\
-            <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ----</a></li>\
-            <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
-            <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-            \
-            </ul>\
-            <ul class="2 acts">\
-            <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
-            <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
-            <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
-            <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-            </ul>\
-            \
-            <ul class = "3 acts">\
-                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
-                <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
-                <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo</a></li>\
-                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo de peatones</a></li>\
-                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=cinturon_de_seguridad.mp4"><img src="images/empty.gif" />Mira y aprende sobre el cinturón de seguridad</a></li>\
-                <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=5"><img src="images/empty.gif" />Escribe un relato</a></li>\
-            </ul>\
-            <ul class = "4 acts">\
-                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4"><img src="images/empty.gif" />Mira y aprende sobre señales de tránsito</a></li>\
-                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende sobre semáforos y el rayado</a></li>\
-                <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                <li><a href="http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/"><img src="images/empty.gif" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\
-                <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
-            </ul>\
-            ')
-    }//end of - Gestión de Riesgos
+    switch(grado){
+        
+        case "5":
+            //Gestion de RIESGOS
+            if (componente=="GR" || componente=="GR#"){
+                //Índice: Seleccione un Tema
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
+                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
+                <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
+                <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
+                ');
+            
+                //Índice: Seleccione una actividad 
+                $("#Lact").append('<ul class="1 acts">\
+                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende</a></li>\
+                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ----</a></li>\
+                    <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
+                    <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+                    \
+                    </ul>\
+                    <ul class="2 acts">\
+                    <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                    <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
+                    <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
+                    <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                    </ul>\
+                    \
+                    <ul class = "3 acts">\
+                        <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                        <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                        <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo de peatones</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=cinturon_de_seguridad.mp4"><img src="images/empty.gif" />Mira y aprende sobre el cinturón de seguridad</a></li>\
+                        <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=5"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                    </ul>\
+                    <ul class = "4 acts">\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4"><img src="images/empty.gif" />Mira y aprende sobre señales de tránsito</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende sobre semáforos y el rayado</a></li>\
+                        <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                        <li><a href="http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/"><img src="images/empty.gif" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\
+                        <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
+                    </ul>\
+                    ')
+            }//end of - Gestión de Riesgos
 
-    //INUNDACIONES
-    if (componente=="I" || componente=="I#"){
-            //Índice: Seleccione un Tema
-            $("#acordeon").append(
-                '<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>El agua, su uso y conservación</span></a></div>\
-                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\
+            //INUNDACIONES
+            if (componente=="I" || componente=="I#"){
+                    //Índice: Seleccione un Tema
+                    $("#acordeon").append(
+                        '<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>El agua, su uso y conservación</span></a></div>\
+                        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\
+                        ');
+                    //Índice: Seleccione una actividad 
+                    $("#Lact").append('<ul class="1 acts">\
+                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
+                                        <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
+                                        <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
+                                        <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
+                        </ul>\
+                        <ul class="2 acts">\
+                                        <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\
+                        </u>\
+                        ');
+            }//end of - Inundaciones
+            break;
+
+        case "6":
+            //Gestion de RIESGOS
+            if (componente=="GR" || componente=="GR#"){
+                //Índice: Seleccione un Tema
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
+                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
                 ');
-            //Índice: Seleccione una actividad 
-            $("#Lact").append('<ul class="1 acts">\
-                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
-                                <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
-                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
-                                <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
-                </ul>\
-                <ul class="2 acts">\
-                                <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\
-                </u>\
-                ');
-    }//end of - Inundaciones
+            
+                //Índice: Seleccione una actividad 
+                $("#Lact").append('<ul class="1 acts">\
+                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ----</a></li>\
+                    <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
+                    <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+                    \
+                    </ul>\
+                    <ul class="2 acts">\
+                    <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                    <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
+                    <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                    </ul>\
+                    \
+                    ');
+            }//end of - Gestión de Riesgos
+
+            //INUNDACIONES
+            if (componente=="I" || componente=="I#"){
+                    //Índice: Seleccione un Tema
+                    $("#acordeon").append(
+                        '<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ciclo.png" /></div><span>El agua, su uso y conservación</span></a></div>\
+                        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/ciclo.png" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\
+                        ');
+                    //Índice: Seleccione una actividad 
+                    $("#Lact").append('<ul class="1 acts">\
+                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
+                                        <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
+                        </ul>\
+                        <ul class="2 acts">\
+                                        <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\
+                        </u>\
+                        ');
+            }//end of - Inundaciones
+
+            break;
+    }
+
+    
 }// end of - LENGUAJE
 
 
@@ -181,6 +232,28 @@ else if (area == "Ciencias"){
 
             //Inundaciones
             if (componente=="I" || componente=="I#"){
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>\
+                    <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\
+                ');
+
+                $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones (falta)</a></li>\
+                                    <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
+                                    <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
+                                    <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                    <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
+                                    \
+                            </ul>\n\
+                            <ul class="2 acts">\n\
+                                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
+                                <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
+                                <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                            </ul>');
+             
+                
 
             }//end of - Inundaciones
 
