@@ -54,7 +54,7 @@ if (area == "Lenguaje"){
                     \
                     </ul>\
                     <ul class="2 acts">\
-                    <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                    <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende: Efecto invernadero</a></li>\
                     <li><a href="actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental"><img src="images/empty.gif" />Sopa ambiental</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
                     <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -64,14 +64,14 @@ if (area == "Lenguaje"){
                         <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
                         <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo</a></li>\
-                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo de peatones</a></li>\
-                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=cinturon_de_seguridad.mp4"><img src="images/empty.gif" />Mira y aprende sobre el cinturón de seguridad</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo de peatones</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=cinturon_de_seguridad.mp4"><img src="images/empty.gif" />Mira y aprende: El cinturón de seguridad</a></li>\
                         <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=5"><img src="images/empty.gif" />Escribe un relato</a></li>\
                     </ul>\
                     <ul class = "4 acts">\
-                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4"><img src="images/empty.gif" />Mira y aprende sobre señales de tránsito</a></li>\
-                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende sobre semáforos y el rayado</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4"><img src="images/empty.gif" />Mira y aprende: Señales de tránsito</a></li>\
+                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende: Semáforos y el rayado</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                         <li><a href="http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/"><img src="images/empty.gif" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\
                         <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
@@ -110,13 +110,13 @@ if (area == "Lenguaje"){
             
                 //Índice: Seleccione una actividad 
                 $("#Lact").append('<ul class="1 acts">\
-                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ----</a></li>\
+                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ---- (falta)</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                     \
                     </ul>\
                     <ul class="2 acts">\
-                    <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                    <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf"><img src="images/empty.gif" />Mira y aprende: Efecto invernadero</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
                     <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                     </ul>\
@@ -174,7 +174,7 @@ else if (area == "Ciencias"){
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
-                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende sobre gestión de riesgos</a></li>\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
                         </ul>');
             }//end of - Gestión de Riesgos
@@ -198,8 +198,7 @@ else if (area == "Ciencias"){
                             </ul>\n\
                             <ul class="2 acts">\n\
                                 <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
-                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
-                                <li><a href=""><img src="images/empty.gif" />Une líneas - falta </a></li>\
+                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                                 <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
                                 <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
@@ -221,8 +220,8 @@ else if (area == "Ciencias"){
                                   </ul>\
                                   \
                                   <ul class = "2 acts">\
-                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende: gestión de riesgos</a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=reducir_riesgos"><img src="images/empty.gif" />Reflexiona y escribe: ciclo del desastre</a></li>\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=reducir_riesgos"><img src="images/empty.gif" />Reflexiona y escribe: Ciclo del desastre</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
                                   </ul>');
 
@@ -287,12 +286,12 @@ else if (area == "Sociales"){
                                     ');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href=""><img src="images/empty.gif" />Lee y aprende -  falta</a></li>\
-                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo</a></li>\
-                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo de peatones</a></li>\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo de peatones</a></li>\
                                     <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: seguridad vial <small>(Requiere Internet)</small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: consejo peatones</a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: Consejo para peatones</a></li>\
                                     <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: transporte escolar <small>(Requiere Internet)</small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: deberes en transporte público</a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: Deberes en transporte público</a></li>\
                                     <li><a href="http://www.educacionvial.cl/juegos.html"><img src="images/empty.gif" />Juegos de seguridad vial <small>(Requiere Internet)</small></a></li>\
                             </ul>\
                             ');
@@ -302,9 +301,9 @@ else if (area == "Sociales"){
             $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de las señales de tránsito</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="http://www.educacionvial.cl/senales-de-transito.html"><img src="images/empty.gif" />Mira y aprende: señales de tránsito <small>(Requiere Internet)</small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: señales del patrullero escolar</a></li>\
-                                    <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende: patrulla escolar <small>(Requiere Internet)</small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: importancia del patrullero</a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: Señales del patrullero escolar</a></li>\
+                                    <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende: Patrulla escolar <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: Importancia del patrullero</a></li>\
                                 </ul>');
             }
             break;
@@ -340,7 +339,7 @@ else if (area == "Deportes"){
                                     <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
                             </ul>\n\
                             <ul class="2 acts">\
-                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende sobre simulacro de desalojo</a></li>\
+                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende: Simulacro de desalojo</a></li>\
                                 <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
                             </ul>');
             }
