@@ -230,7 +230,10 @@ if (componente=="I" || componente=="I#"){
                         </ul>\
                         \
                         <ul class = "2 acts">\
-                            <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                            <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
                         </ul>'
             );
     }//end of - inundaciones
