@@ -56,6 +56,7 @@ if (area == "Lenguaje"){
             <li><a href="actividadesComunes/miraClasifica.html?componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
             <li><a href="actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
             </ul>\
+            \
             <ul class = "3 acts">\
                 <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
                 <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
@@ -110,47 +111,72 @@ if (area == "Lenguaje"){
 * Listando contenidos de CIENCIAS 5to - 6to   *
 ***********************************************/
 else if (area == "Ciencias"){
-    if (componente=="GR" || componente=="GR#"){
-        $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\n\
-                        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
-        $("#Lact").append('<ul class="1 acts">\
-                        <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta</a></li>\
-                        <li><a href=""><img src="images/empty.gif" />Verdadero y falso - falta</a></li>\
-                        <li><a href=""><img src="images/empty.gif" />Responde con sí o no a las preguntas - falta</a></li>\
-                        <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
-                </ul>\n\
-                <ul class="2 acts">\
-                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende sobre gestión de riesgos</a></li>\
-                    <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
-                </ul>');
-    }//end of - Gestión de Riesgos
+    switch(grado){
+        case "5":
+            if (componente=="GR" || componente=="GR#"){
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\n\
+                                <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
+                $("#Lact").append('<ul class="1 acts">\
+                                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta</a></li>\
+                                <li><a href=""><img src="images/empty.gif" />Verdadero y falso - falta</a></li>\
+                                <li><a href=""><img src="images/empty.gif" />Responde con sí o no a las preguntas - falta</a></li>\
+                                <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
+                        </ul>\n\
+                        <ul class="2 acts">\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende sobre gestión de riesgos</a></li>\
+                            <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
+                        </ul>');
+            }//end of - Gestión de Riesgos
 
-//-------------
-//Inundaciones
-//-------------
-if (componente=="I" || componente=="I#"){
-    $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>\
-        <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\
-    ');
+            //-------------
+            //Inundaciones
+            //-------------
+            if (componente=="I" || componente=="I#"){
+                $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/inundaciones.png" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>\
+                    <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/globo_tierra.ico" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\
+                ');
 
-    $("#Lact").append('<ul class="1 acts">\
-                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones</a></li>\
-                        <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
-                        <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
-                        <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                        <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-                        <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
-                        \
-                </ul>\n\
-                <ul class="2 acts">\n\
-                    <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
-                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
-                    <li><a href=""><img src="images/empty.gif" />Une líneas - falta </a></li>\
-                    <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                    <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
-                    <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
-                </ul>');
-    }// end of - Inundaciones
+                $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones</a></li>\
+                                    <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
+                                    <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
+                                    <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                    <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
+                                    \
+                            </ul>\n\
+                            <ul class="2 acts">\n\
+                                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                                <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
+                                <li><a href=""><img src="images/empty.gif" />Une líneas - falta </a></li>\
+                                <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
+                                <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
+                            </ul>');
+                }// end of - Inundaciones
+            break;
+
+
+
+        case "6":
+            //Gestión de Riesgos
+            if (componente=="GR" || componente=="GR#"){
+
+            }//end of - Gestión de Riesgos
+
+
+            
+            //Inundaciones
+            if (componente=="I" || componente=="I#"){
+
+            }//end of - Inundaciones
+
+            break,
+    }
+
+   
+
+
 }//end of - Ciencias 
 
 
@@ -166,28 +192,45 @@ if (componente=="I" || componente=="I#"){
 * Listando contenidos de SOCIALES 5to - 6to   *
 ***********************************************/
 else if (area == "Sociales"){
-if (componente=="GR" || componente=="GR#"){
-$("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/normas.png" /></div><span>Pongamos en pr&aacute;ctica las normas de seguridad en nuestra escuela, hogar y comunidad</span></a></div>\
-                        <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/mapas.png" /></div><span>&iquest;Conozcamos para qu&eacute; son las señales de precauci&oacute;n o de peligro? &iquest;Qu&eacute; advierten y a qui&eacute;n?</span></a></div>');
- $("#Lact").append('<ul class="1 acts">\
-                    <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
-                    <li><a href="actividadesComunes/miraClasifica.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=1"><img src="images/empty.gif" />Mira y clasifica</a></li>\
-                    <li><a href="actividadesComunes/miradescribe.html?numero=4&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                </ul>\
-                <ul class="3 acts">\
-                     <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
-                    <li><a href="actividadesComunes/miradescribe.html?numero=5&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                    <li><a href="actividadesComunes/pareo.html?numero=1"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-                 </ul>');
-}
-//Inundaciones
-if (componente=="I" || componente=="I#"){
-$("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/normas.png" /></div><span>&iquest;Conoces de alg&uacute;n evento hidrol&oacute;gico que haya ocurrido cerca de tu escuela o comunidad? &iquest;Cu&aacute;ndo? &iquest;Qu&eacute; hizo la gente?</span></a></div>');
- $("#Lact").append('<ul class="1 acts">\
-                     <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
-                    <li><a href="actividadesComunes/pareo.html?numero=2"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
-                </ul>');
-}
+    switch(grado){
+        //sólo 6to grado
+        case '6':
+            //Gestión de Riesgos
+            if (componente=="GR" || componente=="GR#"){
+            $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todo sobre la seguridad vial</span></a></div>\
+                                    ');
+             $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende -  falta</a></li>\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo</a></li>\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende sobre el semáforo de peatones</a></li>\
+                                    <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: seguridad vial <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: consejo peatones</a></li>\
+                                    <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: transporte escolar <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: deberes en transporte público</a></li>\
+                                    <li><a href="http://www.educacionvial.cl/juegos.html"><img src="images/empty.gif" />Juegos de seguridad vial <small>(Requiere Internet)</small></a></li>\
+                            </ul>\
+                            ');
+            }
+            //Inundaciones
+            if (componente=="I" || componente=="I#"){
+            $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de las señales de tránsito</span></a></div>');
+             $("#Lact").append('<ul class="1 acts">\
+                                    <li><a href="http://www.educacionvial.cl/senales-de-transito.html"><img src="images/empty.gif" />Mira y aprende: señales de tránsito <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: señales del patrullero escolar</a></li>\
+                                    <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende: patrulla escolar <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: importancia del patrullero</a></li>\
+                                    \
+                                    <li><a href=""><img src="images/empty.gif" />Libro interactivo</a></li>\
+                                    <li><a href="actividadesComunes/pareo.html?numero=2"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
+                                </ul>');
+            }
+            break;
+
+        //Se coloca de forma opcional ya que Sociales es sólo para 6to
+        case '5':
+            break;
+    }
+
 }// end of - SOCIALES
 
 
