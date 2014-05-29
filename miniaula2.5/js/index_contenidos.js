@@ -47,7 +47,6 @@ if (area == "Lenguaje"){
             
                 //Índice: Seleccione una actividad 
                 $("#Lact").append('<ul class="1 acts">\
-                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende</a></li>\
                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ----</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
@@ -61,7 +60,7 @@ if (area == "Lenguaje"){
                     </ul>\
                     \
                     <ul class = "3 acts">\
-                        <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
                         <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
@@ -70,6 +69,7 @@ if (area == "Lenguaje"){
                         <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=5"><img src="images/empty.gif" />Escribe un relato</a></li>\
                     </ul>\
                     <ul class = "4 acts">\
+                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroSeTransito&paginas=14&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Señales de tránsito</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4"><img src="images/empty.gif" />Mira y aprende: Señales de tránsito</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende: Semáforos y el rayado</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -88,7 +88,7 @@ if (area == "Lenguaje"){
                         ');
                     //Índice: Seleccione una actividad 
                     $("#Lact").append('<ul class="1 acts">\
-                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
+                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Ciclo del agua</a></li>\
                                         <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
                                         <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
                                         <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
@@ -110,7 +110,7 @@ if (area == "Lenguaje"){
             
                 //Índice: Seleccione una actividad 
                 $("#Lact").append('<ul class="1 acts">\
-                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ---- (falta)</a></li>\
+                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende ---- (falta)</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                     \
@@ -133,7 +133,7 @@ if (area == "Lenguaje"){
                         ');
                     //Índice: Seleccione una actividad 
                     $("#Lact").append('<ul class="1 acts">\
-                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende</a></li>\
+                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroAgua&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: El agua</a></li>\
                                         <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
                         </ul>\
                         <ul class="2 acts">\
@@ -169,8 +169,6 @@ else if (area == "Ciencias"){
                                 <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
                 $("#Lact").append('<ul class="1 acts">\
                                 <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta</a></li>\
-                                <li><a href=""><img src="images/empty.gif" />Verdadero y falso - falta</a></li>\
-                                <li><a href=""><img src="images/empty.gif" />Responde con sí o no a las preguntas - falta</a></li>\
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
@@ -188,7 +186,7 @@ else if (area == "Ciencias"){
                 ');
 
                 $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones (falta)</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInund&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Inundaciones</a></li>\
                                     <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
                                     <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
                                     <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -197,7 +195,7 @@ else if (area == "Ciencias"){
                                     \
                             </ul>\n\
                             <ul class="2 acts">\n\
-                                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroSismos&paginas=20&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                                 <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
@@ -236,7 +234,7 @@ else if (area == "Ciencias"){
                 ');
 
                 $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350"><img src="images/empty.gif" />Lee y aprende: Tipos de inundaciones (falta)</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInund&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Inundaciones</a></li>\
                                     <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
                                     <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
                                     <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -245,7 +243,7 @@ else if (area == "Ciencias"){
                                     \
                             </ul>\n\
                             <ul class="2 acts">\n\
-                                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta </a></li>\
+                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroInund&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Inundaciones</a></li>\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende sobre sismos</a></li>\
                                 <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
@@ -286,7 +284,7 @@ else if (area == "Sociales"){
             $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todo sobre la seguridad vial</span></a></div>\
                                     ');
              $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende -  falta</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo de peatones</a></li>\
                                     <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: seguridad vial <small>(Requiere Internet)</small></a></li>\
@@ -335,7 +333,7 @@ else if (area == "Deportes"){
              $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
                                     <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende (falta)</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInstituPublicas&paginas=22&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Instituciones públicas</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
                                     <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
                             </ul>\n\
