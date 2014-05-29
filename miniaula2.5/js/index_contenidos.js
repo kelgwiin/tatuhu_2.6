@@ -168,7 +168,7 @@ else if (area == "Ciencias"){
                 $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\n\
                                 <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
                 $("#Lact").append('<ul class="1 acts">\
-                                <li><a href=""><img src="images/empty.gif" />Lee y aprende - falta</a></li>\
+                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Sismos</a></li>\
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
