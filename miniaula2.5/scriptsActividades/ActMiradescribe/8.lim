@@ -18,21 +18,21 @@
               <tipo>44</tipo>
               <cousa nome="Antes del sismo o terremoto" son="">SisTerre08-mapa.jpg</cousa>
               <cousa nome="Durante el sismo o terremoto" son="">SisTerre09-ninos.jpg</cousa>
-              <cousa nome="Después del sismo o terremoto" son="">SisTerre06-indispensables.jpg</cousa>
+              <cousa nome="Después del sismo o terremoto" son="">SisTerre04-mujer-despues.jpg</cousa>
         </paxina> 
 
         <paxina id="2" >
               <tipo>44</tipo>
               <cousa nome="Antes del sismo o terremoto" son="">SisTerre02-maestra.jpg</cousa>
               <cousa nome="Durante el sismo o terremoto" son="">SisTerre03-durante-amarillo.jpg</cousa>
-              <cousa nome="Después del sismo o terremoto" son="">SisTerre01-comics.jpg</cousa>
+              <cousa nome="Después del sismo o terremoto" son="">SisTerre05-despues-arreglando.jpg</cousa>
         </paxina>
 
         <paxina id="3" >
               <tipo>44</tipo>
               <cousa nome="Antes del sismo o terremoto" son="">SisTerre07-antes.jpg</cousa>
-              <cousa nome="Durante el sismo o terremoto" son="">SisTerre04-mujer.jpg</cousa>
-              <cousa nome="Después del sismo o terremoto" son="">SisTerre05-despues-arreglando.jpg</cousa>
+              <cousa nome="Durante el sismo o terremoto" son="">SisTerre01-comics.jpg</cousa>
+              <cousa nome="Después del sismo o terremoto" son="">SisTerre10-despues.jpg</cousa>
         </paxina>
 
        

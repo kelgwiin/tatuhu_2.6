@@ -12,25 +12,7 @@
 	<script type="text/javascript" src="../js/modal.js"></script>
 	<script type="text/javascript" src="../js/iframe.js"></script>
 	<script>
-		var dir = getUrlVars()["libro"];
-		var cant = getUrlVars()["paginas"];
-                var w = getUrlVars()["ancho"];
-                var h = getUrlVars()["largo"];
-		
-		$(document).ready(function(){
-			var divpag = "";
-			for (i = 1; i<=cant; i++){
-				if (i<10){pag = '0'+i;}
-				divpag += '<div><img src="'+dir+'/'+pag+'.png"></div>'
-			}
-                        $("#libro").html(divpag);
-                        $("#libro").turn({
-                                width: w,
-                                height: h,
-                                autoCenter: true
-                        });
-		});
-		
+	
 		
 	</script>
 </head>
@@ -44,7 +26,37 @@
 	<div id="libro" style="margin-left:-70px;">
 
 	</div>
+
+
 	<script type="text/javascript">
+			var dir = getUrlVars()["libro"];
+			var cant = getUrlVars()["paginas"];
+	                var w = getUrlVars()["ancho"];
+	                var h = getUrlVars()["largo"];
+			
+			$(document).ready(function(){
+				var divpag = "";
+				for (var i = 1; i<=cant; i++){
+					if (i<10){
+						pag = '0'+i;
+					}else{
+						pag = i;
+					}
+
+
+					divpag += '<div><img src="'+dir+'/'+pag+'.png"></div>'
+				}
+
+						 $("#libro").append(divpag);
+				                        $("#libro").turn({
+				                                width: w,
+				                                height: h,
+				                                autoCenter: true
+				                        });
+	                       
+			});
+			
+
 		
 	</script>
 	</div>

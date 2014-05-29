@@ -44,7 +44,8 @@ if (area == "Lenguaje"){
     
         //Índice: Seleccione una actividad 
         $("#Lact").append('<ul class="1 acts">\
-            <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=600"><img src="images/empty.gif" />Lee y aprende</a></li>\
+            <li><a href="actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende</a></li>\
+            <li><a href="actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende ----</a></li>\
             <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
             <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
             \
@@ -68,7 +69,7 @@ if (area == "Lenguaje"){
                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4"><img src="images/empty.gif" />Mira y aprende sobre señales de tránsito</a></li>\
                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende sobre semáforos y el rayado</a></li>\
                 <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                <li><a href=""><img src="images/empty.gif" />Juega con las señales - falta </a></li>\
+                <li><a href="http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/"><img src="images/empty.gif" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\
                 <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
             </ul>\
             ')
@@ -222,8 +223,8 @@ if (componente=="I" || componente=="I#"){
     $("#Lact").append('<ul class="1 acts">\
                             <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
                             <li><a href="actividadesComunes/miraydescribe.html?&componente=Sismos"><img src="images/empty.gif" />Mira y escribe</a></li>\
+                            <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                             \
-                            <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe (no ritcher - falta)</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
                         </ul>\
