@@ -13,6 +13,18 @@
     <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
 	<script type="text/javascript" src="js/jquery.jqDock.min.js"></script>
 	<script type="text/javascript" src="js/iframe.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+     var grado = getUrlVars()["grado"];
+     var area = getUrlVars()["area"];
+     var pathname = window.location.pathname;
+
+     var url = pathname+"?grado="+grado+"&area="+area;
+     $("div[data-id=atras_componente]").attr('href',url);
+    });
+
+  </script>
 </head>
 <body>
 <div id="header">
@@ -31,7 +43,11 @@
                 <br>
                 <div id="atras"><a href="#" ><img src="images/previous.png"> <br>Seleccionar otro tema</a></div>
             </div>
-	</div>	
+	 <br>
+   <div id="atras" ><a href="#" id = "atras_componente"><img src="images/previous.png"> <br>Selecciona otro componente</a></div>
+  
+  </div>	<!-- /contenidos-->
+
 <div id="dockContainer">
 		<ul id="jqDock">
 			<li class="foo"><a class="dockItem" href="index.html"><img src="images/inicio.png" alt="Inicio" title="Inicio" /></a></li>
@@ -56,6 +72,7 @@
            $("#actividades").show("fast");
            $("span#tema_actividad").html('Actividades de <br>');
            $("."+c).show();
+           $("div[data-id=atras_componente]").hide();//atras componente
            ant = c;
        });
        $("#atras a").click(function(){
@@ -66,7 +83,19 @@
            $("span#tema_actividad").html("Temas de ");
            $("#anun").html("");
            $("#acordeon").show("fast");
+           $("div[data-id=atras_componente]").show();// atras componente
        });
+
+       //Atras componente
+       $("div[data-id=atras_componente]").on('click',function(){
+          var grado = getUrlVars()["grado"];
+          var area = getUrlVars()["area"];
+          var pathname = window.location.pathname;
+
+          var url = pathname+"?grado="+grado+"&area="+area;
+          
+       });
+       
     });
 </script>
 </body>

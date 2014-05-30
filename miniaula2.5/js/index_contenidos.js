@@ -83,7 +83,7 @@ if (area == "Lenguaje"){
                         <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                         <li><a href="http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/"><img src="images/empty.gif" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\
                     </ul>\
-                    ')
+                    ');
             }//end of - Gestión de Riesgos
 
             //INUNDACIONES
