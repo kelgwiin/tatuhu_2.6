@@ -70,20 +70,29 @@
 </div>
 <script>
 	
-	if(act != "6"){
-		$("div#cuerpo-decripcion").html('Escribe un relato\
-									en el que aparezcan las siguientes palabras: <span id="palabras" style="font-weight:bold"></span>. <br><br>\
-									Presiona <strong> Guardar</strong> para que puedas compartirlo.\
-									<br>Al finalizar, presiona Cerrar.');
-		
-		$("#palabras").html(palabras);
-	}else{
-		//Es la descripción de relato especial
-		$("div#cuerpo-decripcion").html('Hola amigo(a) prueba tu creatividad.<br> <span id="palabras" style="font-weight:bold"></span>. <br><br>\
-									Presiona <strong> Guardar</strong> para que puedas compartirlo.\
-									<br>Al finalizar, presiona Cerrar.');
-		$("#palabras").html(palabras);
+	switch(act){
+		//Relato especial de sismos
+		case "6":
+			$("div#cuerpo-decripcion").html('<span id="palabras"></span>.\
+										Presiona <strong> Guardar</strong> para que puedas compartirlo.\
+										<br>Al finalizar, presiona Cerrar.');
+			$("#palabras").html(palabras);
+			break;
+		//uso del cinturon de seguridad
+		case "5":
+			$("div#cuerpo-decripcion").html('Escribe un relato sobre el <strong>uso del cinturón de seguridad</strong>. Presiona <strong>Guardar</strong> para que puedas compartirlo. Al finalizar, presiona Cerrar');
+			break;
+
+		default: 
+				$("div#cuerpo-decripcion").html('Escribe un relato\
+										en el que aparezcan las siguientes palabras: <span id="palabras" style="font-weight:bold"></span>.\
+										Presiona <strong> Guardar</strong> para que puedas compartirlo.\
+										<br>Al finalizar, presiona Cerrar.');
+			
+				$("#palabras").html(palabras);
+		break;
 	}
+	
 </script>
 </body>
 </html>
