@@ -41,7 +41,7 @@ if (area == "Lenguaje"){
                 //Índice: Seleccione un Tema
                 $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/ambiente.png" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\
                 <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/cuidar.png" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\
-                <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\
+                <div><a href="#" class="item" id ="3"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos todo sobre seguridad vial</span></a></div>\
                 <div><a href="#" class="item" id ="4"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\
                 ');
             
@@ -62,7 +62,7 @@ if (area == "Lenguaje"){
                     <ul class = "3 acts">\
                         <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
                         <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
-                        <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                        <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe: Funciones del semáforo</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo de peatones</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=cinturon_de_seguridad.mp4"><img src="images/empty.gif" />Mira y aprende: El cinturón de seguridad</a></li>\
@@ -74,7 +74,6 @@ if (area == "Lenguaje"){
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4"><img src="images/empty.gif" />Mira y aprende: Semáforos y el rayado</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                         <li><a href="http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/"><img src="images/empty.gif" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\
-                        <li><a href=""><img src="images/empty.gif" />Escribe un relato - falta</a></li>\
                     </ul>\
                     ')
             }//end of - Gestión de Riesgos
