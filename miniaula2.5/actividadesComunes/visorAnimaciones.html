@@ -17,12 +17,17 @@
 		var enunciado = getUrlVars()["enunciado"];
 		var actual = "../scriptsActividades/animaciones/"+script+"."+tipo;
 		
-		var nombre = script;
-		
-		if (nombre=== "Ciclo_del_Agua"){
-			inst = 'Observa la imagen, has click en <img src = "../images/flecha_blanca.jpg"> y arrastra las fases del Ciclo del Agua hacia el número correspondiente';
+		var nombre = script;// El nombre es igual al script
+		var descripcion_ayuda;
+
+		switch(nombre){
+			case "Ciclo_del_Agua":
+				descripcion_ayuda = 'Observa la imagen, has click en <img src = "../images/flecha_blanca.jpg"> y arrastra las fases del Ciclo del Agua hacia el número correspondiente';
+				break;
+			case "Efecto_Invernadero":
+				descripcion_ayuda = "Mira la presentación. Al finalizar presiona Cerrar";
+				break;
 		}
-		
 		nombre = nombre.replace(/_/g," ");
 		
 	</script>
@@ -34,7 +39,7 @@
 		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
 	</div>	
 	<h2 id="nombre"></h2><br><br>
-	<div style="margin: 0 auto; text-align: center;" id="inst"> 
+	<div style="margin: 0 auto; text-align: center;" id="descripcion_ayuda"> 
 
 	</div><br>
 	<div style="color:#fff;">
@@ -52,7 +57,7 @@ border-radius: 15px;"></iframe>
 	}
 	$("#CargaLim").attr("src",actual);
 	$("#nombre").html(nombre);
-	$("#inst").html(inst);
+	$("#descripcion_ayuda").html(descripcion_ayuda);
 </script>
 </body>
 </html>
