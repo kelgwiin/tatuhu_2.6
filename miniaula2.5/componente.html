@@ -23,7 +23,7 @@
 <div id="container" style="padding-bottom:200px;">
 	<div id="contenidos">
 	<h2 id="titulo"></h2><br>
-	<div style="margin-left:60px;" id="anun">Selecciona un tema:</div>
+	<div style="margin-left:60px;" id="anun"></div>
             <div id="acordeon">
             </div>
             <div id="actividades">
@@ -52,7 +52,7 @@
        $(".item").click(function(){
            var c = $(this).attr("id");
            $("#acordeon").hide("slow");
-           $("#anun").html("Selecciona una actividad:");
+           $("#anun").html("Selecciona un tema:");
            $("#actividades").show("fast");
            $("."+c).show();
            ant = c;
@@ -61,7 +61,8 @@
            if (ant !== "0")
               $("."+ant).hide(); 
            $("#actividades").hide("slow");
-           $("#anun").html("Selecciona un tema:");
+           /*$("#anun").html("Selecciona un tema:"); // para que mostrara antes lo del msj selecciona un tema*/
+           $("#anun").html("");
            $("#acordeon").show("fast");
        });
     });

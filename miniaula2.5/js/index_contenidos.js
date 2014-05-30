@@ -47,7 +47,7 @@ if (area == "Lenguaje"){
             
                 //Índice: Seleccione una actividad 
                 $("#Lact").append('<ul class="1 acts">\
-                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroAgua&paginas=41&ancho=300&largo=300"><img src="images/empty.gif" />Lee y aprende: El agua</a></li>\
+                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroAgua&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: El agua</a></li>\
                     <li><a href="actividadesComunes/miraClasifica.html?&componente='+componente+'"><img src="images/empty.gif" />Mira y clasifica</a></li>\
                     <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                     \
