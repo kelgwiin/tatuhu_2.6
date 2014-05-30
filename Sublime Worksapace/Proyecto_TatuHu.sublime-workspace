@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"Efe",
+				"Efecto_Invernadero"
+			],
+			[
+				"inte",
+				"Internet"
+			],
+			[
 				"msj",
 				"msj-adicional"
 			],
@@ -39,7 +47,7 @@
 			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/Guia-agregar-modificar-Componentes.txt",
 			"settings":
 			{
-				"buffer_size": 1612,
+				"buffer_size": 1662,
 				"line_ending": "Windows",
 				"name": "Guía para agregar Componentes y/o Modificarlos (Mi"
 			}
@@ -48,7 +56,15 @@
 			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
 			"settings":
 			{
-				"buffer_size": 17938,
+				"buffer_size": 33906,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nvar grado = getUrlVars()[\"grado\"];\nvar area = getUrlVars()[\"area\"];\nvar componente = getUrlVars()[\"componente\"];\n\nfunction abrirVentana (url){\n	window.open(url, \"nuevo\", \"width=1020, height=600\");\n}\n\n$(document).ready(function(){\n$(\".acts li a\").click(function(event){\n	event.preventDefault();\n	link = $(this).attr(\"href\");\n	abrirVentana(link)\n	});\n});\n\nif (area != undefined){\n	if (componente==\"GR\" || componente==\"GR#\"){\n		componente = \"GR\";\n		$(\"#titulo\").html(\"Actividades de Gesti&oacute;n de Riesgos en \"+area);\n	}\n	else{\n		componente = \"I\";\n		$(\"#titulo\").html(\"Actividades de Inundaciones en \"+area);\n	}\n/**---------------------------------------------------------------------\n *  -----                    L E N G U A J E     -----------------------\n * ---------------------------------------------------------------------\n */\n\n/**********************************************\n* Listando contenidos de LENGUAJE 5to - 6to   *\n***********************************************/\nif (area == \"Lenguaje\"){ \n    //Gestion de RIESGOS\n    if (componente==\"GR\" || componente==\"GR#\"){\n        //Índice: Seleccione un Tema\n        $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/ambiente.png\" /></div><span>Conozcamos acerca del ambiente y sus componentes</span></a></div>\\\n        <div><a href=\"#\" class=\"item\" id =\"2\"><div class=\"icon\"><img src=\"images/cuidar.png\" /></div><span>&iquest;C&oacute;mo podemos cuidar nuestro ambiente&#63;</span></a></div>\\\n        <div><a href=\"#\" class=\"item\" id =\"3\"><div class=\"icon\"><img src=\"images/semaforo.png\" /></div><span>Aprendamos todos sobre seguridad vial</span></a></div>\\\n        <div><a href=\"#\" class=\"item\" id =\"4\"><div class=\"icon\"><img src=\"images/mapas.png\" /></div><span>Aprendamos acerca de señales de tránsito</span></a></div>\\\n        ');\n    \n        //Índice: Seleccione una actividad \n        $(\"#Lact\").append('<ul class=\"1 acts\">\\\n            <li><a href=\"actividadesComunes/visorLibros.html?libro=LibroGRCS1&paginas=7&ancho=300&largo=300\"><img src=\"images/empty.gif\" />Lee y aprende</a></li>\\\n            <li><a href=\"actividadesComunes/visorLibros.html?libro=LibroInun&paginas=41&ancho=300&largo=300\"><img src=\"images/empty.gif\" />Lee y aprende ----</a></li>\\\n            <li><a href=\"actividadesComunes/miraClasifica.html?&componente='+componente+'\"><img src=\"images/empty.gif\" />Mira y clasifica</a></li>\\\n            <li><a href=\"actividadesComunes/pareo.html?numero=4\"><img src=\"images/empty.gif\" />Asocia la definici&oacute;n</a></li>\\\n            \\\n            </ul>\\\n            <ul class=\"2 acts\">\\\n            <li><a href=\"actividadesComunes/visorAnimaciones.html?animacion=Efecto_Invernadero&tipo=swf\"><img src=\"images/empty.gif\" />Mira y aprende</a></li>\\\n            <li><a href=\"actividadesComunes/sopadeletras.html?numero=5&nombre=Sopa_ambiental\"><img src=\"images/empty.gif\" />Sopa ambiental</a></li>\\\n            <li><a href=\"actividadesComunes/miraClasifica.html?componente='+componente+'\"><img src=\"images/empty.gif\" />Mira y clasifica</a></li>\\\n            <li><a href=\"actividadesComunes/miradescribe.html?numero=3&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n            </ul>\\\n            \\\n            <ul class = \"3 acts\">\\\n                <li><a href=\"\"><img src=\"images/empty.gif\" />Lee y aprende - falta </a></li>\\\n                <li><a href=\"actividadesComunes/miraydescribe.html?&componente=SegVial\"><img src=\"images/empty.gif\" />Mira y escribe</a></li>\\\n                <li><a href=\"actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre el semáforo</a></li>\\\n                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre el semáforo de peatones</a></li>\\\n                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=cinturon_de_seguridad.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre el cinturón de seguridad</a></li>\\\n                <li><a href=\"actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=5\"><img src=\"images/empty.gif\" />Escribe un relato</a></li>\\\n            </ul>\\\n            <ul class = \"4 acts\">\\\n                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=senales_transito.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre señales de tránsito</a></li>\\\n                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_pasos_de_cebra.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre semáforos y el rayado</a></li>\\\n                <li><a href=\"actividadesComunes/miradescribe.html?numero=7&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                <li><a href=\"http://ninosyseguridadvial.com/juegos/el-juego-de-las-senales/\"><img src=\"images/empty.gif\" />Juega con las señales <small>(Requiere Internet)</small> </a></li>\\\n                <li><a href=\"\"><img src=\"images/empty.gif\" />Escribe un relato - falta</a></li>\\\n            </ul>\\\n            ')\n    }//end of - Gestión de Riesgos\n\n    //INUNDACIONES\n    if (componente==\"I\" || componente==\"I#\"){\n            //Índice: Seleccione un Tema\n            $(\"#acordeon\").append(\n                '<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/ciclo.png\" /></div><span>El agua, su uso y conservación</span></a></div>\\\n                <div><a href=\"#\" class=\"item\" id =\"2\"><div class=\"icon\"><img src=\"images/ciclo.png\" /></div><span>&iquest;Qu&eacute; es el ciclo del agua&#63;</span></a></div>\\\n                ');\n            //Índice: Seleccione una actividad \n            $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                                <li><a href=\"actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350\"><img src=\"images/empty.gif\" />Lee y aprende</a></li>\\\n                                <li><a href=\"actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua\"><img src=\"images/empty.gif\" />Sopa del agua</a></li>\\\n                                <li><a href=\"actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf\"><img src=\"images/empty.gif\" />Mira y aprende</a></li>\\n\\\n                                <li><a href=\"actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua\"><img src=\"images/empty.gif\" />CruciAgua</a></li>\\\n                </ul>\\\n                <ul class=\"2 acts\">\\\n                                <li><a href=\"actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua\"><img src=\"images/empty.gif\" />Completa el ciclo del agua</a></li>\\\n                </u>\\\n                ');\n    }//end of - Inundaciones\n}// end of - LENGUAJE\n\n\n\n\n/**---------------------------------------------------------------------\n *  ---------                C I E N C I A S      ----------------------\n * ---------------------------------------------------------------------\n */\n\n\n	\n/**********************************************\n* Listando contenidos de CIENCIAS 5to - 6to   *\n***********************************************/\nelse if (area == \"Ciencias\"){\n    if (componente==\"GR\" || componente==\"GR#\"){\n        $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/ambiente.png\" /></div><span>Aprendamos todo sobre las amenazas</span></a></div>\\n\\\n                        <div><a href=\"#\" class=\"item\" id =\"2\"><div class=\"icon\"><img src=\"images/proteccion.png\" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');\n        $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                        <li><a href=\"\"><img src=\"images/empty.gif\" />Lee y aprende - falta</a></li>\\\n                        <li><a href=\"\"><img src=\"images/empty.gif\" />Verdadero y falso - falta</a></li>\\\n                        <li><a href=\"\"><img src=\"images/empty.gif\" />Responde con sí o no a las preguntas - falta</a></li>\\\n                        <li><a href=\"actividadesComunes/mapaMental.html?numero=2\"><img src=\"images/empty.gif\" />Mapa mental: Desastres naturales</a></li>\\\n                </ul>\\n\\\n                <ul class=\"2 acts\">\\\n                    <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv\"><img src=\"images/empty.gif\" />Mira y aprende sobre gestión de riesgos</a></li>\\\n                    <li><a href=\"actividadesComunes/mapaMental.html?numero=3\"><img src=\"images/empty.gif\" />Mapa mental: Gestión de riesgos</a></li>\\\n                </ul>');\n    }//end of - Gestión de Riesgos\n\n//-------------\n//Inundaciones\n//-------------\nif (componente==\"I\" || componente==\"I#\"){\n    $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/inundaciones.png\" /></div><span>Aprendamos todo sobre las inundaciones</span></a></div>\\\n        <div><a href=\"#\" class=\"item\" id =\"2\"><div class=\"icon\"><img src=\"images/globo_tierra.ico\" /></div><span>Aprendamos todo sobre los sismos y terremotos</span></a></div>\\\n    ');\n\n    $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                        <li><a href=\"actividadesComunes/visorLibros.html?libro=LibroICS1&paginas=21&ancho=800&largo=350\"><img src=\"images/empty.gif\" />Lee y aprende: Tipos de inundaciones</a></li>\\\n                        <li><a href=\"actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua\"><img src=\"images/empty.gif\" />Sopa del agua</a></li>\\\n                        <li><a href=\"actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua\"><img src=\"images/empty.gif\" />CrucInundaci&oacute;n</a></li>\\\n                        <li><a href=\"actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                        <li><a href=\"actividadesComunes/pareo.html?numero=4\"><img src=\"images/empty.gif\" />Asocia la definici&oacute;n</a></li>\\\n                        <li><a href=\"actividadesComunes/mapaMental.html?numero=1\"><img src=\"images/empty.gif\" />Mapa mental: Inundaciones</a></li>\\\n                        \\\n                </ul>\\n\\\n                <ul class=\"2 acts\">\\n\\\n                    <li><a href=\"\"><img src=\"images/empty.gif\" />Lee y aprende - falta </a></li>\\\n                    <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre sismos</a></li>\\\n                    <li><a href=\"\"><img src=\"images/empty.gif\" />Une líneas - falta </a></li>\\\n                    <li><a href=\"actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                    <li><a href=\"\"><img src=\"images/empty.gif\" />Completa palabras o lee y aprende - falta </a></li>\\\n                    <li><a href=\"actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6\"><img src=\"images/empty.gif\" />Escribe un relato</a></li>\\\n                </ul>');\n    }// end of - Inundaciones\n}//end of - Ciencias \n\n\n\n/**---------------------------------------------------------------------\n *  ---------                 S O C I A L E S     ----------------------\n * ---------------------------------------------------------------------\n */\n\n\n\n/**********************************************\n* Listando contenidos de SOCIALES 5to - 6to   *\n***********************************************/\nelse if (area == \"Sociales\"){\n    switch(grado){\n        //sólo 6to grado\n        case '6':\n            if (componente==\"GR\" || componente==\"GR#\"){\n            $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/semaforo.png\" /></div><span>Aprendamos todo sobre la seguridad vial</span></a></div>\\\n                                    <div><a href=\"#\" class=\"item\" id =\"3\"><div class=\"icon\"><img src=\"images/normas.png\" /></div><span>&iquest;Conozcamos para qu&eacute; son las señales de precauci&oacute;n o de peligro? &iquest;Qu&eacute; advierten y a qui&eacute;n?</span></a></div>');\n             $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                                <li><a href=\"\"><img src=\"images/empty.gif\" />Lee y aprende -  falta</a></li>\\\n                                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre el semáforo</a></li>\\\n                                <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre el semáforo de peatones</a></li>\\\n                            </ul>\\\n                            <ul class=\"3 acts\">\\\n                                 <li><a href=\"\"><img src=\"images/empty.gif\" />Libro interactivo</a></li>\\\n                                <li><a href=\"actividadesComunes/miradescribe.html?numero=5&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                                <li><a href=\"actividadesComunes/pareo.html?numero=1\"><img src=\"images/empty.gif\" />Asocia la definici&oacute;n</a></li>\\\n                             </ul>');\n            }\n            //Inundaciones\n            if (componente==\"I\" || componente==\"I#\"){\n            $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/normas.png\" /></div><span>&iquest;Conoces de alg&uacute;n evento hidrol&oacute;gico que haya ocurrido cerca de tu escuela o comunidad? &iquest;Cu&aacute;ndo? &iquest;Qu&eacute; hizo la gente?</span></a></div>');\n             $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                                 <li><a href=\"\"><img src=\"images/empty.gif\" />Libro interactivo</a></li>\\\n                                <li><a href=\"actividadesComunes/pareo.html?numero=2\"><img src=\"images/empty.gif\" />Asocia la definici&oacute;n</a></li>\\\n                            </ul>');\n            }\n            break;\n\n        //Se coloca de forma opcional ya que Sociales es sólo para 6to\n        case '5':\n            break;\n    }\n\n}// end of - SOCIALES\n\n\n\n\n/**---------------------------------------------------------------------\n *  ---------                D E P O R T E S      ----------------------\n * ---------------------------------------------------------------------\n */\n\n/**********************************************\n* Listando contenidos de DEPORTES 5to - 6to   *\n***********************************************/\nelse if (area == \"Deportes\"){\nif (componente==\"GR\" || componente==\"GR#\"){\n $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/edificio_icon.png\" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\\n\\\n                        <div><a href=\"#\" class=\"item\" id =\"2\"><div class=\"icon\"><img src=\"images/mapas.png\" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');\n $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                        <li><a href=\"\"><img src=\"images/empty.gif\" />Lee y aprende (falta)</a></li>\\\n                        <li><a href=\"actividadesComunes/mapaMental.html?numero=5\"><img src=\"images/empty.gif\" />Mapa mental: Personas que nos pueden ayudar</a></li>\\\n                        <li><a href=\"actividadesComunes/mapas.html?tipo=1&enunciado=1\"><img src=\"images/empty.gif\" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\\\n                </ul>\\n\\\n                <ul class=\"2 acts\">\\\n                    <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4\"><img src=\"images/empty.gif\" />Mira y aprende sobre simulacro de desalojo</a></li>\\\n                    <li><a href=\"actividadesComunes/mapas.html?tipo=2&enunciado=2\"><img src=\"images/empty.gif\" />Dibuja el mapa de riesgo de tu comunidad</a></li>\\\n                </ul>');\n}\n//Inundaciones\nif (componente==\"I\" || componente==\"I#\"){\n    $(\"#acordeon\").append('<div><a href=\"#\" class=\"item\" id =\"1\"><div class=\"icon\"><img src=\"images/globo_tierra.ico\" /></div><span>¿Qué debemos hacer antes, durante y después de un sismo?</span></a></div>\\\n                           <div><a href=\"#\" class=\"item\" id =\"2\"><div class=\"icon\"><img src=\"images/inundaciones.png\" /></div><span>¿Qué debemos hacer antes, durante y después de una inundación?</span></a></div>\\\n        ');\n    $(\"#Lact\").append('<ul class=\"1 acts\">\\\n                            <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4\"><img src=\"images/empty.gif\" />Mira y aprende</a></li>\\\n                            <li><a href=\"actividadesComunes/miraydescribe.html?&componente=Sismos\"><img src=\"images/empty.gif\" />Mira y escribe</a></li>\\\n                            <li><a href=\"actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                            \\\n                            <li><a href=\"actividadesComunes/mapaMental.html?numero=1\"><img src=\"images/empty.gif\" />Mapa mental: Inundaciones</a></li>\\\n                            <li><a href=\"actividadesComunes/mapaMental.html?numero=5\"><img src=\"images/empty.gif\" />Mapa mental: Personas que nos pueden ayudar</a></li>\\\n                        </ul>\\\n                        \\\n                        <ul class = \"2 acts\">\\\n                            <li><a href=\"actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe\"><img src=\"images/empty.gif\" />Mira y describe</a></li>\\\n                            <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv\"><img src=\"images/empty.gif\" />Mira y aprende: Antes de una inundacion</a></li>\\\n                            <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv\"><img src=\"images/empty.gif\" />Mira y aprende: Durante de una inundacion</a></li>\\\n                            <li><a href=\"actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv\"><img src=\"images/empty.gif\" />Mira y aprende: Después de una inundacion</a></li>\\\n                        </ul>'\n            );\n    }//end of - inundaciones\n}// end of - DEPORTES\n\n}\n",
+			"settings":
+			{
+				"buffer_size": 19308,
 				"line_ending": "Windows"
 			}
 		},
@@ -61,10 +77,26 @@
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribeReflexion.html",
 			"settings":
 			{
-				"buffer_size": 1961,
+				"buffer_size": 2895,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html",
+			"settings":
+			{
+				"buffer_size": 1703,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
+			"settings":
+			{
+				"buffer_size": 2725,
 				"line_ending": "Windows"
 			}
 		}
@@ -101,35 +133,44 @@
 	},
 	"file_history":
 	[
+		"/C/Proyecto Tatu Hu/Apps/edilim/completapalabras.html",
+		"/C/Proyecto Tatu Hu/Apps/edilim/completapalabras.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/mapamental.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/mapaMental.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribeReflexion.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/creditos.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/areas.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/miraydescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/10.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/8.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorLibros.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/css/libros.css",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/turn.min.js",
 		"/C/Users/Pc/Desktop/Aprende con Tatu Hú.htm",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/9.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/6.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html~",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/1.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/pareo.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/8.lim",
 		"/C/Users/Pc/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/5.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/escribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/3.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/2.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/4.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/1.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/7.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/escribe.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/impresoraMiraDescribe.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/mapamental.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/mapaMental.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/sopadeletras.html",
 		"/C/wamp/alias/httpd.conf",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideos.html",
@@ -142,7 +183,6 @@
 		"/C/Users/Pc/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Pc/Pictures/Main.c",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/6.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/4.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/5.lim",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -172,6 +212,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"LibroRiesgos",
+			"libroSe",
+			"LibroSismo",
+			"LibroTrans",
+			"LibroAgua",
+			"seguridad vial",
+			"libro",
+			"seguridad",
+			"libro",
+			"libto",
+			"aprendamos todo sobre inun",
+			"intera",
+			"mapaMen",
+			"lac",
+			"senales",
+			"senales-de-transito",
+			"senales-de-transito.htm",
+			"señales",
+			"juegos",
 			"600",
 			"300",
 			"400",
@@ -270,7 +329,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -278,15 +337,15 @@
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/Guia-agregar-modificar-Componentes.txt",
 					"settings":
 					{
-						"buffer_size": 1612,
+						"buffer_size": 1662,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								326
+								1659,
+								1659
 							]
 						],
 						"settings":
@@ -443,7 +502,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -453,15 +512,15 @@
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
 					"settings":
 					{
-						"buffer_size": 17938,
+						"buffer_size": 33906,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2045,
-								2042
+								20809,
+								20809
 							]
 						],
 						"settings":
@@ -620,13 +679,188 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 413.0,
+						"translation.y": 4384.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 19308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9136,
+								9007
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 180.0,
+						"translation.y": 2098.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/bk_index_contenidos.js",
 					"settings":
 					{
@@ -637,8 +871,8 @@
 						"selection":
 						[
 							[
-								6760,
-								6766
+								5129,
+								5129
 							]
 						],
 						"settings":
@@ -802,19 +1036,194 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
+					"buffer": 4,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribeReflexion.html",
 					"settings":
 					{
-						"buffer_size": 1961,
+						"buffer_size": 2895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								894,
-								894
+								1682,
+								1682
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html",
+					"settings":
+					{
+						"buffer_size": 1703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1057,
+								1057
 							]
 						],
 						"settings":
@@ -972,6 +1381,182 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
+					"settings":
+					{
+						"buffer_size": 2725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1893,
+								1893
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
