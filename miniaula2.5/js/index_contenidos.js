@@ -197,7 +197,6 @@ else if (area == "Ciencias"){
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroSismos&paginas=20&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                                <li><a href=""><img src="images/empty.gif" />Completa palabras o lee y aprende - falta </a></li>\
                                 <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\
                             </ul>');
                 }// end of - Inundaciones
@@ -366,7 +365,7 @@ else if (area == "Deportes"){
              $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/edificio_icon.png" /></div><span>Aprendamos sobre las instituciones públicas  que prestan servicios de protección y seguridad</span></a></div>\n\
                                     <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href=""><img src="images/empty.gif" />Lee y aprende (falta)</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroInstituPublicas&paginas=22&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Instituciones públicas</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
                             </ul>\n\
                             <ul class="2 acts">\
