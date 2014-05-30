@@ -4,7 +4,7 @@ var area = getUrlVars()["area"];
 var componente = getUrlVars()["componente"];
 
 function abrirVentana (url){
-	window.open(url, "nuevo", "width=1020, height=700");
+	window.open(url, "nuevo", "width=1020, height=700 ,scrollbars=yes");
 }
 
 $(document).ready(function(){
@@ -18,11 +18,11 @@ $(".acts li a").click(function(event){
 if (area != undefined){
 	if (componente=="GR" || componente=="GR#"){
 		componente = "GR";
-		$("#titulo").html("Actividades de Gesti&oacute;n de Riesgos en "+area);
+		$("span#titulo_cuerpo").html("Gesti&oacute;n de Riesgos en "+area);
 	}
 	else{
 		componente = "I";
-		$("#titulo").html("Actividades de Inundaciones en "+area);
+		$("span#titulo_cuerpo").html("Temas de Inundaciones en "+area);
 	}
 /**---------------------------------------------------------------------
  *  -----                    L E N G U A J E     -----------------------
