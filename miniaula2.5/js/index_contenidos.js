@@ -252,7 +252,7 @@ else if (area == "Ciencias"){
                                     \
                             </ul>\n\
                             <ul class="2 acts">\n\
-                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroInund&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Inundaciones</a></li>\
+                                <li><a href="actividadesComunes/visorLibros.html?libro=LibroSismos&paginas=20&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende: Sismos</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=11&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe: Escala de Richter</a></li>\
