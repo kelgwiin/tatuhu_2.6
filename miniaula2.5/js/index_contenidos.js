@@ -18,11 +18,11 @@ $(".acts li a").click(function(event){
 if (area != undefined){
 	if (componente=="GR" || componente=="GR#"){
 		componente = "GR";
-		$("span#titulo_cuerpo").html("Gesti&oacute;n de Riesgos <br>en "+area);
+		$("span#titulo_cuerpo").html("Gesti&oacute;n de Riesgos en "+area);
 	}
 	else{
 		componente = "I";
-		$("span#titulo_cuerpo").html("Inundaciones <br>en "+area);
+		$("span#titulo_cuerpo").html("Inundaciones en "+area);
 	}
 /**---------------------------------------------------------------------
  *  -----                    L E N G U A J E     -----------------------
