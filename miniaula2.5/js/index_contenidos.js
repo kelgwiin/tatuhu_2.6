@@ -141,10 +141,13 @@ if (area == "Lenguaje"){
                     //Índice: Seleccione una actividad 
                     $("#Lact").append('<ul class="1 acts">\
                                         <li><a href="actividadesComunes/visorLibros.html?libro=LibroAgua&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: El agua</a></li>\
-                                        <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
+                                        <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\
+                                        <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
                         </ul>\
                         <ul class="2 acts">\
+                                        <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
                                         <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=html&enunciado=Observa_la_imagen_y_luego_ordena_las_fases_del_Ciclo_del_Agua"><img src="images/empty.gif" />Completa el ciclo del agua</a></li>\
+                                        <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=potabilizar_agua"><img src="images/empty.gif" />Reflexiona y escribe: potabilizar el agua</a></li>\
                         </u>\
                         ');
             }//end of - Inundaciones
