@@ -16,13 +16,21 @@ $(".acts li a").click(function(event){
 });
 
 if (area != undefined){
+    var myArea;
+    if(area = "Ciencias"){
+        myArea = "Cs. Naturales";
+    }else{
+        myArea = area;
+    }
+    
+
 	if (componente=="GR" || componente=="GR#"){
 		componente = "GR";
-		$("span#titulo_cuerpo").html("Gesti&oacute;n de Riesgos en "+area);
+		$("span#titulo_cuerpo").html("Gesti&oacute;n de Riesgos en "+myArea);
 	}
 	else{
 		componente = "I";
-		$("span#titulo_cuerpo").html("Inundaciones en "+area);
+		$("span#titulo_cuerpo").html("Inundaciones en "+myArea);
 	}
 /**---------------------------------------------------------------------
  *  -----                    L E N G U A J E     -----------------------
