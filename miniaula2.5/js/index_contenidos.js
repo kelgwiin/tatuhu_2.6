@@ -339,7 +339,7 @@ else if (area == "Deportes"){
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroInstituPublicas&paginas=22&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Instituciones públicas</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
-                                    <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
+                                    <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Marca la ruta de evacuación en el mapa de tu escuela</a></li>\
                             </ul>\n\
                             <ul class="2 acts">\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende: Simulacro de desalojo</a></li>\
