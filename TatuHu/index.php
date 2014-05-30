@@ -61,6 +61,9 @@
 		  Sistema Educativo Bolivariano de Venezuela para crear una serie de recursos de aprendizaje mediados por la
 	      <strong>tecnolog&iacute;a</strong>, para brindar a ni&ntilde;os, familias, maestros y comunidad en general; acceso a informaci&oacute;n interactiva en materia de <a href="riesgosNaturales.php">Gesti&oacute;n de Riesgos</a>.</p>
             </article> 
+
+            <!-- Video Promocional -->
+            <video width = "550" controls autoplay src="./videos/promocional.ogv">Video promocional </video>
           </section>
         </div>
       </div>
