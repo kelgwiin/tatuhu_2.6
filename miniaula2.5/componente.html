@@ -21,7 +21,7 @@
      var pathname = window.location.pathname;
 
      var url = pathname+"?grado="+grado+"&area="+area;
-     $("div[data-id=atras_componente]").attr('href',url);
+        $("div#atras_componente").attr('href',url);
     });
 
   </script>
@@ -86,15 +86,6 @@
            $("div[data-id=atras_componente]").show();// atras componente
        });
 
-       //Atras componente
-       $("div[data-id=atras_componente]").on('click',function(){
-          var grado = getUrlVars()["grado"];
-          var area = getUrlVars()["area"];
-          var pathname = window.location.pathname;
-
-          var url = pathname+"?grado="+grado+"&area="+area;
-          
-       });
        
     });
 </script>
