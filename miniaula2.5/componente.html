@@ -20,8 +20,10 @@
      var area = getUrlVars()["area"];
      var pathname = window.location.pathname;
 
+     pathname =  pathname.replace("componente.html","areas.html");
+
      var url = pathname+"?grado="+grado+"&area="+area;
-        $("div#atras_componente").attr('href',url);
+        $("a#atras_componente").attr('href',url);
     });
 
   </script>
@@ -44,7 +46,7 @@
                 <div id="atras"><a href="#" ><img src="images/previous.png"> <br>Seleccionar otro tema</a></div>
             </div>
 	 <br>
-   <div id="atras" ><a href="#" id = "atras_componente"><img src="images/previous.png"> <br>Selecciona otro componente</a></div>
+   <div id="atras" data-id = "atras_componente"><a href="#" id = "atras_componente"><img src="images/previous.png"> <br>Selecciona otro componente</a></div>
   
   </div>	<!-- /contenidos-->
 
