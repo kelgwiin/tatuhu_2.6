@@ -17,7 +17,7 @@ $(".acts li a").click(function(event){
 
 if (area != undefined){
     var myArea;
-    if(area = "Ciencias"){
+    if(area == "Ciencias"){
         myArea = "Cs. Naturales";
     }else{
         myArea = area;
