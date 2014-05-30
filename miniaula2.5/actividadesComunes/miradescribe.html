@@ -16,7 +16,7 @@
 		var url = "../scriptsActividades/ActMiradescribe/miraydescribe.html?numero="+comp;
 		
 		//Colocar en este punto los componentes de Lim que tengan tres partes, para que pueda salir el mensaje
-		if (comp == "4" || comp == "7" || comp == "8" || comp == "10"){
+		if (comp == "4" || comp == "7" || comp == "8" || comp == "10" || comp == "11"){
 			var info = "Esta actividad tiene 3 partes.<br>";
 		}
 
@@ -26,6 +26,11 @@
 
 		if(comp == "9"){
 			 var msj = " - Escala de Richter";
+		}
+
+		//Antes durante y despues de sismos
+		if(comp == "11"){
+			msj = " <br><small>¿Qué hacer cuando ocurren sismos?</small>"
 		}
 	</script>
 </head>
