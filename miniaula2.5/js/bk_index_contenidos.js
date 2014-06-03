@@ -57,7 +57,7 @@ if (componente=="I" || componente=="I#"){
 }
 	
 /**********************************************
-* Listando contenidos de ciencias 5to - 6to   *
+* Listando contenidos de Ciencias 5to - 6to   *
 ***********************************************/
 else if (area == "Ciencias"){
 if (componente=="GR" || componente=="GR#"){
