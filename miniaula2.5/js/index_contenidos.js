@@ -4,7 +4,7 @@ var area = getUrlVars()["area"];
 var componente = getUrlVars()["componente"];
 
 function abrirVentana (url){
-	window.open(url, "nuevo", "width=1020, height=700 ,scrollbars=yes");
+	window.open(url, "_blank", "width=1020, height=700 ,scrollbars=yes");
 }
 
 $(document).ready(function(){
