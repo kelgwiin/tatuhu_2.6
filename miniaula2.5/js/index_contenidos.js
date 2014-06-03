@@ -95,7 +95,7 @@ if (area == "Lenguaje"){
                         ');
                     //Índice: Seleccione una actividad 
                     $("#Lact").append('<ul class="1 acts">\
-                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroAgua&paginas=41&ancho=600&largo=400"><img src="images/empty.gif" />Lee y aprende: El agua</a></li>\
+                                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroAgua&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: El agua</a></li>\
                                         <li><a href="actividadesComunes/visorAnimaciones.html?animacion=Ciclo_del_Agua&tipo=swf"><img src="images/empty.gif" />Mira y aprende</a></li>\n\
                                         <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_del_agua"><img src="images/empty.gif" />Sopa del agua</a></li>\
                                         <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CruciAgua</a></li>\
