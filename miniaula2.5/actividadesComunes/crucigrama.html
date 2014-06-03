@@ -15,6 +15,7 @@
 		var script = getUrlVars()["numero"];
 		var actual = "../scriptsActividades/Actcrucigrama/crucigrama.html?crucigrama="+script;
 		var nombre = getUrlVars()["nombre"];
+		var titulo = nombre;
 		nombre = nombre.replace(/_/g," ");
 		
 	</script>
@@ -34,6 +35,13 @@
 </div>
 <script>
 	$("#CargaLim").attr("src",actual);
+	//Colocando el título del crucigrama para el caso de los nombres con acentos que no podrán ser pasado con 
+	//ellos por url en los parámeros del GET
+	switch(titulo){
+		case "CruciInundacion":
+			nombre = "CruciInundación";
+			break;
+	}
 	$("#nombre").html(nombre);
 </script>
 </body>
