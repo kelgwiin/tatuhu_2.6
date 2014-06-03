@@ -237,24 +237,23 @@ function comprobarPalabra(palabra, fila, columna, direccion){
 
 //Colorea la palabra seleccionada en el crucigrama - Color the selected word in the crossword
 function colorearPalabra(fila, columna, direccion, colorear){
-var color = (colorear)?"2px 2px 15px green":"none";
-var cantLetras = 0;
-if (direccion === "across"){
-    for (i = columna; i< grid[fila].length && grid[fila][i] !== null; i++){
+    var color = (colorear)?"2px 2px 15px green":"none";
+    var cantLetras = 0;
+    if (direccion === "across"){
+        for (i = columna; i< grid[fila].length && grid[fila][i] !== null; i++){
                     $("td[title='"+fila+", "+i+"']").css("-webkit-box-shadow",color);
                     $("td[title='"+fila+", "+i+"']").css("-moz-box-shadow",color);
                     $("td[title='"+fila+", "+i+"']").css("box-shadow",color);
                     if(colorear) cantLetras++;
-    }
-}
-else if (direccion === "down"){
-    for (i = fila; i< grid.length && grid[i][columna] !== null; i++){
+        }//end of - for 
+    }else if (direccion === "down"){
+        for (i = fila; i< grid.length && grid[i][columna] !== null; i++){
                     $("td[title='"+i+", "+columna+"']").css("-webkit-box-shadow",color);
                     $("td[title='"+i+", "+columna+"']").css("-moz-box-shadow",color);
                     $("td[title='"+i+", "+columna+"']").css("box-shadow",color);
                     if(colorear) cantLetras++;
-    }
-}
+        }
+    }//end of - if 
     return cantLetras;
         
 }
