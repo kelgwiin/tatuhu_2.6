@@ -65,7 +65,10 @@
             <!-- Video Promocional -->
             <h2><span style="font-weight: bold;">Video promocional</span></h2>
 
-            <video width = "550" controls autoplay src="./videos/promocional.ogv">Video promocional </video>
+            <video width = "550" controls autoplay >
+			Video promocional
+			<source  src = "./videos/promocional.ogv" type = "video/ogg">
+		 </video>
           </section>
         </div>
       </div>
