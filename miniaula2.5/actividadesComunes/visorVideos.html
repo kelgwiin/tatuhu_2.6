@@ -32,15 +32,24 @@
 		<br>
 		<br>
 
-		<video src = "" width = "500" height="350" controls autoplay >
-			Tu navegador no soporta HTML5
-			
-		 </video>
+		<!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
+		<video controls="controls" width="500" height="350">
+			<source src="" type="video/mp4" />
+			<object type="application/x-shockwave-flash" data="../swf/flowplayer-3.2.1.swf" width="500" height="350">
+				<param name="movie" value="../swf/flowplayer-3.2.1.swf" />
+				<param name="allowFullScreen" value="true" />
+				<param name="wmode" value="transparent" />
+				<param name="flashVars" value="config={'playlist':[{'url':'http%3A%2F%2F190.170.86.92%2Ftatuhu_2.6%2Fminiaula2.5%2Fvideos%2Fcinturon_de_seguridad.mp4','autoPlay':false}]}" />
+				<span title="No video playback capabilities, please download the video below">Big Buck Bunny</span>
+			</object>
+		</video>
 
 		<!-- Colocando el nombre del video-->
 		<script>
 			var nombre_video = getUrlVars()["nombre_video"];				
-			$('video').attr('src','../videos/'+nombre_video);
+			$('source').attr('src','../videos/'+nombre_video);
+			//Configurando el param para el caso de que no soporte html5
+			$('object param[name=flashVars]').attr('value',"config={'playlist':[{'url':'"+"../videos/"+nombre_video+"','autoPlay':false}]}")
 		
 		</script>
 
