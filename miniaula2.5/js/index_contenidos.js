@@ -182,7 +182,7 @@ else if (area == "Ciencias"){
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
-                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
+                            <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.mp4"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
                         </ul>');
             }//end of - Gestión de Riesgos
@@ -227,7 +227,7 @@ else if (area == "Ciencias"){
                                   </ul>\
                                   \
                                   <ul class = "2 acts">\
-                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.ogv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
+                                    <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.mp4"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=reducir_riesgos"><img src="images/empty.gif" />Reflexiona y escribe: Ciclo del desastre</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
                                   </ul>');
@@ -366,9 +366,9 @@ else if (area == "Deportes"){
                                     \
                                     <ul class = "2 acts">\
                                         <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.mp4"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.mp4"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.mp4"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
                                     </ul>'
                         );
                 }//end of - inundaciones
@@ -400,9 +400,9 @@ else if (area == "Deportes"){
                                     </ul>\
                                     \
                                     <ul class = "2 acts">\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.ogv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.ogv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.ogv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.mp4"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.mp4"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.mp4"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
                                         <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                                         <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=que_hacer_inun"><img src="images/empty.gif" />Reflexiona y escribe: Inundaciones en tu escuela</a></li>\
                                     </ul>'
