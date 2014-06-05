@@ -84,7 +84,7 @@
 			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
 			"settings":
 			{
-				"buffer_size": 35050,
+				"buffer_size": 35175,
 				"line_ending": "Windows"
 			}
 		},
@@ -113,18 +113,19 @@
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
+			"file": "/C/Users/Pc/Documents/test.html",
 			"settings":
 			{
-				"buffer_size": 5355,
-				"line_ending": "Windows"
+				"buffer_size": 701,
+				"line_ending": "Windows",
+				"name": "<!DOCTYPE html>"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 173.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -165,6 +166,7 @@
 	},
 	"file_history":
 	[
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
 		"/C/Proyecto Tatu Hu/view-source jplayer.org latest demo-01-video-solution-flash-html .htm",
 		"/C/Proyecto Tatu Hu/FitVids.js-master/tests.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorLibros.html",
@@ -188,7 +190,6 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/index.php",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideos.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/areas.html",
@@ -256,6 +257,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"requiere",
+			"inundacion_",
+			"gestion_rie",
+			"gest",
+			"gestion_ries",
+			"visorvideos",
+			"inundacion_antes",
+			"inundion_antes",
 			"ogv",
 			">\n",
 			"MozTransform",
@@ -375,15 +384,7 @@
 			"inundaciones",
 			"causadas",
 			"sopadeletras",
-			"agua",
-			"mapa",
-			"libro",
-			"lbro",
-			"intera",
-			"video",
-			"interact",
-			"vi",
-			"vide"
+			"agua"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -761,15 +762,15 @@
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/index_contenidos.js",
 					"settings":
 					{
-						"buffer_size": 35050,
+						"buffer_size": 35175,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14881,
-								14881
+								16624,
+								16624
 							]
 						],
 						"settings":
@@ -928,7 +929,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3074.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1296,8 +1297,8 @@
 						"selection":
 						[
 							[
-								1705,
-								1845
+								763,
+								763
 							]
 						],
 						"settings":
@@ -1454,30 +1455,31 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 133.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
+					"file": "/C/Users/Pc/Documents/test.html",
 					"settings":
 					{
-						"buffer_size": 5355,
+						"buffer_size": 701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4685,
-								4685
+								475,
+								475
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_name": "<!DOCTYPE html>",
 							"bh_regions":
 							[
 								"bh_regex",
@@ -1625,12 +1627,12 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 855.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
