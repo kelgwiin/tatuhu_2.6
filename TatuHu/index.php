@@ -64,8 +64,6 @@
 
             <!-- Video Promocional -->
             <h2><span style="font-weight: bold;">Video promocional</span></h2>
-            <video width="550" height="350" autoplay controls >
-              <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
               <object type="application/x-shockwave-flash" data="http://player.longtailvideo.com/player.swf" width="550" height="350">
                 <param name="movie" value="http://player.longtailvideo.com/player.swf" />
                 <param name="allowFullScreen" value="true" />
@@ -73,10 +71,6 @@
                 <param name="flashVars" value="autostart=true&amp;controlbar=over&amp;file=http%3A%2F%2F190.170.86.92%2Ftatuhu_2.6%2FTatuHu%2Fvideos%2Fpromocional.flv">
                 <span title="No video playback capabilities, please download the video below"></span>
               </object>
-              
-              <source src = "../videos/promocional.mp4" type = "video/mp4">
-
-          </video>
 
           </section>
         </div>
