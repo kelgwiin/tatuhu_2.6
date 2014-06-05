@@ -297,7 +297,7 @@ else if (area == "Sociales"){
                                     <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: <small>Seguridad vial <small>(Requiere Internet)</small></small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: Consejo para peatones</a></li>\
                                     <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: <small>Transporte escolar <small>(Requiere Internet)</small></small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: <small>Deberes en transporte público</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: <small>Deberes en transporte</small></a></li>\
                                 </ul>\
                                 <ul class = "2 acts">\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
