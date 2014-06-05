@@ -345,7 +345,7 @@ else if (area == "Deportes"){
                                     <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroInstituPublicas&paginas=22&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Instituciones públicas</a></li>\
-                                    <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: <small>Personas que nos pueden ayudar</small></a></li>\
                                     <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Marca la ruta de evacuación de tu escuela</a></li>\
                             </ul>\n\
                             <ul class="2 acts">\
