@@ -294,15 +294,15 @@ else if (area == "Sociales"){
                                     ');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
-                                    <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: seguridad vial <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: <small>seguridad vial <small>(Requiere Internet)</small></small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: Consejo para peatones</a></li>\
-                                    <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: transporte escolar <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: <small>transporte escolar <small>(Requiere Internet)</small></small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: Deberes en transporte público</a></li>\
                                 </ul>\
                                 <ul class = "2 acts">\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo de peatones</a></li>\
-                                    <li><a href="http://www.educacionvial.cl/juegos.html"><img src="images/empty.gif" />Juegos de seguridad vial <small>(Requiere Internet)</small></a></li>\
+                                    <li><a href="http://www.educacionvial.cl/juegos.html"><img src="images/empty.gif" /><small>Juegos de seguridad vial <small>(Requiere Internet)</small></small></a></li>\
                                 </ul>\
                             ');
             }
@@ -310,10 +310,10 @@ else if (area == "Sociales"){
             if (componente=="I" || componente=="I#"){
             $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de las señales de tránsito</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href="http://www.educacionvial.cl/senales-de-transito.html"><img src="images/empty.gif" />Mira y aprende: señales de tránsito <small>(Requiere Internet)</small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: Señales del patrullero escolar</a></li>\
-                                    <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende: Patrulla escolar <small>(Requiere Internet)</small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: Importancia del patrullero</a></li>\
+                                    <li><a href="http://www.educacionvial.cl/senales-de-transito.html"><img src="images/empty.gif" />Mira y aprende: <small>señales de tránsito <small>(Requiere Internet)</small></small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: <small>Señales del patrullero escolar</small></a></li>\
+                                    <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende:<small> Patrulla escolar <small>(Requiere Internet)</small></small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: <small>Importancia del patrullero</a></small></li>\
                                 </ul>');
             }
             break;
