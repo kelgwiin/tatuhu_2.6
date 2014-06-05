@@ -294,15 +294,15 @@ else if (area == "Sociales"){
                                     ');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
-                                    <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: <small>seguridad vial <small>(Requiere Internet)</small></small></a></li>\
+                                    <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: <small>Seguridad vial <small>(Requiere Internet)</small></small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: Consejo para peatones</a></li>\
-                                    <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: <small>transporte escolar <small>(Requiere Internet)</small></small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: Deberes en transporte público</a></li>\
+                                    <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: <small>Transporte escolar <small>(Requiere Internet)</small></small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=deberes_escolar"><img src="images/empty.gif" />Reflexiona y escribe: <small>Deberes en transporte público</small></a></li>\
                                 </ul>\
                                 <ul class = "2 acts">\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
                                     <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=semaforo_peatones.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo de peatones</a></li>\
-                                    <li><a href="http://www.educacionvial.cl/juegos.html"><img src="images/empty.gif" /><small>Juegos de seguridad vial <small>(Requiere Internet)</small></small></a></li>\
+                                    <li><a href="http://www.educacionvial.cl/juegos.html"><img src="images/empty.gif" />Juegos: <small>Seguridad vial <small>(Requiere Internet)</small></small></a></li>\
                                 </ul>\
                             ');
             }
