@@ -222,7 +222,7 @@ else if (area == "Ciencias"){
                                 <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/proteccion.png" /></div><span>Aprendamos todo sobre riesgos</span></a></div>');
                 $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Gestión de riesgos</a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=ciclo_desastre"><img src="images/empty.gif" />Reflexiona y escribe: ciclo del desastre</a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=ciclo_desastre"><img src="images/empty.gif" />Reflexiona y escribe: Ciclo del desastre</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                                   </ul>\
                                   \
@@ -311,7 +311,7 @@ else if (area == "Sociales"){
             $("#acordeon").append('<div><a href="#" class="item" id ="1"><div class="icon"><img src="images/mapas.png" /></div><span>Aprendamos acerca de las señales de tránsito</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="http://www.educacionvial.cl/senales-de-transito.html"><img src="images/empty.gif" />Mira y aprende: <small>señales de tránsito <small>(Requiere Internet)</small></small></a></li>\
-                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: <small>Señales del patrullero escolar</small></a></li>\
+                                    <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=senales_patrullero_escolar"><img src="images/empty.gif" />Reflexiona y escribe: <small>Señales del patrullero</small></a></li>\
                                     <li><a href="http://www.rena.edu.ve/SegundaEtapa/ciudadania/PATRULLA.html"><img src="images/empty.gif" />Mira y aprende:<small> Patrulla escolar <small>(Requiere Internet)</small></small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=importancia_patrullero"><img src="images/empty.gif" />Reflexiona y escribe: <small>Importancia del patrullero</a></small></li>\
                                 </ul>');
@@ -381,7 +381,7 @@ else if (area == "Deportes"){
                                     <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/mapas.png" /></div><span>Elabora los mapas de riesgo de tu escuela y comunidad</span></a></div>');
              $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroInstituPublicas&paginas=22&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Instituciones públicas</a></li>\
-                                    <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: Personas que nos pueden ayudar</a></li>\
+                                    <li><a href="actividadesComunes/mapaMental.html?numero=5"><img src="images/empty.gif" />Mapa mental: <small>Personas que nos pueden ayudar</small></a></li>\
                             </ul>\n\
                             <ul class="2 acts">\
                                 <li><a href="actividadesComunes/mapas.html?tipo=1&enunciado=1"><img src="images/empty.gif" />Ubica la ruta de evacuaci&oacute;n de tu escuela</a></li>\
@@ -400,11 +400,11 @@ else if (area == "Deportes"){
                                     </ul>\
                                     \
                                     <ul class = "2 acts">\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.flv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.flv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.flv"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.flv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundación</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.flv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundación</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.flv"><img src="images/empty.gif" />Mira y aprende: Después de una inundación</a></li>\
                                         <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                                        <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=que_hacer_inun"><img src="images/empty.gif" />Reflexiona y escribe: Inundaciones en tu escuela</a></li>\
+                                        <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=que_hacer_inun"><img src="images/empty.gif" />Reflexiona y escribe: <small>Inundaciones en tu escuela</small></a></li>\
                                     </ul>'
                         );
                 }//end of - inundaciones
