@@ -368,6 +368,7 @@ else if (area == "Deportes"){
                                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=recomendacion_sismos.mp4"><img src="images/empty.gif" />Mira y aprende</a></li>\
                                         <li><a href="actividadesComunes/miraydescribe.html?&componente=Sismos"><img src="images/empty.gif" />Mira y escribe</a></li>\
                                         <li><a href="actividadesComunes/miradescribe.html?numero=8&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
+                                        <li><a href="actividadesComunes/completaVocales.html?grado='+grado+'&area='+area+'&componente='+componente+'&numero=1"><img src="images/empty.gif" />Completa Vocales</a></li>\
                                     </ul>\
                                     \
                                     <ul class = "2 acts">\
