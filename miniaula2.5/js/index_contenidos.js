@@ -366,9 +366,9 @@ else if (area == "Deportes"){
                                     \
                                     <ul class = "2 acts">\
                                         <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.flv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.flv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundacion</a></li>\
-                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.mp4"><img src="images/empty.gif" />Mira y aprende: Después de una inundacion</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_antes.flv"><img src="images/empty.gif" />Mira y aprende: Antes de una inundación</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_durante.flv"><img src="images/empty.gif" />Mira y aprende: Durante de una inundación</a></li>\
+                                        <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.mp4"><img src="images/empty.gif" />Mira y aprende: Después de una inundación</a></li>\
                                     </ul>'
                         );
                 }//end of - inundaciones
