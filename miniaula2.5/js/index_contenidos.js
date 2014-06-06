@@ -181,12 +181,13 @@ else if (area == "Ciencias"){
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Gestión de riesgos</a></li>\
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                                 <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=verdadero_y_falso&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Verdadero y Falso</a></li>\
-                                <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=si_o_no&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Si o no</a></li>\
                                 <li><a href="actividadesComunes/completaVocales.html?grado='+grado+'&area='+area+'&componente='+componente+'&numero=1"><img src="images/empty.gif" />Completa Vocales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
                             <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.flv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
+                            <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=si_o_no&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Si o no</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
+                            <li><a href="scriptsActividades/ActDiccionario/diccionario.html?palabras=GR1"><img src="images/empty.gif" />Glosario interactivo</a></li>\n\
                         </ul>');
             }//end of - Gestión de Riesgos
 
@@ -257,7 +258,7 @@ else if (area == "Ciencias"){
                             <ul class="2 acts">\n\
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroSismos&paginas=20&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=terremotos.mp4"><img src="images/empty.gif" />Mira y aprende: Sismos</a></li>\
-                                <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=si_o_no&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde</a></li>\
+                                <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=completa_la_frase&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=11&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe: Los sismos</a></li>\
                                 <li><a href="actividadesComunes/miradescribe.html?numero=9&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe: Escala de Richter</a></li>\
                                 <li><a href="actividadesComunes/escribe.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=6"><img src="images/empty.gif" />Escribe un relato</a></li>\

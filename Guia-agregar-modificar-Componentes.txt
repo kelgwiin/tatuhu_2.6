@@ -47,3 +47,10 @@ Archivos
 - Archivo: actividadesComunes/escribeReflexión.html
 
 
+-----------------------------------
+--  Completa Vocales (NUEVO)
+-----------------------------------
+
+- Archivo: actividadesComunes/completaVocales.html
+
+Para agregar un nuevo ejercicio agregar .lim en "scriptsActividades/ActCompletaVocales/"
