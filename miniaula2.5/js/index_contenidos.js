@@ -198,7 +198,7 @@ else if (area == "Ciencias"){
                 $("#Lact").append('<ul class="1 acts">\
                                     <li><a href="actividadesComunes/visorLibros.html?libro=LibroInund&paginas=41&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Inundaciones</a></li>\
                                     <li><a href="actividadesComunes/sopadeletras.html?numero=3&nombre=Sopa_de_inundaciones"><img src="images/empty.gif" />Sopa de inundaciones</a></li>\
-                                    <li><a href="actividadesComunes/crucigrama.html?numero=4&nombre=CruciAgua"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
+                                    <li><a href="actividadesComunes/crucigrama.html?numero=3&nombre=CruciInundacion"><img src="images/empty.gif" />CrucInundaci&oacute;n</a></li>\
                                     <li><a href="actividadesComunes/miradescribe.html?numero=1&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                                     <li><a href="actividadesComunes/pareo.html?numero=4"><img src="images/empty.gif" />Asocia la definici&oacute;n</a></li>\
                                     <li><a href="actividadesComunes/mapaMental.html?numero=1"><img src="images/empty.gif" />Mapa mental: Inundaciones</a></li>\
