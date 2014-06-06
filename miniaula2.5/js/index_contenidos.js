@@ -68,7 +68,7 @@ if (area == "Lenguaje"){
                     </ul>\
                     \
                     <ul class = "3 acts">\
-                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
+                        <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=26&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
                         <li><a href="actividadesComunes/miraydescribe.html?&componente=SegVial"><img src="images/empty.gif" />Mira y escribe</a></li>\
                         <li><a href="actividadesComunes/miradescribe.html?numero=6&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe: Funciones del semáforo</a></li>\
                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=el_semaforo.mp4"><img src="images/empty.gif" />Mira y aprende: El semáforo</a></li>\
@@ -293,7 +293,7 @@ else if (area == "Sociales"){
                                     <div><a href="#" class="item" id ="2"><div class="icon"><img src="images/semaforo.png" /></div><span>Aprendamos sobre los dispositivos de seguridad vial</span></a></div>\
                                     ');
              $("#Lact").append('<ul class="1 acts">\
-                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=25&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
+                                    <li><a href="actividadesComunes/visorLibros.html?libro=LibroSegurVial&paginas=26&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Seguridad vial</a></li>\
                                     <li><a href="http://www.educacionvial.cl/consejos-a-peatones.html"><img src="images/empty.gif" />Mira y aprende: <small>Seguridad vial <small>(Requiere Internet)</small></small></a></li>\
                                     <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=consejos_peatones"><img src="images/empty.gif" />Reflexiona y escribe: Consejo para peatones</a></li>\
                                     <li><a href="http://www.educacionvial.cl/transporte-escolar-seguro.php"><img src="images/empty.gif" />Mira y aprende: <small>Transporte escolar <small>(Requiere Internet)</small></small></a></li>\
