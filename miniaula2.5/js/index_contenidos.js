@@ -356,6 +356,7 @@ else if (area == "Deportes"){
                             <ul class="2 acts">\
                                 <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=simulacro_desalojo.mp4"><img src="images/empty.gif" />Mira y aprende: Simulacro de desalojo</a></li>\
                                 <li><a href="actividadesComunes/mapas.html?tipo=2&enunciado=2"><img src="images/empty.gif" />Dibuja el mapa de riesgo de tu comunidad</a></li>\
+                                <li><a href="actividadesComunes/completaVocales.html?grado='+grado+'&area='+area+'&componente='+componente+'&numero=1"><img src="images/empty.gif" />Completa Vocales</a></li>\
                             </ul>');
             }
             //Inundaciones
