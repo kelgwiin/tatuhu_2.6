@@ -92,7 +92,7 @@ else
 								      <li><a href='componente.html?grado="+grado+"&area="+area+"&componente=I'><img src='"+i+"' alt=''></a></li>");
 		$("#areaslinks").append("<a href='componente.html?grado="+grado+"&area="+area+"&componente=GR'>Gesti&oacute;n de Riesgo</a>\
 								&nbsp;-&nbsp;<a href='componente.html?grado="+grado+"&area="+area+"&componente=I'>Inundaciones</a><br>\
-								<br><br><a href='componente.html?grado="+grado+">< Atr&aacute;s</a>\
+								<br><br><a href='componente.html?grado="+grado+">Atr&aacute;s</a>\
 								<br><br><a href='creditos.html'>Conoce a Tatu H&uacute;</a>");
 			
 		}
