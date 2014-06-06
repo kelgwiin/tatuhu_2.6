@@ -1,0 +1,33 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title></title>
+<script type="text/javascript" src="../../js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="../../js/iframe.js"></script>
+
+<script>
+	var nombre = getUrlVars()["nombre"];
+	data = "lim.swf?libro="+nombre+".lim";
+	libro = "libro="+nombre+".lim";
+	
+</script>
+</head> 
+<body  style="height:100%;width:100%;margin:0;" >
+<object type="application/x-shockwave-flash" id="objlim" data="" width="100%" height="100%" align="top" >
+<param name="allowScriptAccess" value="always" />
+<param name="movie" class = "dataid" value=""/>
+<param name="quality" value="high" /> 
+<param name="allowFullScreen" value="true" /><param name="allowFullScreenInteractive" value="true" />
+<param name="FlashVars" id = "libname" value=""/>
+<param name="src" class = "dataid" value=""/>
+</object>
+</body>
+
+<script>
+	$('#objlim').attr('data',data);
+	$('param.dataid').attr('value',data);
+	$('param#libname').attr('value'.libro);
+</script>
+</html>
+

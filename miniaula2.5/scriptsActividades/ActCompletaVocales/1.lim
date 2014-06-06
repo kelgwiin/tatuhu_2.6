@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>8</tipo>
+              <frase texto="D_RR_MB_S" son="">DERRUMBES</frase>
+              <frase texto="_NC_ND_ _S" son="">INCENDIOS</frase>
+              <frase texto="R_F_G_ _  " son="">REFUGIO</frase>
+        </paxina>
+        <paxina id="2" >
+              <tipo>8</tipo>
+              <frase texto="S_SM_ " son="">SISMO</frase>
+              <frase texto="_D_F_C_ _S" son="">EDIFICIOS</frase>
+              <frase texto="_N_RG_ _   _L_CTR_C_" son="">ENERGÍA ELÉCTRICA</frase>
+        </paxina>
+        <paxina id="3" >
+              <tipo>8</tipo>
+              <frase texto="C_L_M_D_D" son="">CALAMIDAD</frase>
+              <frase texto="_SC_NS_R_S" son="">ASCENSORES</frase>
+        </paxina>
+    </libro>
+</lim>

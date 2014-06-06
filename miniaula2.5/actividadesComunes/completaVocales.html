@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- Cargando la Meta Información-->
+    <meta charset="UTF-8">
+    
+    <title>Aprende con Tatu H&uacute;</title>
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">		
+	<link rel="stylesheet" href="../css/jquery-ui-1.9.2.custom.css" type="text/css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui-1.9.2.custom.min.js"></script>
+	<script type="text/javascript" src="../js/modal.js"></script>
+	<script type="text/javascript" src="../js/iframe.js"></script>
+	<script>
+		var comp = getUrlVars()["numero"];
+		var url = "../scriptsActividades/ActCompletaVocales/completaVocales.html?numero="+comp;
+	</script>
+</head>
+<body id="modal">
+<div id="container" style="padding-bottom:80px;">
+	<div id="contenidos1" style="">	
+	<div class="cerrar">
+		<a href="#" id="cerrar"><img src="../images/cerrar.png"><div>Cerrar</div></a>
+	</div>	
+	<h2>Completa Vocales</h2>
+       
+	 <div style="margin: 0 auto; padding:50px; padding-top:0px; text-align: center;"> 
+	 		Completa las palabras con las vocales que faltan, acentuadas cuando corresponda y en mayúscula.
+             Verifica tu respuesta en <img src="../images/check.png"> . <span id = "partes-ejercicios"></span> Al finalizar presiona Cerrar.<br><br>
+	 
+	 <iframe src="" id="CargaLim" width="700" height="700" src="" 
+	   style="margin:0 auto; border: none; width:650px; height:500px;">
+	</iframe>
+	</div>
+</div>
+<script>
+	$("#CargaLim").attr("src",url);
+	
+	var partes = "";
+	switch(comp){
+		//Gestión de Riesgos
+		case '1':
+			partes = "Esta actividad tiene tres partes.";
+			break;
+	}
+	$('span#partes-ejercicios').append(partes);
+</script>
+</body>
+</html>

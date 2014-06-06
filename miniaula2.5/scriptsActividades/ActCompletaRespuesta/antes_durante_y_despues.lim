@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>10</tipo>
+              <pregunta res="antes">Identificar los lugares más altos de la región, que no puedan ser inundados, así como las rutas de acceso a los refugios temporales.</pregunta>
+              <pregunta res="despues">Quitar el agua que haya quedado estancada para evitar plagas.</pregunta>
+              <pregunta res="antes">En la temporada de lluvias mantenga una reserva de agua potable y alimentación no perecedera.</pregunta>
+              <pregunta res="durante">Conservar la calma e infórmese sobre la inundación.</pregunta>
+        </paxina>
+        <paxina id="2" >
+              <tipo>10</tipo>
+              <pregunta res="despues">Evitar el contacto con cables eléctricos caídos.</pregunta>
+              <pregunta res="durante">Atender las indicaciones de las autoridades.</pregunta>
+              <pregunta res="durante">Si el vehículo queda atascado en la corriente, abandonarlo inmediatamente y buscar la parte más alta.</pregunta>
+              <pregunta res="despues">Mantenerse alejado de la zona de desastre.</pregunta>
+        </paxina>
+        <paxina id="3" >
+              <tipo>10</tipo>
+              <pregunta res="despues">No regresar a la zona afectada hasta que las autoridades indiquen que no hay peligro.</pregunta>
+              <pregunta res="despues">Retirarse de las  casas en peligro de derrumbarse.</pregunta>
+              <pregunta res="durante">Evitar caminar y cruzar por sectores o calles inundadas.</pregunta>
+              <pregunta res="antes">Tener a la disposición un botiquín de primeros auxilios, lámpara de mano, radio portátil.</pregunta>
+        </paxina>
+    </libro>
+</lim>
