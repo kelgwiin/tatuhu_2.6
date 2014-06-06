@@ -182,7 +182,7 @@ else if (area == "Ciencias"){
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
                                 <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=verdadero_y_falso&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Verdadero y Falso</a></li>\
                                 <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=si_o_no&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Si o no</a></li>\
-                                <li><a href="actividadesComunes/completaVocales.html?grado='+grado+'&area='+area+'&componente='+componente+'&numero=1"><img src="images/empty.gif" />Mira y responde: Si o no</a></li>\
+                                <li><a href="actividadesComunes/completaVocales.html?grado='+grado+'&area='+area+'&componente='+componente+'&numero=1"><img src="images/empty.gif" />Completa Vocales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
                             <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.flv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
