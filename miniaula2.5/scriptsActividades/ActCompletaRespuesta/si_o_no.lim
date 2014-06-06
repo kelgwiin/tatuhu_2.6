@@ -17,15 +17,19 @@
         <paxina id="1" >
               <tipo>10</tipo>
                <cabeceira>Responde si o no </cabeceira>
-              <pregunta res="Si">Vulnerabilidad: Es la incapacidad de resistir a un fenómeno amenazante, o la incapacidad para repon­erse después de que ha ocurrido un desas­tre. Por ejemplo, las personas que viven en la planicie son más vulnerables ante las inundaciones que las que viven en lugares más altos.</pregunta>
+              <pregunta res="Si">Vulnerabilidad: Incapacidad de resistir a un fenómeno amenazante, o la incapacidad para repon­erse después de que ha ocurrido un desas­tre.</pregunta>
+
               <pregunta res="No">Amenaza: Son aquellos procesos o fenómenos naturales con muy baja intensidad, que ocurren en un espacio y tiempo determinados y que no causan daños a nuestro alrededor.</pregunta>
-              <pregunta res="Si">Algunos ejemplos de causas para amenazas de origen antrópico, son: Contaminación del agua por vertimiento de desechos sólidos o efluentes,  incendios por manipulación de sustancias peligrosas, fugas y derrames.</pregunta>
+
+              <pregunta res="Si">Son ejemplos de causas para amenazas de origen antrópico: La contaminación del agua por vertimiento de desechos sólidos o efluentes, los incendios por manipulación de sustancias peligrosas y las fugas y derrames</pregunta>
         </paxina>
+
         <paxina id="2" >
               <tipo>10</tipo>
               <cabeceira>Responde si o no </cabeceira>
-              <pregunta res="No">Desastre: Es conocido como la situación que deriva en pérdidas humanas, materiales o ambientales, que pueden ser afrontadas utilizando exclusivamente los recursos de la comunidad o de la sociedad afectada y que por lo tanto no requieren asistencia o apoyo externos.</pregunta>
-              <pregunta res="Si">La gestión del riesgo: Se refiere al conjunto de acciones tendientes a generar capacidad en los actores sociales y las instituciones para identificar y gestionar propuestas de intervención con el fin de prevenir, manejar y reducir el riesgo, como también para atender la emergencia y la reconstrucción posterior a la ocurrencia de desastres.</pregunta>
+              <pregunta res="No">Desastre: Es la situación que deriva en pérdidas humanas, materiales o ambientales, que pueden ser afrontadas utilizando exclusivamente los recursos de la comunidad o de la sociedad afectada y que por lo tanto no requieren asistencia o apoyo ex­ternos.</pregunta>
+              
+              <pregunta res="Si">Es el conjunto de acciones para generar capacidad en los actores sociales y las instituciones para identificar y gestionar propuestas de intervención con el fin de prevenir, manejar y reducir el riesgo. </pregunta>
         </paxina>
     </libro>
 </lim>
