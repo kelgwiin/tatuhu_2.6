@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+              <texto>Identificar los lugares más altos de la región, que no puedan ser inundados, así como las rutas de acceso a los refugios temporales.</texto>
+              <resp texto="" valor="1">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="0">Después de la inundación</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+              <texto>Quitar el agua que haya quedado estancada para evitar plagas.
+</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+              <texto>En la temporada de lluvias mantenga una reserva de agua potable y alimentación no perecedera. </texto>
+              <resp texto="" valor="1">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="0">Después de la inundación</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+              <texto>Conservar la calma e infórmese sobre la inundación.
+</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="1">Durante la inundación</resp>
+              <resp texto="" valor="0">Después de la inundación</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+              <texto>Evitar el contacto con cables eléctricos caídos.</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>1</tipo>
+              <texto>Atender las indicaciones de las autoridades.</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="1">Durante la inundación</resp>
+              <resp texto="" valor="0">Después de la inundación</resp>
+        </paxina>
+        <paxina id="7" >
+              <tipo>1</tipo>
+              <texto>Si el vehículo queda atascado en la corriente, abandonarlo inmediatamente y buscar la parte más alta.</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="1">Durante la inundación</resp>
+              <resp texto="" valor="0">Después de la inundación</resp>
+        </paxina>
+        <paxina id="8" >
+              <tipo>1</tipo>
+              <texto>Mantenerse alejado de la zona de desastre. 
+</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+        <paxina id="9" >
+              <tipo>1</tipo>
+              <texto>No regresar a la zona afectada hasta que las autoridades indiquen que no hay peligro
+</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+        <paxina id="10" >
+              <tipo>1</tipo>
+              <texto>Retirarse de las  casas en peligro de derrumbarse.
+</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+        <paxina id="11" >
+              <tipo>1</tipo>
+              <texto>Evitar caminar y cruzar por sectores o calles inundadas.</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+        <paxina id="12" >
+              <tipo>1</tipo>
+              <texto>Tener a la disposición un botiquín de primeros auxilios, lámpara de mano, radio portátil.</texto>
+              <resp texto="" valor="0">Antes de la inundación</resp>
+              <resp texto="" valor="0">Durante la inundación</resp>
+              <resp texto="" valor="1">Después de la inundación</resp>
+        </paxina>
+    </libro>
+</lim>

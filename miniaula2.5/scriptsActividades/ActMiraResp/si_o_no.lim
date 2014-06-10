@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>FFFFFF</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+              <imaxe>inundaciones-5.jpg</imaxe>
+              <texto>Vulnerabilidad: Es la incapacidad de resistir a un fenómeno amenazante, o la incapacidad para reponerse después de que ha ocurrido un desastre. Por ejemplo, las personas que viven en la planicie son más vulnerables ante las inundaciones que las que viven en lugares más altos.</texto>
+              <resp texto="" valor="1">Si</resp>
+              <resp texto="" valor="0">No</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+              <imaxe>images.jpg</imaxe>
+              <texto>Amenaza: Son aquellos procesos o fenómenos naturales con muy baja intensidad, que ocurren en un espacio y tiempo determinados y que no causan daños a nuestro alrededor.</texto>
+              <resp texto="" valor="0">Si</resp>
+              <resp texto="" valor="1">No</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+              <imaxe>AMENAZAS_AMBIENTALES.jpg</imaxe>
+              <texto>Algunos ejemplos de causas para amenazas de origen antrópico, son: Contaminación del agua por vertimiento de desechos sólidos o efluentes,  incendios por manipulación de sustancias peligrosas, fugas y derrames.</texto>
+              <resp texto="" valor="1">Si</resp>
+              <resp texto="" valor="0">No</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+              <imaxe>dibujo-desastres-naturales.jpg</imaxe>
+              <texto>Desastre: Es conocido como la situación que deriva en pérdidas humanas, materiales o ambientales, que pueden ser afrontadas utilizando exclusivamente los recursos de la comunidad o de la sociedad afectada y que por lo tanto no requieren asistencia o apoyo externos.</texto>
+              <resp texto="" valor="0">Si</resp>
+              <resp texto="" valor="1">No</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+              <imaxe>gestion_de_riesgos.gif</imaxe>
+              <texto>La gestión del riesgo: Se refiere al conjunto de acciones tendientes a generar capacidad en los actores sociales y las instituciones para identificar y gestionar propuestas de intervención con el fin de prevenir, manejar y reducir el riesgo, como también para atender la emergencia y la reconstrucción posterior a la ocurrencia de desastres.</texto>
+              <resp texto="" valor="1">Si</resp>
+              <resp texto="" valor="0">No</resp>
+        </paxina>
+    </libro>
+</lim>

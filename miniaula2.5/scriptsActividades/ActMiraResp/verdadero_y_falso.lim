@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.1">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+              <texto>Las viviendas construidas sobre terrenos de deslizamiento nunca tendrán desastres de origen sísmico.</texto>
+              <resp texto="" valor="0">Verdadero</resp>
+              <resp texto="" valor="1">Falso</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+              <texto>Durante un sismo, la causa de la muerte de personas, en la mayoría de los casos, no es por el sismo en sí, sino porque las construcciones se destruyen, debido a la baja calidad de los materiales empleados y a las malas técnicas en sus construcciones.</texto>
+              <resp texto="" valor="1">Verdadero</resp>
+              <resp texto="" valor="0">Falso</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+              <texto>El movimiento sísmico se propaga mediante ondas elásticas (similares al sonido).</texto>
+              <resp texto="" valor="1">Verdadero</resp>
+              <resp texto="" valor="0">Falso</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+              <texto>Una de las razones por las que ocurren desastres de origen sísmico es porque la población no está preparada y sus construcciones son débiles.</texto>
+              <resp texto="" valor="1">Verdadero</resp>
+              <resp texto="" valor="0">Falso</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+              <texto>No habrían desastres de origen sísmico si las construcciones estuvieran bien hechas, con materiales apropiados y cumpliendo las normas adecuadas de construcción.</texto>
+              <resp texto="" valor="1">Verdadero</resp>
+              <resp texto="" valor="0">Falso</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>1</tipo>
+              <texto>El instrumento con el que se pueden medir los sismos son los llamados sismógrafos.</texto>
+              <resp texto="" valor="1">Verdadero</resp>
+              <resp texto="" valor="0">Falso</resp>
+        </paxina>
+        <paxina id="7" >
+              <tipo>1</tipo>
+              <texto>Las actividades humanas pueden ser la causa directa o indirecta de la ocurrencia de temblores</texto>
+              <resp texto="" valor="0">Verdadero</resp>
+              <resp texto="" valor="1">Falso</resp>
+        </paxina>
+        <paxina id="8" >
+              <tipo>1</tipo>
+              <texto>Es posible predecir los terremotos.</texto>
+              <resp texto="" valor="0">Verdadero</resp>
+              <resp texto="" valor="1">Falso</resp>
+        </paxina>
+    </libro>
+</lim>

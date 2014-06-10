@@ -180,12 +180,12 @@ else if (area == "Ciencias"){
                 $("#Lact").append('<ul class="1 acts">\
                                 <li><a href="actividadesComunes/visorLibros.html?libro=LibroRiesgos&paginas=51&ancho=600&largo=300"><img src="images/empty.gif" />Lee y aprende: Gestión de riesgos</a></li>\
                                 <li><a href="actividadesComunes/mapaMental.html?numero=2"><img src="images/empty.gif" />Mapa mental: Desastres naturales</a></li>\
-                                <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=verdadero_y_falso&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Verdadero y Falso</a></li>\
+                                <li><a href="actividadesComunes/miraResponde.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=verdadero_y_falso&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Verdadero y Falso</a></li>\
                                 <li><a href="actividadesComunes/completaVocales.html?grado='+grado+'&area='+area+'&componente='+componente+'&numero=1"><img src="images/empty.gif" />Completa Vocales</a></li>\
                         </ul>\n\
                         <ul class="2 acts">\
                             <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=gestion_riesgos.flv"><img src="images/empty.gif" />Mira y aprende: Gestión de riesgos</a></li>\
-                            <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=si_o_no&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Si o no</a></li>\
+                            <li><a href="actividadesComunes/miraResponde.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=si_o_no&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde: Si o no</a></li>\
                             <li><a href="actividadesComunes/mapaMental.html?numero=3"><img src="images/empty.gif" />Mapa mental: Gestión de riesgos</a></li>\
                             <li><a href="scriptsActividades/ActDiccionario/diccionario.html?palabras=GR1"><img src="images/empty.gif" />Glosario interactivo</a></li>\n\
                         </ul>');
@@ -412,7 +412,7 @@ else if (area == "Deportes"){
                                         <li><a href="actividadesComunes/visorVideos.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre_video=inundacion_despues.flv"><img src="images/empty.gif" />Mira y aprende: Después de una inundación</a></li>\
                                         <li><a href="actividadesComunes/miradescribe.html?numero=10&nombre=Mira_y_describe"><img src="images/empty.gif" />Mira y describe</a></li>\
                                         <li><a href="actividadesComunes/escribeReflexion.html?grado='+grado+'&area='+area+'&componente='+componente+'&contenido=que_hacer_inun"><img src="images/empty.gif" />Reflexiona y escribe: <small>Inundaciones en tu escuela</small></a></li>\
-                                        <li><a href="actividadesComunes/completaRespuesta.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=antes_durante_y_despues&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde</a></li>\
+                                        <li><a href="actividadesComunes/miraResponde.html?grado='+grado+'&area='+area+'&componente='+componente+'&nombre=antes_durante_y_despues&titulo=Mira_y_Responde"><img src="images/empty.gif" />Mira y responde</a></li>\
                                     </ul>'
                         );
                 }//end of - inundaciones
