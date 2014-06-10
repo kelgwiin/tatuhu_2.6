@@ -271,9 +271,6 @@ else if (area == "Ciencias"){
             break;
     }
 
-   
-
-
 }//end of - Ciencias 
 
 

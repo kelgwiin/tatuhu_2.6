@@ -48,15 +48,9 @@
 	var partes="";
 	var desc="";
 	switch(comp){
-		case "si_o_no":
-			desc = 'Haz clic en las frases y usas las flechas hacia arriba o abajo para leerlas completa. Escribe <strong>si</strong> o <strong>no</strong> en el recuadro. ';
-			partes = "Este ejercicio tiene dos partes.";
+		case "completa_la_frase":
+			desc = 'Lee con atención y coloca la palabra que corresponda en el recuadro.';
 			break;
-		case "antes_durante_y_despues":
-			desc = 'Coloca la palabra correcta: "antes", "durante" o "después" de la inundación en el recuadro.';
-			partes = "Este ejercicio tiene tres partes.";
-			break;
-	}
 	$('span#desc').append(desc);
 	$('span#partes-ejercicios').append(partes);
 </script>
