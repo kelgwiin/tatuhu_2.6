@@ -14,10 +14,6 @@
 	<script>
 		var comp = getUrlVars()["nombre"];
 		var url = "../scriptsActividades/ActCompletaFrase/completaFrase.html?nombre="+comp;
-
-		//titulo
-		var titulo = getUrlVars()["titulo"];
-		titulo = titulo.replace(/_/g," ");
 		
 	</script>
 </head>
@@ -29,7 +25,7 @@
 	</div>	
 
 	<!-- Se coloca desde jquery -->
-	<h2 id = "tit1"></h2>
+	<h2 id = "tit1">Completa la Frase</h2>
       <br>
       <br>
 	 <div style="margin: 0 auto; padding:50px; padding-top:0px; text-align: center;"> 
@@ -42,7 +38,6 @@
 </div>
 <script>
 	$("#CargaLim").attr("src",url);
-	$('h2#tit1').append(titulo);
 	
 	//Colocando la descripción del ejercicio y sus partes
 	var partes="";
