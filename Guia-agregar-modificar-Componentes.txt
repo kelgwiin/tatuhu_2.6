@@ -54,7 +54,7 @@ Archivos
 Agregar  .lim y las imagenes necesarias scriptsActividades/ActMiraResp
 
 -------------------------------------
--- Completa la frase o Completa Respuesta (NUEVO)
+-- Completa la Frase (NUEVO)
 -------------------------------------
 - Archivo : actividadesComunes/completaFrase.html
 Agregar  .lim y las imagenes necesarias en  scriptsActividades/ActCompletaFrase

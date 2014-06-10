@@ -15,21 +15,67 @@
     </config>
     <libro>
         <paxina id="1" >
-              <tipo>8</tipo>
-              <frase texto="D_RR_MB_S" son="">DERRUMBES</frase>
-              <frase texto="_NC_ND_ _S" son="">INCENDIOS</frase>
-              <frase texto="R_F_G_ _  " son="">REFUGIO</frase>
+              <tipo>5</tipo>
+              <imaxe>derrumbe.jpg</imaxe>
+              <texto><![CDATA[D_RR_MB_S]]></texto>
+              <imfondo  posx="0" posy="1">derrumbe.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>derrumbes</resp>
+              <rdim>1</rdim>
         </paxina>
         <paxina id="2" >
-              <tipo>8</tipo>
-              <frase texto="S_SM_ " son="">SISMO</frase>
-              <frase texto="_D_F_C_ _S" son="">EDIFICIOS</frase>
-              <frase texto="_N_RG_ _   _L_CTR_C_" son="">ENERGÍA ELÉCTRICA</frase>
+              <tipo>5</tipo>
+              <imaxe>incendio.jpg</imaxe>
+              <texto><![CDATA[_NC_ND_ _S]]></texto>
+              <imfondo  posx="0" posy="1">incendio.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>incendios</resp>
+              <rdim>1</rdim>
         </paxina>
         <paxina id="3" >
-              <tipo>8</tipo>
-              <frase texto="C_L_M_D_D" son="">CALAMIDAD</frase>
-              <frase texto="_SC_NS_R_S" son="">ASCENSORES</frase>
+              <tipo>5</tipo>
+              <imaxe>refugio.jpg</imaxe>
+              <texto><![CDATA[R_F_G_ _]]></texto>
+              <imfondo  posx="0" posy="2">refugio.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>refugio</resp>
+              <rdim>1</rdim>
+        </paxina>
+        <paxina id="4" >
+              <tipo>5</tipo>
+              <imaxe>sismo.jpg</imaxe>
+              <texto><![CDATA[S_SM_]]></texto>
+              <imfondo  posx="0" posy="2">sismo.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>sismo</resp>
+              <rdim>1</rdim>
+        </paxina>
+        <paxina id="5" >
+              <tipo>5</tipo>
+              <imaxe>edificio.jpg</imaxe>
+              <texto><![CDATA[_D_F_C_ _S]]></texto>
+              <imfondo  posx="0" posy="2">edificio.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>edificios</resp>
+              <rdim>1</rdim>
+        </paxina>
+        <paxina id="6" >
+              <tipo>5</tipo>
+              <imaxe>energia_electrica.jpg</imaxe>
+              <texto><![CDATA[_N_RG_A  _L_CTR_C_]]></texto>
+              <imfondo  posx="0" posy="2">energia_electrica.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>energía eléctrica</resp>
+              <rdim>1</rdim>
+        </paxina>
+        <paxina id="7" >
+              <tipo>5</tipo>
+              <imaxe>ascensores.jpg</imaxe>
+              <texto><![CDATA[_SC_NS_R_S]]></texto>
+              <imfondo  posx="0" posy="2">ascensores.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>ascensores</resp>
+              <rdim>1</rdim>
         </paxina>
     </libro>
 </lim>
