@@ -8,7 +8,16 @@
 <script>
 	var num = getUrlVars()["componente"];
 	separar = 1;
-	var al = Math.floor(Math.random() * (separar - 1 + 1)) + 1;
+
+	if(num == "GR"){
+		max = 3;
+		min = 1;
+	}else{//Inundaciones
+		max = 3;
+		min = 1;
+	}
+
+	var al = Math.floor(Math.random() * (max - min + 1)) + min;
 	num = num + al;
 	data = "lim.swf?libro="+num+".lim";
 	libro = "libro="+num+".lim"

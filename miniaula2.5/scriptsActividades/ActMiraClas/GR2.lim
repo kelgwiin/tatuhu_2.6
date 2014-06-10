@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >¡Muy bien! Has finalizado la actividad.</correcto>
+        <incorrecto son="" modo="1" >¡Ups! vuelve a intentar</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>7</tipo>
+              <caixa1>Ambiente Contaminado</caixa1>
+              <caixa2>Ambiente Limpio</caixa2>
+              <mini caixa="1">images/con1.jpg</mini>
+              <mini caixa="2">images/limp1.jpg</mini>
+              <mini caixa="2">images/limp2.jpg</mini>
+              <mini caixa="1">images/con2.jpg</mini>
+              <cfondo>FFFFFF</cfondo>
+        </paxina>
+    </libro>
+</lim>
