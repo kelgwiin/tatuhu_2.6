@@ -1,0 +1,15 @@
+&aacute; a
+&Aacute; a
+&eacute; e
+&Eacute; e
+&iacute; i
+&Iacute; i
+&oacute; o
+&Oacute; o
+&uacute; u
+&Uacute; u
+&uuml; u
+&Uuml; u
+ñ n
+&ntilde; n
+&Ntilde; n

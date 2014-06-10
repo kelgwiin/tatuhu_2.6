@@ -1,0 +1,87 @@
+.titulos{
+    /*font-family: Arial;*/
+    font-size: 12px;
+}
+.cajaTexto{
+    font-family: Arial;
+    font-size: 12px;
+    text-align: right; 
+    font-weight: bold;
+    color: #666666;
+}
+.texto{
+    font-family: Arial;
+    font-size: 12px;
+    text-align: justify; 
+    font-weight: bold;
+    color: #666666;
+}
+.titulosGrandes{    
+    /*font-family: Tahoma;*/
+    text-align: center;
+    font-size: 15px;
+    color: #265259;
+}
+.titulosGrandesRojo{    
+    /*font-family: Tahoma;*/
+    text-align: center;
+    font-size: 15px;
+    color: #F00F0F;
+}
+.alertas{
+    /*font-family: Arial;*/
+    font-size: 11px;
+    color: rgb(221, 19, 8);
+    text-decoration: none; 	
+}
+.alertaEspecial{
+    /*font-family: Arial;*/
+    font-size: 11px;
+    color: rgb(221, 19, 8);
+    text-decoration: none; 	
+}
+.content{
+	padding: 5px 10px 0px 10px;
+}
+.busqueda{
+    overflow-y: auto;
+    height:210px;
+    width:390px;
+    padding: 5px;
+    border-style: double;
+    border-color: #D4CDAA;
+    /*background-color: #EDEDED;*/
+}
+.busqueda2{
+    overflow-y: auto;
+    height:210px;
+    width:480px;
+    padding: 5px;
+    border-style: double;
+    border-color: #D4CDAA;
+    /*background-color: #EDEDED;*/
+}
+.cuadroUser{
+    overflow-y: auto;
+    height:210px;
+    width:600px;
+    padding: 5px;
+    border-color: #D4CDAA;
+}
+
+.fondo{
+    background-image: url('./01.jpg');
+}
+
+.grafico{
+    position: absolute;
+    top:  110px; 
+    left: 185px;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+}
+.texto-inicio{
+    position:absolute;
+    top:10px;
+    left:14px;
+}

@@ -1,0 +1,54 @@
+Requisitos Minimos
+
+	
+
+	-PHP Version 5.3.5+
+	
+	-APACHE Version 2.2.17+
+	
+	-MYSQL Version 5.1+
+	
+	-Sistema Operatio: Ubuntu Version 11.04+
+
+
+
+Instalacion:
+
+	
+
+Descomprimir la carpeta sicNews en el servidor. 
+	Buscar el archivo de conexion en la siguiente ruta sicNews/src/conexion.php y 
+	colocar los datos de conexion respectivos a la base de datos.
+
+Una vez hecho, 
+	ejecute el scritp crear.sql y luego backupInundacion.sql que se encuenta dentro 
+	de la carpeta sicNews. 
+
+	
+
+Comando de ejecucion en linux: 
+	
+	
+	mysql -u user -h server -p < crear.sql
+		
+	mysql -u user -h server -p inundacion < backupInundacion.sql
+
+
+
+
+Ahora puede empezar a utilizar el sistema.
+
+
+Cambiando usuarios y contraseñas
+
+	Administrador
+		User: frankmalave
+		pass: 12312312
+
+	Investigador
+
+		user:fmalave
+		pass:12312312
+
+Para cambiar la contraseña debe hacerlo actualizando la tabla usuario de la base de datos.
+Si desea crear un nuevo usuario haga click en registrar dentro del sistema

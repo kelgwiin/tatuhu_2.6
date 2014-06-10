@@ -1,0 +1,58 @@
+Manual de Usuario.
+
+REQUISITOS MINIMOS (MAQUINA DE INSTALACION)
+	- PHP 			Version 5.3.5+	
+	- APACHE 		Version 2.2.17+	
+	- MYSQL			Version 5.1+	
+	- Sistema Operatio: 	Ubuntu Version 11.04+/Windows Vista/7/8
+	- MOZILLA FIREFOX  	Versión 26.0+
+	- GOOGLE CHROME    	Versión 31.0.1650.63
+
+REQUISITOS MINIMO (USUARIO FINAL):
+	- MOZILLA FIREFOX  Versión 26.0+
+	- GOOGLE CHROME    Versión 31.0.1650.63
+	
+INSTALACION:
+	- BD: Debe existir una Base de Datos llamada "inundacion". Una vez creeada, cargar el archivo
+	  backupInundacion.sql que contiene todos los datos iniciales y necesarios para el funcionamiento
+ 	  del sistema.
+
+PRIMEROS PASOS:
+	- Inicio Sesion:
+		Administrador: El sistema tiene por defecto un usuario administrador llamado para la gestion de cuentas de usuarios
+		y parametros del sistema cuyos datos son, Usuario: admin, contraseña: 12312312
+		
+		Usuario General: El sistema tiene por defecto un usuario para la carga de datos en el sistema y experimentacion cuyos 
+		datos son, Usuario: user, contraseña: 12312312
+
+	- Dentro del sistema: 
+		Administrador: El uso del administrador es muy sencillo. Consiste en dos secciones que permiten configurar los 
+		parametros del sistema como cantidad de grupos a formar entre otros, asi como la administracion de los usuarios
+		del sistema. 
+		El administrador es el responsalbe de activar/inactivar los usuarios dentro del sistema, asi como cambiar sus 
+		contraseñas, nombres entre otros datos si fuera necesario. 
+
+		Usuario General: Este usuario es quien carga los documentos a analizar en el sistema, los cuales deben ser agrupados
+		utilizando las funcionalidades que se ofrecen y son explicadas a continuacion:
+
+			1. Gestion de Archivos: En esta seccion se cargaran los documentos al sistema. Estos documentos pueden ser 
+			cargados de dos formas. La primera es medieante enlaces de noticias RSS, los cuales mostraran las noticias
+			actuales y al seleccionarlas automaticamente seran guardadas en la Base de DAtos del sistema. La segunda 				opcion es la carga manual, la cual consiste en ubicar dentro del sistema documentos en formato .html por medio
+			de la opcion "buscar archivos" que, una vez seleccionados, podran ser subidos al sistema con el boton "Subir 				Archivos".
+
+			2. Agrupar: Una vez cargados los acrchivos en el sistema se procede a la seccion agrupar. Esta seccion 				consiste en el analisis automatico de los documentos para ser agrupados segun las caracteristicas en comun. 
+			Para realizarlo solo basta con usar la opcion "Agrupar" que, una vez empezado el proceso, le pedira al usuario
+			la seleccion de n documentos representativos por grupo, donde n representa la cantidad de grupos a formar.
+
+			3. Realizar busqueda: Una vez realizado los pasos anteriores, se puede ingresar a esta opcion las veces que se
+			desee para analizar los documentos agrupados. Al proveerle al sistema los datos solicitados como palabras 				claves y rangos de fechas para la busqueda, se le ofrecera el resultado que mejor se ajuste a su busqueda, lo 				que le permitira visualizar de manera grafica y en una linia de tiempo, el comportamiento de los eventos 				consultados.
+
+
+	
+
+
+
+
+
+
+

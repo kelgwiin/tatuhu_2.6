@@ -1,0 +1,148 @@
+<?php     
+    error_reporting(0);
+    session_start();
+    if(isset($_SESSION['proxy']))
+        include "./lastRSS.php";
+    else
+        include "../lastRSS.php";
+    include "../rss/rssDAO.php";
+
+    if(isset($_REQUEST['modo'])){
+            $modo = $_REQUEST['modo'];
+    }
+
+    switch ($modo){
+        
+        case 1:
+            
+            function ShowOneRSS($url) {
+                global $rss;
+                global $cont;
+                if ($rs = $rss->get($url)) {
+                    $cdg .= "<big><b><a href=\"$rs[link]\"> <div align=\"center\">$rs[title]</div></a></b></big><br />\n";
+                    $cdg .= "$rs[description]<br />\n";
+
+                        $cdg .= "<ul>\n";
+                        foreach ($rs['items'] as $item) {
+                            $titulo = str_replace('"','',$item[title]);
+                            //$valor = $titulo."<>".$item[link]."<>".$item[pubDate];
+                            $valor = $item[link]."<>".$item[pubDate]."<>".$titulo;
+                            $cdg .= "\t<li><input type=\"checkbox\" id=\"id".$cont."\" name=\"checkbox\" value=\"".$valor."\" /> ".$titulo." <a href=\"".$item[link]."\" target=\"_blank\">Ver</a><br /></li>\n";
+                            $cont++;
+                        }
+                        if ($rs['items_count'] <= 0) {
+                            //echo "<li>Sorry, no items found in the RSS file :-(</li>"; 
+                            $cdg = -1;
+                        }
+                        $cdg .= "</ul>\n";
+                }
+                else {
+                    //echo "Sorry: It's not possible to reach RSS file $url\n<br />";
+                    $cdg = -1;
+                    // you will probably hide this message in a live version
+                }
+                return $cdg;
+            }            
+            // List of RSS URLs
+           /* $rss_left = array(
+                'http://freshmeat.net/backend/fm.rdf',
+                'http://slashdot.org/slashdot.rdf'
+            );*/
+            
+            $rssList = new rssDAO();            
+            $rss_right = $rssList->consultarEnlaces();
+            
+            /*$rss_right = array(
+                //'http://eluniversal.com.feedsportal.com/c/33765/f/604545/index.rss'
+                //'http://eluniversal.com.feedsportal.com/c/33765/f/604553/index.rss',
+                //'http://www.noticierodigital.com/feed/',
+                //'http://www.ultimasnoticias.com.ve/cmspages/rss/un/actualidad.aspx',
+                //'http://www.ultimasnoticias.com.ve/cmspages/rss/un/ciudad.aspx'
+            );*/
+
+            // Create lastRSS object
+            
+            $cont = 0;
+            $rss = new lastRSS;
+
+            // Set cache dir and cache time limit (5 seconds)
+            // (don't forget to chmod cahce dir to 777 to allow writing)
+            $rss->cache_dir = './temp';
+            $rss->cache_time = 1200;
+            
+            // Show all rss files
+            $cdg .= "<table border=\"0\"><tr><td width=\"100%\" valign=\"top\">";
+            /*foreach ($rss_left as $url) {
+                $resp = ShowOneRSS($url);                
+                if($resp != -1){
+                    $cdg .= $resp;
+                }                
+            }*/
+            //echo "</td><td width=\"50%\" valign=\"top\">";
+            foreach ($rss_right as $url) {
+                $resp = ShowOneRSS($url);                
+                if($resp != -1){
+                    $cdg .= $resp;
+                }    
+            }
+            $cdg .= "</td></tr></table>"; 
+            
+            echo $cdg;
+        
+        break;
+        //consultar todos los Rss
+        case 2:
+            $rss = new rssDAO();
+            echo json_encode($rss->consultarTodo());
+        break;
+        //guardar URL
+        case 3:            
+            $rssDAO = new rssDAO();
+            $url = $_REQUEST['url'];
+            
+            $rss = new lastRSS;
+//echo var_dump($url);
+//echo var_dump("HOLASSS");            
+            if ($rs = $rss->get($url)) {
+//echo var_dump("ENTRANDO A DAO");  
+                $band = $rssDAO->nuevoRss($url);
+            }
+            else{
+                $band = -2;
+            }
+            echo $band; 
+
+//echo var_dump("HOLASSS TODOSSSS");            
+        break;
+        //dibujar lista de Rss
+        case 4:   
+            $rss    = new rssclase();
+            $rssDAO = new rssDAO();
+            $vectRss = $rssDAO->consultarTodo();
+            $cdg .= "<table>";
+            for($i=0;$i<count($vectRss);$i++){
+                $rss = $vectRss[$i];
+                $cdg .= "<tr><td>";
+                $cdg .= "<input type=\"checkbox\" id=\"id".$i."\" name=\"checkbox\" value=\"".$rss->getId()."\" /> ".$rss->getEnlace();
+                $cdg .= "</tr></td>";
+            }            
+            $cdg .= "</table>";
+            
+            if(count($vectRss)==0){
+                $cdg = -1;
+            }
+            echo $cdg;
+            
+        break;
+        //Eliminar Rss
+        case 5:
+            
+            $listRss = $_REQUEST['vectRss'];            
+            $vectRss = explode(",", $listRss);            
+            $rssDAO = new rssDAO();
+            
+            echo $rssDAO->eliminarRss($vectRss);
+            
+        break;
+    }
+?>
