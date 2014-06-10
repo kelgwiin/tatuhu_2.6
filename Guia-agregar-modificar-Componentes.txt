@@ -47,10 +47,14 @@ Archivos
 - Archivo: actividadesComunes/escribeReflexión.html
 
 
------------------------------------
---  Completa Vocales (NUEVO)
------------------------------------
+-------------------------------------
+-- Mira y Responde (NUEVO)
+-------------------------------------
+- Archivo : actividadesComunes/miraResponde.html
+Agregar  .lim y las imagenes necesarias scriptsActividades/ActMiraResp
 
-- Archivo: actividadesComunes/completaVocales.html
-
-Para agregar un nuevo ejercicio agregar .lim en "scriptsActividades/ActCompletaVocales/"
+-------------------------------------
+-- Completa la frase o Completa Respuesta (NUEVO)
+-------------------------------------
+- Archivo : actividadesComunes/completaFrase.html
+Agregar  .lim y las imagenes necesarias en  scriptsActividades/ActCompletaFrase
