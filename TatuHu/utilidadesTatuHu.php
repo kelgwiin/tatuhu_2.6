@@ -184,7 +184,7 @@ $("#centralCalculo").click(function(event){
 
 $("#Juego1").click(function(event){
    event.preventDefault();
-   $(".dialogoJuego").html('<div style="text-align:center; margin 0 auto;"><p><strong>Haz clic en el perrito para que te ayude a jugar:</strong></p> <iframe width="600" height="500" frameborder="0" marginheight="0" marginwidth="0" src="http://www.sire.gov.co/portal/page/portal/sire/capacitacionEducacion/Juegos/JuegoInundaciones/Juego%20Inundacion-Deslizamiento.swf"></iframe>' );
+   $(".dialogoJuego").html('<div style="text-align:center; margin 0 auto;"><p><strong>Haz clic en el perrito para que te ayude a jugar:</strong></p> <iframe width="600" height="500" frameborder="0" marginheight="0" marginwidth="0" src="http://www.eird.org/herramientas/esp/Juegos/cuento1/juego/Juego%20Inundacion-Deslizamiento.swf"></iframe>' );
   $(".dialogoJuego").dialog("open");
 });
 
