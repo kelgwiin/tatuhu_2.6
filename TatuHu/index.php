@@ -15,7 +15,7 @@
   <!-- #gallery -->
   <?php include_once("plantilla/gallery.php"); ?>
   
-<?php print_r($page);?>
+<?php echo $_SERVER['REQUEST_URI']; ?>
   <!-- /#gallery -->
   <div class="main-box">
     <div class="contenido">
