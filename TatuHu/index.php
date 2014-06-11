@@ -14,6 +14,8 @@
   <?php include_once("plantilla/contacto.php"); ?>
   <!-- #gallery -->
   <?php include_once("plantilla/gallery.php"); ?>
+  
+<?php echo "mi paginaaaaaa " . $page;?>
   <!-- /#gallery -->
   <div class="main-box">
     <div class="contenido">
