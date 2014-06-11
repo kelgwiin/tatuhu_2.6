@@ -15,7 +15,7 @@
   <!-- #gallery -->
   <?php include_once("plantilla/gallery.php"); ?>
   
-<?php echo "mi paginaaaaaa -" . $page;?>
+<?php print_r($page);?>
   <!-- /#gallery -->
   <div class="main-box">
     <div class="contenido">
