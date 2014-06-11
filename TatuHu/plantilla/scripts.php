@@ -56,7 +56,9 @@ if (!isset($_SESSION["visit_tatuhu"]) || empty($_SESSION['visit_tatuhu'])){
         </script>';
 }
 
-$page = substr($_SERVER['PHP_SELF'],8);
+$page_current = substr($_SERVER['PHP_SELF']);//Nombre de la petición al server la URI
+$pos = strrpos($page_current, '/');//buscando la posición del ultimos slash "/"
+$page = substr($page_current, $pos+1);//obteniendo sólo el nombre de la página
 
 //Aplicando estilos inividuales para cada pagina, para no recargar el archivo styles.css
 if ($page == "index.php"){   //Estilos para pagina principal
