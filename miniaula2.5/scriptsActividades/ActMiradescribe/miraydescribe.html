@@ -11,6 +11,12 @@
 	//Esta seleccion es para escoger de forma aleatoria
 	//los elementos de mira y describe
 	switch(num){
+		case "1":
+			max = 4;
+			min = 1;
+			var al = Math.floor(Math.random() * (max - min + 1)) + min;
+			num = "set-1-num-"+al;//colocando la carpeta
+			break;
 		case "3":
 			max = 6;
 			min = 1;
