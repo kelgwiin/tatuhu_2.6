@@ -8,7 +8,9 @@
 				theme_advanced_toolbar_location : "top",
 				theme_advanced_toolbar_align : "center",
 				theme_advanced_statusbar_location : false,
-				theme_advanced_resizing : false
+				theme_advanced_resizing : false,
+				browser_spellcheck : true
+    			
 			});
 
 		function imprimir(title) {
