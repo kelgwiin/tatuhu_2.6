@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"page",
+				"page_current  (variable)"
+			],
+			[
+				"prinf",
+				"print_r  (function)"
+			],
+			[
 				"mira",
 				"miraResponde"
 			],
@@ -107,6 +115,14 @@
 				"buffer_size": 14537,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "/C/Proyecto Tatu Hu/TynyMICE/tinymce/js/hola.html",
+			"settings":
+			{
+				"buffer_size": 395,
+				"line_ending": "Windows"
+			}
 		}
 	],
 	"build_system": "",
@@ -153,9 +169,56 @@
 	},
 	"file_history":
 	[
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/escribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/escribe.js",
+		"/C/Proyecto Tatu Hu/TynyMICE/tinymce/js/tinymce/langs/es.js",
+		"/C/Proyecto Tatu Hu/TynyMICE/tinymce/js/tinymce/langs/readme.md",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/tiny_mce/plugins/spellchecker/plugin.min.js",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
+		"/C/wamp/www/testmysql.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/plantilla/menu.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/utilidadesTatuHu.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/css/style.css",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/plantilla/footer.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/plantilla/scripts.php",
+		"/C/wamp/www/pruebafunciones.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/plantilla/gallery.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/plantilla/contacto.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/plantilla/bienvenidaIE.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/descargasTatuHu.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/miraydescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-1-num-1.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-1-num-2.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-1-num-3.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-1-num-4.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraResp/antes_durante_y_despues.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraResp/si_o_no.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraResp/verdadero_y_falso.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaFrase/completa_la_frase.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaVocales/1.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-10-num-2.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-10-num-3.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-10-num-4.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-10-num-6.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/10.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-10-num-1.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-10-num-5.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraClas/miraClasifica.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/9.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/7.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3/1.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-3-num-2.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/set-3-num-4.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3/3.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3/5.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3/6.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3/2.lim",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3/4.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/completaVocales.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraClasifica.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraClas/miraClasifica.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraClas/GR1.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraClas/GR2.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraClas/GR3.lim",
@@ -163,7 +226,6 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaVocales/completaVocales.html",
 		"/C/Proyecto Tatu Hu/Ejercicios edilim/completa con vocales_6to(rayosX)/completa_con_vocales.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraResponde.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaFrase/completa_la_frase.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiraResp/miraResponde.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaFrase/completaFrase.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/completaFrase.html",
@@ -178,7 +240,6 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaRespuesta/antes_durante_y_despues.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMapas/index.html",
 		"/C/Proyecto Tatu Hu/Ejercicios edilim/antes durante y despues_6to (respuestas)/antes_durante_y_despues.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaVocales/1.lim",
 		"/C/Proyecto Tatu Hu/Ejercicios edilim/completa con vocales_6to(frases)/completa_con_vocales.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/pareo.html",
 		"/C/Proyecto Tatu Hu/Ejercicios edilim/completa con vocales_6to(frases)/completa_con_vocales.lim",
@@ -188,7 +249,6 @@
 		"/C/Users/Pc/Documents/test.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideos.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/mapas.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
 		"/C/Proyecto Tatu Hu/view-source jplayer.org latest demo-01-video-solution-flash-html .htm",
 		"/C/Proyecto Tatu Hu/FitVids.js-master/tests.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorLibros.html",
@@ -199,21 +259,16 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/mapaMental.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribeReflexion.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/11.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miradescribe.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/10.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/1.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/sopadeletras.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actsopa/sopadeletras.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/animaciones/ciclo_agua.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorAnimaciones.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/animaciones/Ciclo_del_Agua.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/index.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/escribe.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/miraydescribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/modal.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/roundabout.js",
@@ -224,19 +279,15 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/css/libros.css",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/turn.min.js",
 		"/C/Users/Pc/Desktop/Aprende con Tatu Hú.htm",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/9.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/6.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html~",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/1.lim",
 		"/C/Users/Pc/AppData/Roaming/Sublime Text 2/Packages/BracketHighlighter/bh_core.sublime-settings",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/5.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/escribe.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/3.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/2.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/4.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/BDMapa/1.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/7.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actescribe/escribe.js",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actdescribe/impresoraMiraDescribe.js",
 		"/C/wamp/alias/httpd.conf",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actmapamental/css/style.css",
@@ -245,16 +296,7 @@
 		"/C/Users/Pc/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
 		"/C/Users/Pc/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/C/Users/Pc/Pictures/Main.c",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/6.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/4.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/5.lim",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/3.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/iframe.js",
-		"/C/Proyecto Tatu Hu/Documentos/palabrasBD/6.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actsopa/palabrasBD/3.js",
-		"/C/Proyecto Tatu Hu/Documentos/palabrasBD/5.js",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/Actsopa/sopadeletras.js"
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMiradescribe/6.lim"
 	],
 	"find":
 	{
@@ -262,7 +304,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
 		]
@@ -272,6 +314,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"escribe",
+			"spanish",
+			"englis",
+			"es",
+			"escribe",
+			"jue",
+			"ambiente",
+			"elAmbiente",
+			"ambiente",
+			"miradescr",
+			"1",
+			"miradescribe",
+			"png",
+			"miradescribe",
+			"miraydes",
 			"\n",
 			"elementos_random",
 			"mira y clasifica",
@@ -384,22 +441,7 @@
 			"actual",
 			"Selecciona un tema:",
 			"LibroRiesgos",
-			"libroSe",
-			"LibroSismo",
-			"LibroTrans",
-			"LibroAgua",
-			"seguridad vial",
-			"libro",
-			"seguridad",
-			"libro",
-			"libto",
-			"aprendamos todo sobre inun",
-			"intera",
-			"mapaMen",
-			"lac",
-			"senales",
-			"senales-de-transito",
-			"senales-de-transito.htm"
+			"libroSe"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -433,8 +475,8 @@
 						"selection":
 						[
 							[
-								1952,
-								1952
+								2030,
+								2043
 							]
 						],
 						"settings":
@@ -591,7 +633,7 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 690.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -608,8 +650,8 @@
 						"selection":
 						[
 							[
-								9636,
-								9652
+								17104,
+								17111
 							]
 						],
 						"settings":
@@ -767,8 +809,8 @@
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 2601.0,
+						"translation.x": 86.0,
+						"translation.y": 3982.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -785,8 +827,8 @@
 						"selection":
 						[
 							[
-								7122,
-								7122
+								6859,
+								6859
 							]
 						],
 						"settings":
@@ -944,7 +986,181 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1829.0,
+						"translation.y": 1995.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Proyecto Tatu Hu/TynyMICE/tinymce/js/hola.html",
+					"settings":
+					{
+						"buffer_size": 395,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								395,
+								395
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
