@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>images</recursos>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >¡Muy bien! Has finalizado la actividad.</correcto>
+        <incorrecto son="" modo="1" >¡Ups! vuelve a intentar</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>44</tipo>
+              <cousa nome="Evita construir tu vivienda cerca de afluentes hidrológicos como canales, lagunas, playas y ríos." son="">inun01-casa-lagos.jpg</cousa>
+
+              <cousa nome="No lances basura en afluentes hidrológicos, el agua debe circular libremente." son="">inun02-basura.GIF</cousa>
+              
+              <cousa nome="Organiza grupos con tus vecinos y amigos para mantener limpios los cauces de los ríos y quebradas." son="">inun03-limpiando.jpg</cousa>
+        </paxina> 
+
+        <paxina id="2" >
+              <tipo>44</tipo>
+              
+              <cousa nome="No destruyas árboles ni vegetación cercana a ríos y quebradas, ya evitan desbordamientos." son="">inun04-arboles-caidos.jpg</cousa>
+              
+              <cousa nome="Debes estar atento a las informaciones meteorológicas en épocas de lluvias." son="">inun05-info-meteorologicas.jpg</cousa>
+              
+              <cousa nome="Ten en un lugar visible y práctico los números telefónicos de bomberos, protección civil y policías." son="">inun06-tlf-emergencia.jpg</cousa>
+        </paxina>
+
+        <paxina id="3" >
+              <tipo>44</tipo>
+              <cousa nome="Identifica con tus compañeros, familia y vecinos rutas de evacuación y lugares altos donde puedan refugiarse. Debes conocer las señales de seguridad y prevención que te indican por donde debes salir, donde se encuentran los equipos de emergencia y que lugares evitar." son="">salida-emer</cousa>
+             
+              <cousa nome="Establece un punto de reunión con tu familia por si deben separarse en algún momento." son="">punto-reunion2.jpg</cousa>
+              
+              <cousa nome="Ten preparado un morral con equipo de emergencia, incluye linternas y baterías, así como alimentos." son="">morall-2.jpg</cousa>
+        </paxina>
+
+       
+    </libro>
+</lim>
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>images</recursos>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >¡Muy bien! Has finalizado la actividad.</correcto>
+        <incorrecto son="" modo="1" >¡Ups! vuelve a intentar</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>44</tipo>
+              <cousa nome="Evita construir tu vivienda cerca de afluentes hidrológicos como canales, lagunas, playas y ríos." son="">vivienda-agua-2.jpg</cousa>
+
+              <cousa nome="No lances basura en afluentes hidrológicos, el agua debe circular libremente." son="">basura-2.jpg</cousa>
+              
+              <cousa nome="Organiza grupos con tus vecinos y amigos para mantener limpios los cauces de los ríos y quebradas." son="">limp-am-2.jpg</cousa>
+        </paxina> 
+
+       <paxina id="2" >
+              <tipo>44</tipo>
+              
+              <cousa nome="No destruyas árboles ni vegetación cercana a ríos y quebradas, ya evitan desbordamientos." son="">arbol-caido-3.jpg</cousa>
+              
+              <cousa nome="Debes estar atento a las informaciones meteorológicas en épocas de lluvias." son="">meteorolico-1.jpg</cousa>
+              
+              <cousa nome="Ten en un lugar visible y práctico los números telefónicos de bomberos, protección civil y policías." son="">tlf-1.jpg</cousa>
+        </paxina>
+
+        <paxina id="3" >
+              <tipo>44</tipo>
+              <cousa nome="Identifica con tus compañeros, familia y vecinos rutas de evacuación y lugares altos donde puedan refugiarse. Debes conocer las señales de seguridad y prevención que te indican por donde debes salir, donde se encuentran los equipos de emergencia y que lugares evitar." son="">salida-emer.jpg</cousa>
+             
+              <cousa nome="Establece un punto de reunión con tu familia por si deben separarse en algún momento." son="">punto-reunion2.jpg</cousa>
+              
+              <cousa nome="Ten preparado un morral con equipo de emergencia, incluye linternas y baterías, así como alimentos." son="">morall-2.jpg</cousa>
+        </paxina>
+
+       
+    </libro>
+</lim>
