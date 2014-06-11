@@ -16,8 +16,8 @@
     <libro>
         <paxina id="1" >
               <tipo>44</tipo>
-              <cousa nome="Cruce de peatones" son="">cruce_peatones.jpg</cousa>
-              <cousa nome="Indica que se aproxima un semáforo" son="">p_semaforo.jpg</cousa>
+              <cousa nome="Cruce de peatones" son="">cruce_peatones.png</cousa>
+              <cousa nome="Indica que se aproxima un semáforo" son="">p_semaforo.png</cousa>
               <cousa nome="Indica que se debe detener" son="">pare.png</cousa>
         </paxina>
 
