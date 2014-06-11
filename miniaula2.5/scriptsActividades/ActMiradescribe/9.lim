@@ -16,16 +16,16 @@
     <libro>
         <paxina id="1" >
               <tipo>44</tipo>
-              <cousa nome="Generalmente no se siente, pero es registrado." son="">escala1.png</cousa>
-              <cousa nome="A menudo se siente, pero sólo causa daños menores." son="">escala2.png</cousa>
-              <cousa nome="Ocasiona daños ligeros a edificios" son="">escala3.png</cousa>
+              <cousa nome="Generalmente no se siente, pero es registrado." son="">escala1.jpg</cousa>
+              <cousa nome="A menudo se siente, pero sólo causa daños menores." son="">escala2.jpg</cousa>
+              <cousa nome="Ocasiona daños ligeros a edificios" son="">escala3.jpg</cousa>
         </paxina> 
 
         <paxina id="2" >
               <tipo>44</tipo>
-              <cousa nome="Puede ocasionar daños severos en áreas donde vive mucha gente" son="">escala4.png</cousa>
-              <cousa nome="Terremoto mayor. Causa graves daños." son="">escala5.png</cousa>
-              <cousa nome="Gran terremoto. Destrucción total a comunidades cercanas." son="">escala6.png</cousa>
+              <cousa nome="Puede ocasionar daños severos en áreas donde vive mucha gente" son="">escala4.jpg</cousa>
+              <cousa nome="Terremoto mayor. Causa graves daños." son="">escala5.jpg</cousa>
+              <cousa nome="Gran terremoto. Destrucción total a comunidades cercanas." son="">escala6.jpg</cousa>
         </paxina>
     </libro>
 </lim>
