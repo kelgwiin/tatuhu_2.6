@@ -101,7 +101,7 @@
               </li>
 			  
 			  	      <li>
-	      <h3><a class="tooltip" target="_blank" href="download/ambienteD.pdf">Material de Ambiente
+	      <h3><a class="tooltip" target="_blank" href="download/elAmbiente.pdf">Material de Ambiente
 		    <span style="margin-left:20px;">
 		      <img class="callout" src="images/callout.gif" alt=""/>
 			Material de apoyo para el tema de ambiente en el &aacute;rea de aprendizaje Matem&aacute;tica, Ciencias Naturales y Sociedad.
@@ -116,7 +116,7 @@
             <!-- .news -->
             <ul style="margin-top:-7px;">
 			 <li>
-                    <h3><a id="Juego0" target="_blank" href="download/ambienteE.pdf" class="tooltipDer" >Aprendamos acerca del Ambiente
+                    <h3><a id="Juego0" target="_blank" href="download/elAmbiente.pdf" class="tooltipDer" >Aprendamos acerca del Ambiente
 		    <span style="margin-right:-200px;">
 			 Material de lectura acerca del ambiente<br>
 			 <img class="calloutDer" src="images/calloutDer.gif" alt="" />
