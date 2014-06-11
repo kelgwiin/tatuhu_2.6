@@ -10,8 +10,8 @@
         <botonson>0</botonson>
         <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="" modo="1" >CORRECTO</correcto>
-        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+        <correcto son="" modo="1" >¡Muy bien! Has finalizado la actividad.</correcto>
+        <incorrecto son="" modo="1" >¡Ups! vuelve a intentar</incorrecto>
     </config>
     <libro>
         <paxina id="1" >
