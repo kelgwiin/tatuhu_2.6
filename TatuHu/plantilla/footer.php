@@ -3,7 +3,7 @@
   <footer>
     <div class="container">
     	<div class="wrapper">
-        <div class="fleft"><a href="http://validator.w3.org/check?uri=http%3A%2F%2Fhpserver-elearning.facyt.uc.edu.ve%2FTatuHu%2F" target="_blank" title="Validado por el W3C-HTML5"><img src="images/HTML5_Logo_32.png" alt="W3C HTML5"></a> &copy; Copyright - Tatu H&uacute;</div>
+        <div class="fleft"><a href="http://validator.w3.org/check?uri=http%3A%2F%2F190.170.86.92%2Ftatuhu_2.6%2FTatuHu%2F" target="_blank" title="Validado por el W3C-HTML5"><img src="images/HTML5_Logo_32.png" alt="W3C HTML5"></a> &copy; Copyright - Tatu H&uacute;</div>
         <div class="fright"><img src="images/UC_icon.png" alt="UC"> <a href="http://www.uc.edu.ve/" target="_blank">Universidad de Carabobo</a>&nbsp;&nbsp;&nbsp;<img style="margin-top: 5px;" src="images/FACYT_icon.png" alt="FACYT"> <a href="http://www.facyt.uc.edu.ve/" target="_blank">FACYT</a></div>
       </div>
     </div>

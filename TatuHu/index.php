@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<meta charset="UTF-8">
 <head>
   <?php include_once("plantilla/scripts.php"); ?>
 </head>
