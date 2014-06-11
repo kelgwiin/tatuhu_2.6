@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>images</recursos>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >¡Muy bien! Has finalizado la actividad.</correcto>
+        <incorrecto son="" modo="1" >¡Ups! vuelve a intentar</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>44</tipo>
+              <cousa nome="Contaminación por el Volcán" son="">cont1-volcan.jpg</cousa>
+              <cousa nome="Ambiente limpio" son="">limpio1.jpg</cousa>
+              <cousa nome="Contaminación del aire" son="">cont2-co2.jpg</cousa>
+        </paxina>
+    </libro>
+</lim>

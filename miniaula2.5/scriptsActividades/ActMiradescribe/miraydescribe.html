@@ -7,6 +7,18 @@
 <script type="text/javascript" src="../../js/iframe.js"></script>
 <script>
 	var num = getUrlVars()["numero"];
+	
+	//Esta seleccion es para escoger de forma aleatoria
+	//los elementos de mira y describe
+	switch(num){
+		case "3":
+			max = 6;
+			min = 1;
+			var al = Math.floor(Math.random() * (max - min + 1)) + min;
+			num = "3/"+al;//colocando la carpeta
+			break;
+	}
+
 	data = "lim.swf?libro="+num+".lim";
 	libro = "libro="+num+".lim"
 	
