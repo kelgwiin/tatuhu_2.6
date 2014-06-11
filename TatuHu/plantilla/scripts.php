@@ -56,7 +56,7 @@ if (!isset($_SESSION["visit_tatuhu"]) || empty($_SESSION['visit_tatuhu'])){
         </script>';
 }
 
-$page_current = substr($_SERVER['PHP_SELF']);//Nombre de la petición al server la URI
+$page_current = $_SERVER['PHP_SELF'];//Nombre de la petición al server la URI
 $pos = strrpos($page_current, '/');//buscando la posición del ultimos slash "/"
 $page = substr($page_current, $pos+1);//obteniendo sólo el nombre de la página
 
