@@ -1,4 +1,7 @@
-       <recursos>images</recursos>
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <recursos>images</recursos>
         <idioma>0</idioma>
         <corfondo>ffffff</corfondo>
         <cormensaxes>000000</cormensaxes>
