@@ -5,7 +5,8 @@ $invalid_chars_regex = '[^\wáéíóúÁÉÍÓÚ´ñÑ\s+\(\)\[\].,°!\'&=]';
 $_dir = "../../";
 
 function valida_nombre_libro($nombre){
-    $nombreDir = explode("/",$nombre)[1];
+    $tmp = explode("/",$nombre);
+    $nombreDir = $tmp[1];
     if(preg_match($GLOBALS['invalid_chars_regex'],$nombreDir))
         return false;
     return true;
