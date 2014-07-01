@@ -5,7 +5,7 @@ if($_SESSION['usuario']['tipo'] != 'ESTUDIANTE') die('No autorizado');
 p_set_rel_path('../');
 
 
-$contenido ="Grado  - "  .  $_SESSION['datos_educativos']['grado'];
+echo "Grado  - "  .  $_SESSION['datos_educativos']['grado'];
 
 p_contenido('centro',$contenido);
 
