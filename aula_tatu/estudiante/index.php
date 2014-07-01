@@ -3,27 +3,9 @@ require '../config.php';
 
 if($_SESSION['usuario']['tipo'] != 'ESTUDIANTE') die('No autorizado');
 p_set_rel_path('../');
-$areas = $_SESSION["interfaz"]["areas"];
-$contenido='
-<div id="centro">
-    <div class="roundaboutContainer">
-        <ul id="myRoundabout" class="roundabout-holder">';
-foreach($areas as $indice=>$elemento){
-    $contenido.= '<li>
-                  <a href="componentes.php?id_area='.$elemento['id_area'].'&pos='.$indice.'">
-                      <img alt="'.$elemento['nombre_area'].'" src="'.$elemento['imagen'].'">
-                  </a>
-                 </li>';
 
-}
-$contenido.='</ul></div>
-    <div id="mensajesArea">
-<div class="izq"><a href="#" id="ant"><img src="../plantilla/img/menuAA/previous.png"></a></div>
-<span>Selecciona un &Aacute;rea de Aprendizaje</span>
-<div class="der"><a href="#" id="sig"><img src="../plantilla/img/menuAA/next.png"></a></div>
-</div>
-</div>
-';
+
+echo "Grado " - $_SESSION['datos_educativos']['grado'];
 
 p_contenido('centro',$contenido);
 
@@ -31,17 +13,6 @@ p_js_agregar_archivo('plantilla/js/libs/fredhq-roundabout/jquery.roundabout.min.
 p_js_agregar_archivo('plantilla/js/developr.confirm.js');
 p_css_agregar_archivo("../plantilla/css/stylesTatu/carrusel_tatu.css");
 
-p_js_agregar_texto('
-    $(document).ready(function() {
-        $("#myRoundabout").roundabout({
-			autoplayDuration: 4000,
-			autoplayPauseOnHover:true,
-			btnNext:"#sig",
-			btnPrev: "#ant"
-		});
-         
-    })
-');
 
 p_con_menu(true);
 
