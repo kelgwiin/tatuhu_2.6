@@ -33,5 +33,5 @@ p_shortcuts_set_activo('Inicio');
 
 p_set_menu_archivo('menu_tatu.php');
 
-p_dibujar();        
+p_dibujar('index_miniaula');        
 ?>
