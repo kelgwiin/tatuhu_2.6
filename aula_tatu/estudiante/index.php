@@ -5,9 +5,8 @@ if($_SESSION['usuario']['tipo'] != 'ESTUDIANTE') die('No autorizado');
 p_set_rel_path('../');
 
 
-echo "Grado  - "  .  $_SESSION['datos_educativos']['grado'];
 
-p_contenido('centro',$contenido);
+//p_contenido('centro',$contenido);
 
 p_js_agregar_archivo('plantilla/js/libs/fredhq-roundabout/jquery.roundabout.min.js');
 p_js_agregar_archivo('plantilla/js/developr.confirm.js');

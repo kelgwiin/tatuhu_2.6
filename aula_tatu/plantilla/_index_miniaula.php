@@ -112,14 +112,12 @@ echo $body;
 <!--- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
 
-<?php echo "Desde Miniaual <br>"; ?>
+<?php printf ("Desde Miniauala Grado '%s' <br>",$_SESSION['datos_educativos']['grado'];); ?>
+
+
 
 
 <?php echo $contenido['centro']; ?>
-
-
-
-
 <!--- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 <!-- Fin contenido Principal -->
 
