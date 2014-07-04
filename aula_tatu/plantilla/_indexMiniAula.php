@@ -112,7 +112,9 @@ echo $body;
 <!--- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
 
-<?php printf ("Desde Miniauala Grado '%s' <br>",$_SESSION['datos_educativos']['grado']); ?>
+<?php 
+	include('cuerpo.php'); 
+?>
 
 
 
