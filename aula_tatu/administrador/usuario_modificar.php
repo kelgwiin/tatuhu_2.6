@@ -132,7 +132,7 @@ Actualizar Usuario
 Eliminar Usuario
 </button>
 <button type="button" class="button glossy" href = "usuario_visualizar.php">
-<span class="button-icon red-gradiente"><span class="icon-tick"></span></span>
+<span class="button-icon red-gradient"><span class="icon-tick"></span></span>
 Cancelar
 </button>
 </div>
