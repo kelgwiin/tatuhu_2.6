@@ -17,10 +17,10 @@ p_con_menu(true);
 
 p_contenido('titulo_1','Aula Virtual Tatu Hú');
 p_contenido('titulo_grande_1','Bienvenido al Aula Tatu H&uacute;');
-p_contenido('migajas','<a href="index.php"> &Aacute;reas de Aprendizaje </a>');
+p_contenido('migajas','<a href="index.php">Inicio </a>');
 
 p_con_pizarra(true);
-p_contenido('pizarra','Selecciona un &Aacute;rea de Aprendizaje');
+p_contenido('pizarra','');
 
 p_contenido('tipo_usuario',$_SESSION['usuario']['tipo']);
 p_contenido('msg_nombre_usuario','HOLA!');

@@ -1,4 +1,6 @@
-<ul class="big-menu">
+<!-- Se encuentra comentado de manera que no se trabaja con las estadísticas de y las recompesas-->
+<!-- Descomentar para visualizarlo -->
+<!-- <ul class="big-menu">
 	<li class="with-right-arrow">
           <?php $areas = $_SESSION["interfaz"]["areas"]; ?>
                 <span><span class="list-count"><?php echo count($areas); ?></span>&Aacute;reas de Aprendizaje</span>
@@ -16,4 +18,4 @@
         <li>
 		<a href="recompensas.php?all">Mis Recompensas</a>
 	</li>
-</ul>
+</ul> -->
