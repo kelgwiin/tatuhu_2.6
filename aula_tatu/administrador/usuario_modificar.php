@@ -131,8 +131,8 @@ Actualizar Usuario
 <span class="button-icon"><span class="icon-tick"></span></span>
 Eliminar Usuario
 </button>
-<button type="submit" class="button glossy">
-<span class="button-icon"><span class="icon-tick"></span></span>
+<button type="button" class="button glossy" href = "usuario_visualizar.php">
+<span class="button-icon red-gradiente"><span class="icon-tick"></span></span>
 Cancelar
 </button>
 </div>
