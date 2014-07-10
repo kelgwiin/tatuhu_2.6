@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-right:   (property)"
+			],
+			[
 				"grado",
 				"grado_  (variable)"
 			],
@@ -124,55 +128,55 @@
 			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/cuerpo.php",
 			"settings":
 			{
-				"buffer_size": 476,
+				"buffer_size": 614,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\n<div id=\"header\">\n<div id=\"nav\" >\n</div>\n<a href=\"creditos.html\"><img src=\"../../miniaula2.5/images/logoResp.png\"></a><div class=\"nombre\">Mini Aula Tatu H&uacute;</div>\n</div>\n<div id=\"container\">\n<div id=\"gallery\">\n	<div class=\".cont\">\n    	<ul id=\"myRoundabout\">\n    		<li><a href=\"areas.html?grado=6&amp;area=Lenguaje\"><img src=\"../../miniaula2.5/images/lenguaje.png\" alt=''></a></li>\n    		<li><a href=\"areas.html?grado=6&amp;=Sociales\"><img src=\"../../miniaula2.5/images/csSociales.png\" alt=''></a></li>\n    		<li><a href=\"areas.html?grado=6&amp;area=Ciencias\"><img src=\"../../miniaula2.5/images/matematicas.png\" alt=''></a></li>\n    		<li><a href=\"areas.html?grado=6&amp;area=Deportes\"><img src=\"../../miniaula2.5/images/deportes.png\" alt=''></a></li>\"\n      	</ul>\n	</div>\n</div><br>\n<div id=\"mensajes\">\n<div class=\"izq\"><a href=\"#\" id=\"ant\"><img src=\"../../miniaula2.5/images/previous.png\"></a></div>\n<span>Selecciona un &Aacute;rea</span>\n<div class=\"der\"><a href=\"#\" id=\"sig\"><img src=\"../../miniaula2.5/images/next.png\"></a></div>\n</div>\n<div id=\"areaslinks\">\n	<a href=\"areas.html?grado=6&amp;area=Lenguaje\">Lenguaje, Comunicaci&oacute;n y Cultura</a>&nbsp;-&nbsp;\n	<a href=\"areas.html?grado=6&amp;area=Sociales\">Ciencias Sociales, Ciudan&iacute;a e Identidad</a>&nbsp;-&nbsp;<br>\n	<a href=\"areas.html?grado=6&amp;area=Ciencias\">Matem&aacute;ticas, Ciencias Naturales y Sociedad </a>&nbsp;-&nbsp;\n	<a href=\"areas.html?grado=6&amp;area=Deportes\">Educaci&oacute;n F&iacute;sica, Deporte y Recreaci&oacute;n</a>\n	<br><br><a href=\"../estudiante/index.php\"> &lt; Atr&aacute;s</a>\n	<br><br><a href='creditos.html'>Conoce a Tatu H&uacute;</a>\"\n</div>\n</div>\n\n<script >\n	if ($('#myRoundabout').length){\n		$('#myRoundabout').roundabout({\n			autoplayDuration: 4000,\n			autoplayPauseOnHover:true,\n			btnNext:\"#sig\",\n			btnPrev: \"#ant\"\n		});\n	}\n</script>\n\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"../../miniaula2.5/css/styles.css\">\n    <script type=\"text/javascript\" src=\"../../miniaula2.5/js/jquery-1.8.3.js\"></script>\n	<script type=\"text/javascript\" src=\"../../miniaula2.5/js/iframe.js\"></script>\n	\n	<script type=\"text/javascript\" src=\"../../miniaula2.5/js/roundabout.js\"></script>\n\n\n\n",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/index.php",
 			"settings":
 			{
-				"buffer_size": 2192,
+				"buffer_size": 985,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/usuario_modificar.php",
 			"settings":
 			{
-				"buffer_size": 6055,
+				"buffer_size": 7249,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/usuario_agregar.php",
 			"settings":
 			{
-				"buffer_size": 1467,
+				"buffer_size": 6533,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/js/jsUsuarios/nuevoUsuario.js",
 			"settings":
 			{
-				"buffer_size": 2233,
+				"buffer_size": 16142,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/instituto_visualizar.php",
 			"settings":
 			{
-				"buffer_size": 3770,
+				"buffer_size": 4175,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Pc/Documents/Para canaima/INSTRUCCIONES.txt",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/js/jsUsuarios/verInstitutos.js",
 			"settings":
 			{
-				"buffer_size": 138,
+				"buffer_size": 5475,
 				"line_ending": "Windows"
 			}
 		}
@@ -233,6 +237,15 @@
 	},
 	"file_history":
 	[
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/plantilla.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/perfil_ver.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/menu_tatu.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/_shortcuts.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/_access.php",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
 		"/C/Users/Pc/Documents/Para canaima/INSTRUCCIONES.txt",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideos.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideosOfflineCanaima.html",
@@ -244,7 +257,6 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/componentes.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/contenido.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/contenido_seleccionado.php",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/plantilla.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/index.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/login.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/config.php",
@@ -285,12 +297,9 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/pareo.html~",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/sopadeletras.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorAnimaciones.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaFrase/completaFrase.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaVocales/completaVocales.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/creditos.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/areas.html",
 		"/C/Proyecto Tatu Hu/TynyMICE/tinymce/js/hola.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/index.php",
@@ -355,12 +364,7 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaRespuesta/si_o_no.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActCompletaRespuesta/antes_durante_y_despues.lim",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActMapas/index.html",
-		"/C/Proyecto Tatu Hu/Ejercicios edilim/antes durante y despues_6to (respuestas)/antes_durante_y_despues.html",
-		"/C/Proyecto Tatu Hu/Ejercicios edilim/completa con vocales_6to(frases)/completa_con_vocales.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/scriptsActividades/ActPareo/pareo.html",
-		"/C/Proyecto Tatu Hu/Ejercicios edilim/completa con vocales_6to(frases)/completa_con_vocales.lim",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
-		"/C/Proyecto Tatu Hu/Ejercicios edilim/si_o_no.lim"
+		"/C/Proyecto Tatu Hu/Ejercicios edilim/antes durante y despues_6to (respuestas)/antes_durante_y_despues.html"
 	],
 	"find":
 	{
@@ -378,6 +382,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"areas",
+			"menu",
+			"archivos",
+			"bienveni",
+			"bienbenid",
 			"areas",
 			"include",
 			"contenido",
@@ -500,12 +509,7 @@
 			"falta",
 			"libro",
 			"falta",
-			"titulo",
-			"actividades",
-			"a",
-			"'a'",
-			"\"a\"",
-			"a"
+			"titulo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -714,8 +718,8 @@
 						"selection":
 						[
 							[
-								6862,
-								6862
+								5207,
+								5211
 							]
 						],
 						"settings":
@@ -871,7 +875,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 3144.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -881,15 +885,15 @@
 					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/cuerpo.php",
 					"settings":
 					{
-						"buffer_size": 476,
+						"buffer_size": 614,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								334,
-								334
+								538,
+								538
 							]
 						],
 						"settings":
@@ -1052,17 +1056,18 @@
 				},
 				{
 					"buffer": 3,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/index.php",
 					"settings":
 					{
-						"buffer_size": 2192,
+						"buffer_size": 985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1797,
-								1797
+								622,
+								622
 							]
 						],
 						"settings":
@@ -1215,7 +1220,7 @@
 							},
 							"codeintel_tooltips": "popup",
 							"sublime_auto_complete": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1225,18 +1230,264 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/js/menu_principal.js",
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/usuario_modificar.php",
 					"settings":
 					{
-						"buffer_size": 6055,
+						"buffer_size": 7249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5907,
-								5731
+								5735,
+								5735
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2056.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/usuario_agregar.php",
+					"settings":
+					{
+						"buffer_size": 6533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								894,
+								894
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2520.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/js/jsUsuarios/nuevoUsuario.js",
+					"settings":
+					{
+						"buffer_size": 16142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1286,148 +1537,8 @@
 								"bh_single_quote_close"
 							],
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
-					"settings":
-					{
-						"buffer_size": 1467,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								430,
-								101
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
-					"settings":
-					{
-						"buffer_size": 2233,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								717,
-								717
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1437,10 +1548,10 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/instituto_visualizar.php",
 					"settings":
 					{
-						"buffer_size": 3770,
+						"buffer_size": 4175,
 						"regions":
 						{
 						},
@@ -1497,30 +1608,30 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 260.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 8,
-					"file": "/C/Users/Pc/Documents/Para canaima/INSTRUCCIONES.txt",
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/js/jsUsuarios/verInstitutos.js",
 					"settings":
 					{
-						"buffer_size": 138,
+						"buffer_size": 5475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								9,
+								20
 							]
 						],
 						"settings":
@@ -1569,7 +1680,9 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

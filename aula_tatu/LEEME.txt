@@ -1,0 +1,11 @@
+--------------
+Guía Aula Tatu
+--------------
+
+Para el caso del aula tatu todas las actividades son las mismas que las de la miniaula2.5,
+de manera que si se desea agregar alguna actividad se debe modificar la miniaula2.5, ya que se encuentra 
+configurado hacia ese enlace.
+
+Se hicieron todas las configuraciones pertinentes para que fuese la misma de la miniaula2.5 y así poder hacer 
+más fácil el desarrollo del sistema, aplicando la reutilización de los componetes previamente elaborados
+

@@ -1,0 +1,2 @@
+Si se desean modificar las actividades debe modificar la miniaula2.5. Se hizo el enlace
+con el objetivo de aprovechar al máximo los componentes ya elaborados.
