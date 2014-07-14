@@ -48,12 +48,10 @@
 			var ext = nombre_video.substring(idx+1);
 
 
-			if(ext == "flv"){//son los videos promocionales de TatuHu ya que estos en la original se pasan en formato flv
-				$('video source#video-ogv').attr('src',"../videos/"+nom_without_ext+".ogv");
-			}
+			//Para las canaimas sólo en formato OGV
+			$('video source#video-ogv').attr('src',"../videos/"+nom_without_ext+".ogv");
+			
 
-			//Seteando los nombres de los videos
-			$('video source#video-mp4').attr('src',"../videos/"+nom_without_ext+".mp4");
 		</script>
 
 
