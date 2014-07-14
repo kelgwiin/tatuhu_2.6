@@ -124,10 +124,10 @@
 			}
 		},
 		{
-			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideosOfflineCanaima.html",
+			"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/descargasTatuHu.php",
 			"settings":
 			{
-				"buffer_size": 1809,
+				"buffer_size": 9360,
 				"line_ending": "Windows"
 			}
 		}
@@ -135,9 +135,21 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 150.0,
 		"selected_items":
 		[
+			[
+				"reidn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"encod",
 				"HTML: Encode Special Characters"
@@ -149,10 +161,6 @@
 			[
 				"html ",
 				"Set Syntax: HTML"
-			],
-			[
-				"reinde",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"html",
@@ -188,6 +196,9 @@
 	},
 	"file_history":
 	[
+		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideosOfflineCanaima.html",
+		"/C/wamp/alias/httpd.conf",
+		"/C/Users/Pc/Documents/Para canaima/INSTRUCCIONES.txt",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/estudiante/index.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/administrador/usuario_modificar.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/LEEME.txt",
@@ -205,9 +216,7 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/grados.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/index.html",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/componente.html",
-		"/C/Users/Pc/Documents/Para canaima/INSTRUCCIONES.txt",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideos.html",
-		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideosOfflineCanaima.html",
 		"/C/Users/Pc/Documents/Para canaima/miniaula2.5/actividadesComunes/visorVideos.html",
 		"/C/Users/Pc/Documents/INSTRUCCIONES.txt",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/miraClasifica.html",
@@ -220,7 +229,6 @@
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/config.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/plantilla/_standard.php",
 		"/C/Users/Pc/Desktop/miniaula2.5_test Canaimas/actividadesComunes/visorVideos.html",
-		"/C/wamp/alias/httpd.conf",
 		"/C/Proyecto Tatu Hu/Backup de BD/tbl_act_material.sql",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/modMateriales/visorVideo/visorVideo.php",
 		"/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/aula_tatu/funcMods/utils.php",
@@ -333,6 +341,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"escuel",
 			"areas",
 			"menu",
 			"archivos",
@@ -459,8 +468,7 @@
 			"inst",
 			"falta",
 			"libro",
-			"falta",
-			"titulo"
+			"falta"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -832,18 +840,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/miniaula2.5/actividadesComunes/visorVideosOfflineCanaima.html",
+					"file": "/C/Proyecto Tatu Hu/Workspace Aptana Studio 3/tatuhu_2.6/TatuHu/descargasTatuHu.php",
 					"settings":
 					{
-						"buffer_size": 1809,
+						"buffer_size": 9360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								117,
-								117
+								4993,
+								4993
 							]
 						],
 						"settings":
@@ -892,11 +900,114 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 122.0,
+						"translation.y": 1869.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

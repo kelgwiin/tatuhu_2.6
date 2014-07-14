@@ -21,7 +21,7 @@
 	  <!-- aside -->
            <section>
 	  <h2>Descargas <span>Tatu H&uacute;</span></h2>
-	  En esta secci&oacute;n puedes descargar recursos &uacute;les relacionados con la Gesti&oacute;n de Riesgos.
+	  En esta secci&oacute;n puedes descargar recursos &uacute;tles relacionados con la Gesti&oacute;n de Riesgos y las Inundaciones.
 	 </section>  <!-- <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/VIDEO_ID" frameborder="0"></iframe>-->
 	<br>
 	  <!-- aside -->
@@ -88,27 +88,74 @@
           </aside>
 	  <aside>
             <figure><img src="images/escuela-comunidad.png" alt=""></figure><h2 style="color:#3e4095;">Escuelas - Docentes</h2><br>	
-            <!-- .news -->
+            <!-- .......................................... -->
+            <!-- .news ESCUELAS / DOCENTES -->
+            <!-- .......................................... -->
             <ul>     
-	      <li>
-	      <h3><a class="tooltip" target="_blank" href="utilidades/planAE/planAccionEscolar_PC_TATUHU.pdf">Descarga el formato de Plan de Acci&oacute;n Escolar de Protecci&oacute;n Civil Carabobo
-		    <span style="margin-left:20px;">
-		      <img class="callout" src="images/callout.gif" alt=""/>
-			Versi&oacute;n para imprimir del <strong>Plan de Acci&oacute;n Escolar de Protecci&oacute;n Civil del esdado Carabobo</strong> para que sea
-			completado de acuerdo a la realidad de tu instituci&oacute;n educativa.
-		    </span>
-		</a></h3>
-              </li>
-			  
-			  	      <li>
-	      <h3><a class="tooltip" target="_blank" href="download/elAmbiente.pdf">Material de Ambiente
-		    <span style="margin-left:20px;">
-		      <img class="callout" src="images/callout.gif" alt=""/>
-			Material de apoyo para el tema de ambiente en el &aacute;rea de aprendizaje Matem&aacute;tica, Ciencias Naturales y Sociedad.
-		    </span>
-		</a></h3>
-              </li>
-            </ul>
+            	<li>
+            		<h3>
+            			<a class="tooltip" target="_blank" href="utilidades/planAE/planAccionEscolar_PC_TATUHU.pdf">Descarga el formato de Plan de Acci&oacute;n Escolar de Protecci&oacute;n Civil Carabobo
+            				<span style="margin-left:20px;">
+            					<img class="callout" src="images/callout.gif" alt=""/>
+            					Versi&oacute;n para imprimir del <strong>Plan de Acci&oacute;n Escolar de Protecci&oacute;n Civil del esdado Carabobo</strong> para que sea
+            					completado de acuerdo a la realidad de tu instituci&oacute;n educativa.
+            				</span>
+            			</a>
+            		</h3>
+            	</li>
+
+            	<li>
+            		<h3>
+            			<a class="tooltip" target="_blank" href="http://educacionygestiondelriesgo.cridlac.org/">Portal de Educación y Gestión del Riesgo
+            				<span style="margin-left:20px;">
+            					<img class="callout" src="images/callout.gif" alt=""/>
+            					Centro Regional de Información sobre Desastres (CRID) para América Latina y El Caribe.
+            				</span>
+            			</a>
+            		</h3>
+            	</li>
+
+
+            <li>
+            	<h3>
+            		<a href="download/Ambiente.pdf" target = "_blank">Conozcamos acerca del ambiente</a>
+            	</h3>
+            </li>
+
+            <li>
+            	<br>
+            	<a href="#" style = "font-size:16px; color:#3e4095;"><strong>Gestión de Riesgos</strong></a>
+            	<h3>
+            		<smalll>
+            			<ul style = "font-size:13px">
+            				<li> &#9632; <a href="download/gr/GESTION-DE-RIESGO-concep-docentes.pdf" target = "_blank">Gestión de Riesgos</a></li>
+            				<li> &#9632; <a href="download/gr/GEstiON-DE-RIEGO-DOCENTES-edu-fisica-deport-y-recreacion.pdf" target = "_blank">Educación física, deporte y recreación</a></li>
+            				<li> &#9632; <a href="download/gr/Gestion-DE-RIESGO-docente2-Ciencias-sociales.pdf" target = "_blank">Ciencias sociales: Señalización</a></li>
+            				<li> &#9632; <a href="download/gr/GESTION-DE-RIESGO-docente-ciencias-sociales-cuidadania.pdf" target = "_blank">Ciencias sociales: Plan de acción</a></li>
+            				<li> &#9632; <a href="download/gr/GESTION-DE-RIESGO-docente-lenguaje.pdf" target = "_blank">Lenguaje: ¿Podemos evitar los desastres?</a></li>
+            			</ul>
+            		</small>
+            	</h3>
+            </li>   
+
+            <li>
+            	<br>
+            	<a href="#" style = "font-size:16px; color:#3e4095;"><strong>Inundaciones</strong></a>
+            	<h3>
+            		<smalll>
+            			<ul style = "font-size:13px">
+            				<li> &#9632; <a href="download/inun/Inundaciones.pdf" target = "_blank">Inundaciones</a></li>
+            				<li> &#9632; <a href="download/inun/INUNDACIONES-docentes-ciencias-sociales.pdf" target = "_blank">Ciencias sociales</a></li>
+            				<li> &#9632; <a href="download/inun/inundaciones-docentes-APA.pdf" target = "_blank">Ciencias naturales y matemáticas</a></li>
+            				<li> &#9632; <a href="download/inun/INUNDACIONES-DOCENTES-Deporte.pdf" target = "_blank">Educación física, deporte y recreación</a></li>
+            				<li> &#9632; <a href="download/inun/INUNDACIONES-DOCENTES-lenguaje.pdf" target = "_blank">Lenguaje</a></li>
+            				<li> &#9632; <a href="download/inun/INUNDACIONES-docentes-matematica.pdf" target = "_blank">Ciencias naturales y matemáticas: El agua</a></li>
+            			</ul>
+            		</small>
+            	</h3>
+            </li>
+
+        </ul>
             <!-- /.news -->
           </aside>
 	  <aside >
