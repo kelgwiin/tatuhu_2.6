@@ -21,13 +21,14 @@ También se usaron los siguientes plugins:
 
 Enlances: 
 --------------
-*[Página principal de Proyecto Tatu-Hú](http://hpserver-elearning.facyt.uc.edu.ve/TatuHu/)
-*[Mini-Aula de Proyecto Tatu-Hú](http://hpserver-elearning.facyt.uc.edu.ve/tatuhu_2.6/miniaula2.5/)
-*[Aula - Virtual](http://hpserver-elearning.facyt.uc.edu.ve/tatuhu_2.6/aula_tatu/)
 
-*[Dirección Opcional 1 - Principal](http://190.170.86.92/tatuhu_2.6/miniaula2.5/)
-*[Dirección Opcional 2 - Mini-Aula](http://190.170.86.92/tatuhu_2.6/miniaula2.5/)
-*[Dirección Opcional 3 - Aula-Virtual](http://190.170.86.92/tatuhu_2.6/aula_tatu/)
+* [Página principal de Proyecto Tatu-Hú](http://hpserver-elearning.facyt.uc.edu.ve/TatuHu/)
+* [Mini-Aula de Proyecto Tatu-Hú](http://hpserver-elearning.facyt.uc.edu.ve/tatuhu_2.6/miniaula2.5/)
+* [Aula - Virtual](http://hpserver-elearning.facyt.uc.edu.ve/tatuhu_2.6/aula_tatu/)
 
-FaCyT -UC
+* [Dirección Opcional 1 - Principal](http://190.170.86.92/tatuhu_2.6/miniaula2.5/)
+* [Dirección Opcional 2 - Mini-Aula](http://190.170.86.92/tatuhu_2.6/miniaula2.5/)
+* [Dirección Opcional 3 - Aula-Virtual](http://190.170.86.92/tatuhu_2.6/aula_tatu/)
+
+FaCyT -UC.
 Carabobo-Venezuela.
